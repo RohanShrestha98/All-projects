@@ -1,0 +1,80 @@
+@mixin square-generator($size: 10vw) {
+  width: $size;
+  height: $size;
+}
+@mixin flex-center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-box-generic($justify, $align, $direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin rectangle-generator($wdth: 10vw, $hgt: 10vh) {
+  width: $wdth;
+  height: $hgt;
+}
+@mixin gen-linear-gradient($color1, $color2) {
+  background-image: linear-gradient(to bottom right, $color1, $color2);
+}
+
+@mixin line-clamp($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin Screen-size-medium {
+  @media only screen and (max-width: 1231px) {
+    @content;
+  }
+}
+
+@mixin Screen-size-small {
+  @media only screen and (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin bg-gradient-light {
+  background-image: linear-gradient(
+    to right bottom,
+    saturate(lighten($bg-clr-lgt, 6%), 0%),
+    desaturate(lighten($bg-clr-dark, 94%), 80%)
+  );
+}
+
+@mixin bg-gradient-dark {
+  background-image: linear-gradient(
+    to right bottom,
+    desaturate(darken($bg-clr-lgt, 72%), 30%),
+    desaturate(lighten($bg-clr-dark, 15%), 92%)
+  );
+}
+
+@mixin set-border-radius($radius: 0.5rem) {
+  border-radius: $radius;
+}
+
+@mixin grid($gap: 0.2rem) {
+  display: grid;
+  gap: 10px;
+  gap: $gap;
+  justify-content: center;
+  text-align: center;
+}
+
+@mixin gridItems($gridRow: 1, $gridColumn: 1) {
+  grid-row: $gridRow;
+  grid-column: $gridColumn;
+}

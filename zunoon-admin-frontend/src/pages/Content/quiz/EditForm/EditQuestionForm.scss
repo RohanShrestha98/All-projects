@@ -1,0 +1,21 @@
+.edit_question_container .row {
+  margin-bottom: 1.5rem;
+}
+.edit_question_container {
+  h6 {
+    margin-bottom: 36px;
+  }
+  .fieldAndValidate {
+    margin: 7px 0px;
+  }
+  .button_container {
+    display: flex;
+    flex-direction: row;
+    .close_button_wrapper {
+      max-width: 100px;
+    }
+    .update_button_wrapper {
+      max-width: 200px;
+    }
+  }
+}

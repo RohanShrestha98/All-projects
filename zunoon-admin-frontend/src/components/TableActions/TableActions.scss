@@ -1,0 +1,107 @@
+@use "../../assets/styles/abstract/variables" as *;
+
+// .actions {
+//   display: flex;
+//   align-items: center;
+//   justify-items: center;
+//   padding: 0;
+//   margin: 0;
+//   gap: 0.2em;
+// }
+
+.eye_btn {
+  height: 16px;
+  width: 16px;
+  color: #a9aea8;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.edit_btn {
+  height: 16px;
+  width: 16px;
+  color: $secondary-color;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.enable_btn {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  color: #00b300;
+}
+
+.trash_btn {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  color: $danger-color;
+}
+
+.assign_btn {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  color: $secondary-color;
+}
+
+.modal_container {
+  max-height: 90vh;
+  min-width: fit-content;
+
+  .modalTitle {
+    padding: 1vw 2vw;
+  }
+
+  .modalBody {
+    max-height: 85vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    // padding: 0 !important;
+    padding-bottom: 1em;
+    padding: 24px;
+  }
+
+  // .modalBody::-webkit-scrollbar {
+  //   display: none;
+  // }
+}
+
+.toggle-wrapper {
+  width: 35px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: $border-color;
+  border-radius: 24px;
+
+  &.active {
+    background-color: #eeeeee;
+  }
+
+  .slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-color: #eeeeee;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+    &.active {
+      transform: translate(100%, -50%);
+      right: 0;
+      background-color: $secondary-color;
+    }
+  }
+}
+
+.custom-dropdown-button .dropdown-toggle::after {
+  font-size: 20px;
+  /* Increase the font size of the caret */
+}

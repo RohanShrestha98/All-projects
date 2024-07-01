@@ -1,0 +1,782 @@
+{
+    "success": true,
+    "id": "cab57790-d4da-4744-b769-1706ede844ec",
+    "name": "Ayata Course",
+    "hasLevel": true,
+    "unit": [
+        {
+            "id": "9bbf7c6b-35be-4ddb-821c-5efefdce4c46",
+            "index": 1,
+            "name": "Ayata Unit I of Level 1",
+            "level": "Level 1",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "b603e161-1b0a-4928-b41f-e6243aec1f22",
+                    "name": "Skill I of U1 of L1",
+                    "indicator": [
+                        {
+                            "id": "6b1bd86f-7a78-4378-8a56-bd7299bdbac6",
+                            "name": "Indicator I of S1-U1-L1",
+                            "lesson": [
+                                {
+                                    "id": "8528090c-db46-4a1e-be28-21a0f907a994",
+                                    "name": "Lesson I of I1-S1-U1-L1",
+                                    "content": [
+                                        {
+                                            "id": "32400457-77c7-11ee-ba79-847beb1e00aa",
+                                            "name": "Ayata Video 1",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "494d12c4-9355-413d-80e4-cd5bdb98478f",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-1viterminos2-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/494d12c4-9355-413d-80e4-cd5bdb98478f-1bmatc1i1-1viterminos2-mp4"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3fbc26ea-debe-418b-a5ca-252fc148455f",
+                                    "name": "Lesson II of I1-S1-U1-L1",
+                                    "content": [
+                                        {
+                                            "id": "4fe7763d-77c7-11ee-ba79-847beb1e00aa",
+                                            "name": "Ayata Video 2",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "44e2a79f-bac6-41e1-8912-c554c1bb84a6",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-1vipolinomio1-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/44e2a79f-bac6-41e1-8912-c554c1bb84a6-1bmatc1i1-1vipolinomio1-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8f603325-56ed-4184-bd3b-03f9b5d8da72",
+                            "name": "Indicator II of S1-U1-L1",
+                            "lesson": [
+                                {
+                                    "id": "d90c435b-d0a6-41eb-969e-6e3e6407bdfe",
+                                    "name": "Lesson I of I2-S1-U1-L1",
+                                    "content": [
+                                        {
+                                            "id": "eed04a12-77c7-11ee-ba79-847beb1e00aa",
+                                            "name": "Ayata Book 1",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "71c4824d-4db0-47b1-a574-4806334b0dca",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-1liqueeslacomunicacion-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/71c4824d-4db0-47b1-a574-4806334b0dca-1bcylc1i1-1liqueeslacomunicacion-pdf"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5722e349-60a1-4127-994d-b5712c97f397",
+                                    "name": "Lesson II of I2-S1-U1-L1",
+                                    "content": [
+                                        {
+                                            "id": "9354f6e1-77cc-11ee-ac40-847beb1e00aa",
+                                            "name": "Ayata Video 3",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "cfc01f6c-7467-4c5b-a6b1-af6025803551",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-3vitiempoevaluar-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/cfc01f6c-7467-4c5b-a6b1-af6025803551-1bmatc1i1-3vitiempoevaluar-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "c53c36c5-81c6-47c3-a862-ec8f4d40b2b7",
+                    "name": "Skill II of U1 of L1",
+                    "indicator": [
+                        {
+                            "id": "1a7a6c48-63ef-4f23-9fc9-fa1fc0eaf105",
+                            "name": "Indicator I of S2-U1-L1",
+                            "lesson": [
+                                {
+                                    "id": "ee008e38-f52a-4346-80ee-3bdfb641ad9c",
+                                    "name": "Lesson I of I1-S2-U1-L1"
+                                },
+                                {
+                                    "id": "4b7a15bb-00e7-48bd-822f-a9c5cbdd546a",
+                                    "name": "Lesson II of I1-S2-U1-L1"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "65202115-6289-4f89-bbc6-f4ebff1b07af",
+                            "name": "Indicator II of S2-U1-L1",
+                            "lesson": [
+                                {
+                                    "id": "751c8104-4ad1-4cdc-ab6c-8e269624e25e",
+                                    "name": "Lesson I of I2-S2-U1-L1"
+                                },
+                                {
+                                    "id": "83db08ce-4c96-4d96-a687-2f12e27ca0a7",
+                                    "name": "Lesson II of I2-S2-U1-L1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cba551a9-605f-42b1-b104-4570eff6aa4d",
+            "index": 1,
+            "name": "Ayata Unit I of Level 3",
+            "level": "Level 3",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "5776c8a5-1b86-4f2d-a871-cad149c05530",
+                    "name": "Skill I of U1 of L3",
+                    "indicator": [
+                        {
+                            "id": "97318325-311d-4ecb-8ad6-2333c47e4a94",
+                            "name": "Indicator I of S1-U1-L3",
+                            "lesson": [
+                                {
+                                    "id": "f310807a-1f4b-4f2f-a3c8-9661c3aa6b28",
+                                    "name": "Lesson I of I1-S1-U1-L3",
+                                    "content": [
+                                        {
+                                            "id": "46377d0d-7871-11ee-87db-847beb1e00aa",
+                                            "name": "Ayata Video 7",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "703d011b-081c-45ff-9cbc-dfd712649323",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-2viiangulos-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/703d011b-081c-45ff-9cbc-dfd712649323-1bmatc1i1-2viiangulos-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0323cb3a-1b13-4c12-9dd2-2f2e23066341",
+                            "name": "Indicator II of S1-U1-L3",
+                            "lesson": [
+                                {
+                                    "id": "4ab2bdee-94d8-4371-aeca-ade08d873bf5",
+                                    "name": "Lesson I of I2-S1-U1-L3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2c86b608-d5f0-4fba-ab08-4fd647061870",
+                    "name": "Skill II of U1 of L3",
+                    "indicator": [
+                        {
+                            "id": "7db9efcf-717d-4cd1-8afc-66ef87534048",
+                            "name": "Indicator I of S2-U1-L3",
+                            "lesson": [
+                                {
+                                    "id": "d41db6e1-2f8e-4550-901f-f70220f9cc8a",
+                                    "name": "Lesson I of I1-S2-U1-L3",
+                                    "content": [
+                                        {
+                                            "id": "a090acd5-7871-11ee-87db-847beb1e00aa",
+                                            "name": "Ayata Book 5",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "e5c4e01d-e5fd-4c50-a8f1-56a485c12f29",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2licomunicaciongestos-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/e5c4e01d-e5fd-4c50-a8f1-56a485c12f29-1bcylc1i1-2licomunicaciongestos-pdf"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "9aaa320b-094a-4b05-99ec-3fa378175547",
+                                    "name": "Lesson II of I1-S2-U1-L3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "600d7007-a488-4a85-82b8-578e43eb7191",
+            "index": 1,
+            "name": "Ayata Unit I of Level 2",
+            "level": "Level 2",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "909e8ca4-773e-4c33-b4eb-51a350a46fe2",
+                    "name": "Skill I of U1 of L2",
+                    "indicator": [
+                        {
+                            "id": "e1b18c65-6b39-4802-af08-cc1d7ffcc970",
+                            "name": "Indicator I of S1-U1-L2",
+                            "lesson": [
+                                {
+                                    "id": "0f71564f-5d3c-4858-8705-361ec96dee01",
+                                    "name": "Lesson I of I1-S1-U1-L2",
+                                    "content": [
+                                        {
+                                            "id": "bc8118a2-7866-11ee-a630-847beb1e00aa",
+                                            "name": "Ayata Video 5",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "0cb87df5-b85d-41ec-a334-1a567c6464de",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-2viiangulos-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/0cb87df5-b85d-41ec-a334-1a567c6464de-1bmatc1i1-2viiangulos-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b65bf1fd-9bab-4584-baba-5c4c42f1dd31",
+                            "name": "Indicator II of S1-U1-L2",
+                            "lesson": [
+                                {
+                                    "id": "b893db70-242d-4daa-ba26-22d7593ffef6",
+                                    "name": "Lesson I of I2-S1-U1-L2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "87abb09e-0d14-4661-acc4-4aa6789bf5d7",
+                    "name": "Skill II of U1 of L2",
+                    "indicator": [
+                        {
+                            "id": "f0738f52-22c8-490d-86c7-cb7accb5d860",
+                            "name": "Indicator I of S2-U1-L2",
+                            "lesson": [
+                                {
+                                    "id": "53b83fd3-9b35-464c-8170-2cfca7590526",
+                                    "name": "Lesson I of I1-S2-U1-L2",
+                                    "content": [
+                                        {
+                                            "id": "0995a45e-7867-11ee-a630-847beb1e00aa",
+                                            "name": "Ayata Book 3",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "1e33ca75-a3b4-4c8f-bf41-7a5104ab810f",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-1lilascualidadesdelavoz-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/1e33ca75-a3b4-4c8f-bf41-7a5104ab810f-1bcylc1i1-1lilascualidadesdelavoz-pdf"
+                                            },
+                                            "book2": {
+                                                "id": "13966f8a-8509-43ef-a5b6-e81e719e45e2",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2lielementoscomunicacion-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/13966f8a-8509-43ef-a5b6-e81e719e45e2-1bcylc1i1-2lielementoscomunicacion-pdf"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "8f78b4ba-d550-46d6-b2b6-817b9d1c9f06",
+                                    "name": "Lesson II of I1-S2-U1-L2"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5b45d3ac-c7d5-43ff-b093-c5191818b2b5",
+                            "name": "Indicator II of S2-U1-L2",
+                            "lesson": [
+                                {
+                                    "id": "14179379-8c3f-42ae-84ec-9fb4a81e029d",
+                                    "name": "Lesson I of I2-S2-U1-L2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a356c8ab-9395-4e37-8d00-a0164814ec37",
+            "index": 2,
+            "name": "Ayata Unit II of Level 1",
+            "level": "Level 1",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "f535406b-1e15-412b-8b00-bfe713c131f4",
+                    "name": "Skill I of U2 of L1",
+                    "indicator": [
+                        {
+                            "id": "3f5b0eda-8934-410a-bd72-4ebf9ee7febb",
+                            "name": "Indicator I of S1-U2-L1",
+                            "lesson": [
+                                {
+                                    "id": "47d4f25d-b956-4331-9ac4-8459846261cc",
+                                    "name": "Lesson I of I1-S1-U2-L1",
+                                    "content": [
+                                        {
+                                            "id": "e94360e8-7865-11ee-a630-847beb1e00aa",
+                                            "name": "Ayata Video 4",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "2c897a31-8549-406e-9a53-dea890943d58",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-2viicompas2-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/2c897a31-8549-406e-9a53-dea890943d58-1bmatc1i1-2viicompas2-mp4"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "d590e3ff-537d-4c71-85af-13b4f32c1f79",
+                                    "name": "Lesson II of I1-S1-U2-L1"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "04fea6ef-3d59-4df1-9f35-0066c0bef992",
+                            "name": "Indicator II of S1-U2-L1",
+                            "lesson": [
+                                {
+                                    "id": "2e01d286-0a61-425c-aeac-c24ff3d9433a",
+                                    "name": "Lesson I of I2-S1-U2-L1",
+                                    "content": [
+                                        {
+                                            "id": "436dcabe-7866-11ee-a630-847beb1e00aa",
+                                            "name": "Ayata Book 2",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "2e3601a6-fd2d-46c6-90db-e87ba369b291",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-1litiposdelenguaje-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/2e3601a6-fd2d-46c6-90db-e87ba369b291-1bcylc1i1-1litiposdelenguaje-pdf"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "7e04c9d1-3fc8-4826-a0db-9a300ef49a14",
+                                    "name": "Lesson II of I2-S1-U2-L1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "3c4a35bb-9064-4812-a5b0-718e680b6414",
+                    "name": "Skill II of U2 of L1",
+                    "indicator": [
+                        {
+                            "id": "29ff0ad8-cc1a-4d45-874f-a2d2d92f07b6",
+                            "name": "Indicator I of S2-U2-L1",
+                            "lesson": [
+                                {
+                                    "id": "2d6b9553-e783-4deb-9528-9cc18988f336",
+                                    "name": "Lesson I of I1-S2-U2-L1"
+                                },
+                                {
+                                    "id": "bb78729c-5f7b-43b3-996c-e4c81a417aed",
+                                    "name": "Lesson II of I1-S2-U2-L1"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3d67a30a-f42f-4406-89d5-06d1695584b3",
+                            "name": "Indicator II of S2-U2-L1",
+                            "lesson": [
+                                {
+                                    "id": "7e8256a6-894b-4a25-8dc5-491eb4032f5c",
+                                    "name": "Lesson I of I2-S2-U2-L1"
+                                },
+                                {
+                                    "id": "a11166e8-59e8-4a8d-a166-57de79bd9b94",
+                                    "name": "Lesson II of I2-S2-U2-L1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "20c59ce4-defc-4e80-b764-c9cdf8063ee4",
+            "index": 2,
+            "name": "Ayata Unit II of Level 3",
+            "level": "Level 3",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "4fd33a6e-8dc9-49d8-b058-65c6643eb6d7",
+                    "name": "Skill I of U2 of L3",
+                    "indicator": [
+                        {
+                            "id": "39b0ac6b-07ca-49a4-9fc8-e993ef18aa8c",
+                            "name": "Indicator I of S1-U2-L3",
+                            "lesson": [
+                                {
+                                    "id": "cfddae65-179a-4477-984e-64e3853bcd04",
+                                    "name": "Lesson I of I1-S1-U2-L3",
+                                    "content": [
+                                        {
+                                            "id": "84743037-7872-11ee-87db-847beb1e00aa",
+                                            "name": "Ayata Video 8",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "961adb03-1a41-4fa0-8bc5-08e792391c62",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-3vitiempoevaluar-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/961adb03-1a41-4fa0-8bc5-08e792391c62-1bmatc1i1-3vitiempoevaluar-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "de97aabf-d1b6-44ad-8fdf-6220f414ffcc",
+                    "name": "Skill II of U2 of L3",
+                    "indicator": [
+                        {
+                            "id": "23cc55e7-f12e-4be3-8350-6c46dea969af",
+                            "name": "Indicator I of S2-U2-L3",
+                            "lesson": [
+                                {
+                                    "id": "c6a5edf9-5082-408f-9dd3-ce4a6940bc7b",
+                                    "name": "Lesson I of I1-S2-U2-L3",
+                                    "content": [
+                                        {
+                                            "id": "df3fd923-7872-11ee-87db-847beb1e00aa",
+                                            "name": "Ayata Book 6",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "f5ab11b8-4a56-42eb-97f6-5584d198d81c",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2licomunicaciongestos-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/f5ab11b8-4a56-42eb-97f6-5584d198d81c-1bcylc1i1-2licomunicaciongestos-pdf"
+                                            }
+                                        },
+                                        {
+                                            "id": "58c2a7ce-7873-11ee-87db-847beb1e00aa",
+                                            "name": "Ayata Video 9",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "dd8dd06d-82ca-42d1-a086-bca39a34b73b",
+                                                "fileType": "mp4",
+                                                "fileName": "1bmatc1i1-3viarea1-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/dd8dd06d-82ca-42d1-a086-bca39a34b73b-1bmatc1i1-3viarea1-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "72f02f73-e448-45e5-9d19-fbcc351403e1",
+                            "name": "Indicator II of S2-U2-L3",
+                            "lesson": [
+                                {
+                                    "id": "8f79c63d-f4a9-416c-aec6-8efd61f6c6ff",
+                                    "name": "Lesson I of I2-S2-U2-L3",
+                                    "content": [
+                                        {
+                                            "id": "b8b184ae-7873-11ee-87db-847beb1e00aa",
+                                            "name": "Ayata Book 7",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "318ee02b-27a2-44b2-9008-e1b6d8f1128e",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2lipublicidadsimbolos-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/318ee02b-27a2-44b2-9008-e1b6d8f1128e-1bcylc1i1-2lipublicidadsimbolos-pdf"
+                                            },
+                                            "book2": {
+                                                "id": "6054c733-8d3b-4a7d-94f7-a52de68f40ee",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2litecnicasargumentativas-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/6054c733-8d3b-4a7d-94f7-a52de68f40ee-1bcylc1i1-2litecnicasargumentativas-pdf"
+                                            },
+                                            "book3": {
+                                                "id": "3f8fa034-9231-443e-b04b-ec5b17e557b5",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2litecnicasargumentativas-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/3f8fa034-9231-443e-b04b-ec5b17e557b5-1bcylc1i1-2litecnicasargumentativas-pdf"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "c7fcea79-c88d-4c24-8f52-13836ee64446",
+                                    "name": "Lesson II of I2-S2-U2-L3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "746f6d2e-291f-4b77-8a4a-923792467696",
+            "index": 2,
+            "name": "Ayata Unit II of Level 2",
+            "level": "Level 2",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "7fdf6eb2-50d0-40e6-9037-d2e090242a1c",
+                    "name": "Skill I of U2 of L2",
+                    "indicator": [
+                        {
+                            "id": "13703010-f03a-4d2e-889e-02138b83afb5",
+                            "name": "Indicator I of S1-U2-L2",
+                            "lesson": [
+                                {
+                                    "id": "1801578e-4667-4376-878a-3964c0a43527",
+                                    "name": "Lesson I of I1-S1-U2-L2",
+                                    "content": [
+                                        {
+                                            "id": "5dd90ca3-7867-11ee-a630-847beb1e00aa",
+                                            "name": "Ayata Video 6",
+                                            "contentType": "VIDEO",
+                                            "supplyContentType": "public",
+                                            "thumbnail": {
+                                                "id": "37a2ca96-2f85-4d2f-a85e-ef677b4f085a",
+                                                "fileType": "mp4",
+                                                "fileName": "mate7leccion117video1-concepto-de-termino-nuevo2-mp4",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/video/37a2ca96-2f85-4d2f-a85e-ef677b4f085a-mate7leccion117video1-concepto-de-termino-nuevo2-mp4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3f3b9111-93c3-4672-b430-4f5acddc29c6",
+                            "name": "Indicator II of S1-U2-L2",
+                            "lesson": [
+                                {
+                                    "id": "31faf225-ac2a-4282-96ee-e42f0348e509",
+                                    "name": "Lesson I of I2-S1-U2-L2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "13d361ff-8dc2-4d89-b567-1bca23046a86",
+                    "name": "Skill II of U2 of L2",
+                    "indicator": [
+                        {
+                            "id": "effe37d9-d488-431e-9522-a290b00d8c82",
+                            "name": "Indicator I of S2-U2-L2",
+                            "lesson": [
+                                {
+                                    "id": "59a11ddc-a319-42aa-9d69-aaff0df4d99f",
+                                    "name": "Lesson I of I1-S2-U2-L2",
+                                    "content": [
+                                        {
+                                            "id": "ab726fa8-7867-11ee-a630-847beb1e00aa",
+                                            "name": "Ayata Book 4",
+                                            "contentType": "BOOK",
+                                            "supplyContentType": "public",
+                                            "book1": {
+                                                "id": "7b143fe1-a896-4698-b893-25a7f4971751",
+                                                "fileType": "pdf",
+                                                "fileName": "1bcylc1i1-2lielementoscomunicacion-pdf",
+                                                "url": "https://nyc3.digitaloceanspaces.com/zunun/content/book/7b143fe1-a896-4698-b893-25a7f4971751-1bcylc1i1-2lielementoscomunicacion-pdf"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "17a11aa2-302f-4b9e-aa8d-5e58ec2b7689",
+            "index": 3,
+            "name": "Ayata Unit III of Level 2",
+            "level": "Level 2",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "d4076327-9758-4ad2-9c70-601074ca1fa9",
+                    "name": "Skill I of U3 of L2"
+                },
+                {
+                    "id": "6f965647-17d1-47b4-bc27-19befc81ff00",
+                    "name": "Skill II of U3 of L2"
+                }
+            ]
+        },
+        {
+            "id": "13c43a3a-165f-467d-8310-5539642510a3",
+            "index": 3,
+            "name": "Ayata Unit III of Level 1",
+            "level": "Level 1",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "ce614fb2-f93d-49f6-b024-857e04f5d6f7",
+                    "name": "Skill I of U3 of L1",
+                    "indicator": [
+                        {
+                            "id": "4811bfb9-106a-41d0-b405-fee0b5f6a720",
+                            "name": "Indicator I of S1-U3-L1"
+                        },
+                        {
+                            "id": "82a85b25-a3b6-4345-a4e9-b5ef7cc6635f",
+                            "name": "Indicator II of S1-U3-L1"
+                        }
+                    ]
+                },
+                {
+                    "id": "97862331-3755-4588-b6e4-5670ffdbc123",
+                    "name": "Skill II of U3 of L1",
+                    "indicator": [
+                        {
+                            "id": "e21c1e28-ea30-4102-86e3-56d934cfc275",
+                            "name": "Indicator I of S2-U3-L1"
+                        },
+                        {
+                            "id": "9adefa47-d30d-490b-b97c-64483c36d926",
+                            "name": "Indicator II of S2-U3-L1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "090ccd51-1490-422a-875a-5976574a53be",
+            "index": 3,
+            "name": "Ayata Unit III of Level 3",
+            "level": "Level 3",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "4c47cb04-cae6-4952-9e39-b8bb1115996b",
+                    "name": "Skill I of U3 of L3"
+                },
+                {
+                    "id": "f941949c-976f-4cc7-96f9-2015bcb25aa7",
+                    "name": "Skill II of U3 of L3"
+                }
+            ]
+        },
+        {
+            "id": "f28dd698-ebbd-4831-96d0-7d31c236fca6",
+            "index": 4,
+            "name": "Ayata Unit IV of Level 1",
+            "level": "Level 1",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "d5cd1bac-e3bd-4c2a-aca3-866281e80e83",
+                    "name": "Skill I of U4 of L1",
+                    "indicator": [
+                        {
+                            "id": "3204f409-77a1-4417-9fc6-17aeaa3e6b7b",
+                            "name": "Indicator I of S1-U4-L1"
+                        },
+                        {
+                            "id": "80e594ca-000e-48aa-90cd-eb35794445d1",
+                            "name": "Indicator II of S1-U4-L1"
+                        }
+                    ]
+                },
+                {
+                    "id": "6531ae8d-ad93-4852-86ac-4f1f2d8b81c7",
+                    "name": "Skill II of U4 of L1",
+                    "indicator": [
+                        {
+                            "id": "3ee6a84a-6d94-4143-beb7-71ae8151a0c7",
+                            "name": "Indicator I of S2-U4-L1"
+                        },
+                        {
+                            "id": "babd5ce8-d8ad-435a-9399-5af4b2486c80",
+                            "name": "Indicator II of S2-U4-L1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0574c2bd-55d7-4508-965e-d94ecdf85657",
+            "index": 4,
+            "name": "Ayata Unit IV of Level 3",
+            "level": "Level 3",
+            "startDate": "January 01",
+            "endDate": "February 28",
+            "skill": [
+                {
+                    "id": "1d70a7ab-013a-4693-8b28-08b49eb4511e",
+                    "name": "Skill I of U4 of L3"
+                },
+                {
+                    "id": "dc6c5bb6-2677-4f04-b381-8dff509a03ec",
+                    "name": "Skill II of U4 of L3"
+                }
+            ]
+        },
+        {
+            "id": "d7ed4800-6263-4ba7-ab5d-883c07ccaab3",
+            "index": 4,
+            "name": "Ayata Unit IV of Level 2",
+            "level": "Level 2",
+            "startDate": "January 01",
+            "endDate": "January 01",
+            "skill": [
+                {
+                    "id": "e5f17de1-a6a5-474b-b8a7-522700a61ebe",
+                    "name": "Skill I of U4 of L2"
+                },
+                {
+                    "id": "3738f6ab-4c52-4004-83ef-8cb3873d63c2",
+                    "name": "Skill II of U4 of L2"
+                }
+            ]
+        }
+    ]
+}

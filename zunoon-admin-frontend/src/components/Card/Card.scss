@@ -1,0 +1,70 @@
+.card {
+  width: 250px;
+  max-width: 250px;
+  border-radius: 24px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.card-header h5 {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.card img {
+  width: 40px;
+  border-radius: 5 px;
+}
+.card-body {
+  font-size: 0.8rem;
+}
+
+.three_dot_menu {
+  margin-left: auto;
+  width: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.card_menu {
+  position: absolute;
+  border-radius: 5px;
+  width: 85px;
+  right: 30px;
+  top: 36px;
+  border: 1px solid $border-color;
+  background-color: #fff;
+  padding: 5px;
+}
+.edit_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $secondary-color;
+  cursor: pointer;
+}
+.delete_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $danger-color;
+  cursor: pointer;
+}
+
+//add new card scss
+
+.new_card_header {
+  height: 56px;
+  text-align: center;
+}
+.plus_sign {
+  height: 40px;
+  margin: auto;
+  width: 100px;
+}
+.new_card_body {
+  text-align: center;
+}
+
+.new_card {
+  cursor: pointer;
+}

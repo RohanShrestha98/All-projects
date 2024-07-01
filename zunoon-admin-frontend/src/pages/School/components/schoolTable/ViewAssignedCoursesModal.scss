@@ -1,0 +1,49 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.assigned-courses {
+  @include flex-box-generic(flex-start, flex-start, column);
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+
+  &__search-bar {
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid $box-shadow-color;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  &__wrapper {
+    width: 100%;
+    @include flex-box-generic(flex-start, center, row);
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    &__tags {
+      @include flex-box-generic(flex-start, center, row);
+      gap: 1rem;
+      background-color: rgba($secondary-color, 0.1);
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+
+      p {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+
+      &__close-icon {
+        cursor: pointer;
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+.footer-buttons {
+  @include flex-box-generic(flex-end, center, row);
+  gap: 1rem;
+  margin-top: 1rem;
+}

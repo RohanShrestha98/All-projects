@@ -1,0 +1,50 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+$label-font-size: 15px;
+
+.main {
+  @include flex-box-generic(flex-start, flex-start, column);
+  width: 100%;
+  position: relative;
+
+  .labelCon {
+    font-size: 1.2rem;
+
+    display: flex;
+    gap: 0.3rem;
+    span {
+      color: $danger-color;
+    }
+  }
+}
+
+.label {
+  font-size: $label-font-size;
+  margin: 8px 0;
+}
+
+.select {
+  font-size: 1rem;
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  // border-bottom: 2px solid transparentize($secondary-color, 0.5);
+  border-bottom: 1px solid $secondary-color;
+  padding: 0.5rem 0.1rem;
+  outline: none;
+  color: black;
+}
+
+.span {
+  color: $danger-color;
+}
+
+.error {
+  color: $danger-color;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  font-size: 0.8rem;
+}

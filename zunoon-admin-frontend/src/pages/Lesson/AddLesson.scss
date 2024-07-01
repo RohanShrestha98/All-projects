@@ -1,0 +1,6 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.add_course_form {
+  @include flex-box-generic(flex-start, flex-start, row);
+}

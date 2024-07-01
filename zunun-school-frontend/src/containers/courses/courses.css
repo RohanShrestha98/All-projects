@@ -1,0 +1,30 @@
+/*each grades*/
+.each-grade .ant-table-wrapper .ant-table-thead >tr>th{
+    background-color: #3D848F ;
+}
+
+.each-grade th.ant-table-cell::before{
+    background-color: #3D848F !important;
+}
+
+/*course tab*/
+ .ant-tabs-ink-bar.ant-tabs-ink-bar-animated{
+    height:0px;
+    width: 0px !important;
+    background: white !important;
+}
+
+.ant-tabs-nav::before{
+    border-bottom: 0px !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn .tab-box{
+    border-color: black;
+    fill: #00B9D6;
+    color: black;
+}
+
+.ant-tabs .ant-tabs-tab .ant-tabs-tab-btn .tab-box{
+    border-color: #cfcfcf;
+    color: #cfcfcf
+}

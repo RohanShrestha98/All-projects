@@ -1,0 +1,74 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.career-form-container {
+  max-width: 950px;
+  width: 100%;
+  padding: 2vw 2vw !important;
+  border-radius: 1vh;
+  @include flex-box-generic(flex-start, flex-start, column);
+  gap: 8vh;
+
+  .row-container {
+    width: 100%;
+    @include flex-box-generic(flex-start, flex-start, row);
+    gap: 3vw;
+
+    .fieldAndValidate {
+      width: 100%;
+      position: relative;
+
+      label {
+        font-size: medium;
+        margin-bottom: 0.5em;
+
+        span {
+          color: $danger-color;
+        }
+      }
+
+      .fieldAndValidateTextArea {
+        width: 100%;
+        padding: 6px 10px;
+        outline: none;
+        border-radius: 6px;
+        border: 1px solid #808080;
+      }
+      .fieldAndValidateTextArea1 {
+        width: 100%;
+        padding: 6px 10px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #808080;
+      }
+      p {
+        color: $danger-color;
+        margin-top: 1vh;
+        position: absolute;
+      }
+    }
+
+    .staff_image {
+      height: 100% !important;
+      width: 17%;
+    }
+
+    .button-wrapper {
+      @include flex-box-generic(flex-end, flex-end, row);
+      gap: 1vw;
+      width: 100%;
+      margin-top: 1vh !important;
+
+      Button {
+        width: 20%;
+      }
+    }
+
+    .col-container {
+      width: 100%;
+
+      @include flex-box-generic(flex-start, center, column);
+      gap: 5.5vh;
+    }
+  }
+}

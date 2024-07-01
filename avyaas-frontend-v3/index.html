@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avyaas</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/hmac-sha256.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-base64.min.js"></script>
+    <script src="https://source.zoom.us/3.1.6/lib/vendor/lodash.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- <div
+      id="meetingSDKElement"
+      style="justify-content: center; align-items: center; display: flex"
+    ></div> -->
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- <script>
+      // Function to auto-generate signature
+      function generateSignature() {
+        var currentTime = new Date();
+        var formattedTime =
+          currentTime.toISOString().slice(2, 10).replace(/-/g, "") +
+          "-" +
+          currentTime.getHours() +
+          currentTime.getMinutes() +
+          currentTime.getSeconds();
+        document.getElementById("transaction_uuid").value = formattedTime;
+
+        var total_amount = document.getElementById("total_amount").value;
+        var transaction_uuid =
+          document.getElementById("transaction_uuid").value;
+        var product_code = document.getElementById("product_code").value;
+        var secret = "8gBm/:&EnhH.1/q";
+
+        var hash = CryptoJS.HmacSHA256(
+          `total_amount=${total_amount},transaction_uuid=${transaction_uuid},product_code=${product_code}`,
+          `${secret}`
+        );
+        var hashInBase64 = CryptoJS.enc.Base64.stringify(hash);
+        document.getElementById("signature").value = hashInBase64;
+      }
+
+      // Event listeners to call generateSignature() when inputs are changed
+      document
+        .getElementById("total_amount")
+        .addEventListener("input", generateSignature);
+      document
+        .getElementById("transaction_uuid")
+        .addEventListener("input", generateSignature);
+      document
+        .getElementById("product_code")
+        .addEventListener("input", generateSignature);
+      document
+        .getElementById("secret")
+        .addEventListener("input", generateSignature);
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,98 @@
+.event .ant-picker-calendar {
+  padding: 10px 0;
+}
+
+.event .ant-select {
+  min-height: 40px;
+}
+.event .ant-select,
+.event .ant-select-selector {
+  min-height: 40px !important;
+  display: flex;
+  align-items: center;
+}
+
+.ant-select-multiple,
+.ant-select-selector {
+  display: inline-block;
+  width: 100%;
+}
+
+.event .ant-picker-calendar-mini {
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+}
+
+.event .ant-picker-calendar-mini .ant-picker-content th {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.078px;
+  color: rgba(60, 60, 67, 0.5);
+}
+
+.event
+  .ant-picker-calendar
+  .ant-picker-cell-in-view.ant-picker-cell-selected
+  .ant-picker-cell-inner {
+  background-color: #00b9d6;
+}
+
+.event
+  .ant-picker-calendar
+  .ant-picker-cell-in-view.ant-picker-cell-today
+  .ant-picker-cell-inner::before {
+  border: 0px;
+}
+
+.event .ant-picker-calendar-header {
+  display: flex;
+  align-items: center;
+}
+
+.ant-select .ant-select-arrow {
+  height: 12px;
+  font-size: 10px;
+}
+
+.event .ant-radio-group {
+  display: flex;
+}
+
+.event .ant-radio-button-wrapper {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event
+  .ant-picker-calendar
+  .ant-picker-calendar-header
+  .ant-picker-calendar-month-select,
+.event
+  .ant-picker-calendar
+  .ant-picker-calendar-header
+  .ant-picker-calendar-year-select {
+  height: 30px;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+}
+
+.event .ant-picker-calendar .ant-picker-panel {
+  border-top: 0px;
+}
+
+/* input[type="datetime-local"]::placeholder {
+  color: red !important;
+} */
+
+input[type="datetime-local"][placeholder] {
+  color: #909090 !important;
+}
+
+.event .ant-picker-calendar-date-value {
+  font-size: 15px;
+}
+
+.event .ant-picker-calendar-mini .ant-picker-content th {
+  font-size: 15px;
+}

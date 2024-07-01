@@ -1,0 +1,45 @@
+//common scss
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+
+.staff_table_container tr td:nth-child(1),
+.staff_table_container tr th:nth-child(1) {
+  width: 25%;
+  word-wrap: break-word;
+  word-break: break-all;
+  min-width: 140px;
+  max-width: 400px;
+}
+.staff_table_container tr td:nth-child(2),
+.staff_table_container tr th:nth-child(2) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 30%;
+  min-width: 200px;
+  max-width: 400px;
+}
+.staff_table_container tr td:nth-child(3),
+.staff_table_container tr th:nth-child(3) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 20%;
+  min-width: 100px;
+  max-width: 400px;
+}
+.staff_table_container tr td:nth-child(4),
+.staff_table_container tr th:nth-child(4) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 15%;
+  white-space: nowrap;
+}
+
+.staff_table_container tr td {
+  line-height: 2 !important;
+}
+
+.staff_table_actions {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}

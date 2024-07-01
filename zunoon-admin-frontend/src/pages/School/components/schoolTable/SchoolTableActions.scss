@@ -1,0 +1,21 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.customize-dropdown {
+  background-color: #fff !important;
+}
+.more-actions {
+  position: fixed;
+  top: 100%;
+  right: 0;
+  @include flex-box-generic(flex-start, flex-start, column);
+
+  &__item {
+    padding: 0.5em 1em;
+    cursor: pointer;
+    color: #141415;
+    &:hover {
+      background-color: rgba($secondary-color, 0.1);
+    }
+  }
+}

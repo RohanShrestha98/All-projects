@@ -1,0 +1,53 @@
+@use "../../assets/styles/abstract/variables" as *;
+
+.profile_section {
+  position: relative;
+  .active {
+    color: $secondary_color;
+  }
+}
+
+.profile_sidebar {
+  border-right: 1px solid rgb(190, 190, 190);
+  position: fixed;
+  width: 13%;
+  height: 80vh;
+  display: flex;
+  padding-right: 2em;
+  align-items: flex-start;
+  @media screen and (max-width: 490px) {
+  }
+}
+.profile_menu {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0px 1em;
+  padding-top: 32px;
+}
+
+.profile_menu_item_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin: 24px 0px;
+
+  .profile_menu_item_text {
+    @media screen and (max-width: 814px) {
+      display: none;
+    }
+  }
+
+  // &.active {
+  //   border-right: 4px solid $secondary_color;
+  // }
+}
+
+.profile_menu_item_icon {
+  margin-right: 0.8rem;
+}
+
+.profile_main {
+  width: 75%;
+  max-height: 100vh;
+  margin-left: 17vw;
+  margin-bottom: 2em;
+}

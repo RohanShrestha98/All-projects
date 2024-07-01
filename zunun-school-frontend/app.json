@@ -1,0 +1,10 @@
+{
+  apps : [
+    {
+      name      : "school",
+      script    : "yarn",
+      interpreter: "none",
+      args: "serve -p 9090 -T"
+    }
+  ]
+}

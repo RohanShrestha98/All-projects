@@ -1,0 +1,27 @@
+/* #zmmtg-root {
+  width: none !important;
+}
+
+#zmmtg-root
+  .dropdown.btn-group
+  .participants-header__participants-pop-btn.ax-outline-blue-important.dropdown-toggle.btn.btn-default,
+#zmmtg-root
+  .chat-header__chat-pop-btn.ax-outline-blue-important.dropdown-toggle.btn.btn-default {
+  border: none;
+}
+
+#zmmtg-root .chat-receiver-list__receiver.dropdown-toggle.btn.btn-default {
+  padding: 0 10px;
+}
+
+#zmmtg-root
+  .dark-dropdown.new-LT__main-dropdown.custom-dropdown-menu.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#zmmtg-root
+  .dark-dropdown.new-LT__main-dropdown.custom-dropdown-menu.dropdown-menu
+  li
+  a {
+  color: #fafbfc;
+} */

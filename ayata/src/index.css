@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+    @layer responsive {
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    }
+} */
+
+.slick-center {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
+    border-radius: 8px;
+}
+
+.slick-slide {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}

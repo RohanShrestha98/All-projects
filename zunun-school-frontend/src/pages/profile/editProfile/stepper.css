@@ -1,0 +1,78 @@
+.main_container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+  }
+  
+  .step_container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .before_style {
+    content: "";
+    position: absolute;
+    background: #f3e7f3;
+    height: 4px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  
+  .after_style {
+    content: "";
+    position: absolute;
+    background: #00bad6;
+    height: 4px;
+    width: 0;
+    top: 50%;
+    transition: 1s ease;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  
+  .step_wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .step_style {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .step_count {
+    font-size: 0.9rem;
+  }
+  
+  .step_label_container {
+    position: absolute;
+    top: 66px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .step_label {
+    font-size: 0.8rem;
+    color: #4a154b;
+  }
+  
+  .check_mark {
+    font-size: 1rem;
+    font-weight: 600;
+    transform: scaleX(-1) rotate(-46deg);
+  }
+
+  .cross_mark {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e51414;
+  }

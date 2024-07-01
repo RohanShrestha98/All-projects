@@ -1,0 +1,86 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+// .custom_pagination {
+// width:100%;  display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 1.2rem;
+//   list-style: none;
+//   position: relative;
+// }
+//   .custom_pagination .page-num {
+//   text-decoration: none;
+//   padding: 8px 15px;
+//   border-radius: 3px;
+//   border: 1px solid black;
+// }
+// .custom_pagination .page-num:hover {
+//   background-color: blue;
+//   color: white;
+// }
+
+// .custom_pagination .active {
+//   background-color: blue;
+//   color: white;
+// }
+
+.pagination_container {
+  // margin-top: 1.5rem;
+  @include flex-box-generic(center, center, row);
+  padding-right: 6em;
+  width: 100%;
+
+  //no selection
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+
+  li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  //links for the page
+  .page-num {
+    // border: 1px solid grey;
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    text-align: center;
+    &:hover {
+      border: 1px solid $secondary-color;
+    }
+  }
+
+  .previous,
+  .next {
+    font-size: 1.8rem;
+    line-height: 1;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .page-num {
+      background: none;
+      color: black;
+    }
+  }
+
+  .active {
+    color: white;
+    background-color: $secondary-color;
+  }
+}

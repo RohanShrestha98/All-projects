@@ -1,0 +1,50 @@
+//common scss
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+
+@use "../../assets/styles/abstract/mixins" as *;
+
+.page_header h3 {
+  font-size: 1.8rem;
+}
+
+.btn_container {
+  width: 150px;
+  margin-left: auto;
+}
+
+.page_container {
+  margin-bottom: 5vh;
+
+  @include flex-box-generic(center, center, row);
+
+  .buttonWrapper {
+    @include flex-box-generic(flex-end, center, row);
+    width: 100%;
+
+    .addStaffButton {
+      width: 10vw;
+    }
+  }
+}
+
+.skill_table_container tr td:nth-child(1),
+.skill_table_container tr th:nth-child(1) {
+  width: 5%;
+}
+
+.skill_table_container tr td:nth-child(2),
+.skill_table_container tr th:nth-child(2) {
+  width: 40%;
+  min-width: 140px;
+  max-width: 700px;
+}
+
+.skill_table_container tr td:nth-child(3),
+.skill_table_container tr th:nth-child(3) {
+  word-wrap: normal;
+  word-break: normal;
+  width: 45%;
+  min-width: 150px;
+  max-width: 800px;
+}

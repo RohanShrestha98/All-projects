@@ -1,0 +1,11 @@
+/* for resizable column width in table */
+
+@media (hover: hover) {
+  .resizer {
+    opacity: 0;
+  }
+
+  *:hover>.resizer {
+    opacity: 1;
+  }
+}

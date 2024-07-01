@@ -1,0 +1,66 @@
+//common scss
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+
+.grade_table_container,
+.gradeCategory_table_container {
+  min-height: 65vh !important;
+  height: 55vh !important;
+  transition-delay: 2s;
+  margin-top: 3rem;
+  overflow-x: auto;
+
+  th {
+    font-size: 1.1rem;
+    position: sticky;
+    top: 0;
+    z-index: 50 !important;
+    background: #ffffff !important;
+  }
+
+  tbody {
+    font-size: 12px !important;
+
+    td {
+      line-height: 2.5 !important;
+    }
+
+    .actions {
+      line-height: 2.5 !important;
+      display: flex !important;
+      gap: 0.5rem !important;
+    }
+  }
+}
+
+.gradeCategory_table_container tr td:nth-child(1),
+.gradeCategory_table_container tr th:nth-child(1) {
+  width: 35%;
+  white-space: nowrap;
+}
+
+.gradeCategory_table_container tr td:nth-child(2),
+.gradeCategory_table_container tr th:nth-child(2) {
+  width: 55%;
+}
+
+.gradeCategory_table_container tr td:nth-child(3),
+.gradeCategory_table_container tr th:nth-child(3) {
+  width: 15%;
+  white-space: nowrap;
+}
+
+.grade_table_container tr td:nth-child(1),
+.grade_table_container tr th:nth-child(1) {
+  width: 30%;
+}
+
+.grade_table_container tr td:nth-child(2),
+.grade_table_container tr th:nth-child(2) {
+  width: 40%;
+}
+
+.grade_table_container tr td:nth-child(3),
+.grade_table_container tr th:nth-child(3) {
+  width: 30%;
+}

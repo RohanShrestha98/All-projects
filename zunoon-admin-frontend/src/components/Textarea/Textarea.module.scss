@@ -1,0 +1,71 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+$label-font-size: 14px;
+
+.main {
+  @include flex-box-generic(flex-start, flex-start, column);
+  width: 100%;
+  position: relative;
+  gap: 0.5rem;
+
+  input[type="password"] {
+    padding-right: 4rem;
+  }
+
+  .labelCon {
+    font-size: $label-font-size;
+
+    display: flex;
+    gap: 0.3rem;
+
+    span {
+      color: $danger-color;
+    }
+
+    ::-webkit-input-placeholder {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+
+.label {
+  font-size: $label-font-size;
+  margin: 8px 0;
+}
+
+.input {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid $border-color;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+
+  &:focus {
+    border: 1px solid $secondary-color;
+  }
+
+  &:hover {
+    border: 1px solid $secondary-color;
+  }
+}
+
+textarea::placeholder {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.input[data-border="full-border"] {
+  padding: 0.5rem 0.5rem;
+  border: 2px solid transparentize($secondary-color, 0.5);
+  border-radius: 0.5rem;
+}
+
+.error {
+  color: $danger-color;
+  position: absolute;
+  bottom: -1rem;
+  font-size: 0.8rem;
+  left: 0;
+}

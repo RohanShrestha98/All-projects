@@ -1,0 +1,99 @@
+.grade-type-body {
+  margin: 40px 120px;
+}
+
+.levelTab {
+  margin-bottom: -20px;
+
+  button {
+    border: none;
+    background: transparent;
+    padding: 4px 12px 4px 4px;
+    margin-right: 20px;
+  }
+
+  .active {
+    font-weight: 600;
+    border-bottom: 4px solid #40cbe0;
+    margin-bottom: -4px;
+  }
+}
+
+.levelsHeading {
+  width: 100%;
+}
+
+@media (max-width: 938px) {
+  .grade-type-body {
+    margin: 20px 0px;
+  }
+}
+
+.levelType_table_container,
+.level_table_container {
+  min-height: 65vh !important;
+  height: 55vh !important;
+  transition-delay: 2s;
+  margin-top: 3rem;
+  overflow-x: auto;
+
+  th {
+    font-size: 1.1rem;
+    position: sticky;
+    top: 0;
+    z-index: 50 !important;
+    background: #ffffff !important;
+  }
+
+  tbody {
+    font-size: 12px !important;
+
+    td {
+      line-height: 2.5 !important;
+      margin-top: 10px !important;
+    }
+
+    .actions {
+      line-height: 2.5 !important;
+      display: flex !important;
+      gap: 0.5rem !important;
+    }
+  }
+}
+
+.levelType_table_container,
+.level_table_container {
+  .actions {
+    line-height: 2.1 !important;
+    display: flex !important;
+    gap: 0.5rem !important;
+    align-items: center;
+  }
+}
+
+.levelType_table_container tr td:nth-child(1),
+.levelType_table_container tr th:nth-child(1) {
+  width: 35%;
+}
+
+.levelType_table_container tr td:nth-child(2),
+.levelType_table_container tr th:nth-child(2) {
+  width: 55%;
+}
+
+.level_table_container tr td:nth-child(1),
+.level_table_container tr th:nth-child(1) {
+  width: 25%;
+  // white-space: nowrap;
+}
+
+.level_table_container tr td:nth-child(2),
+.level_table_container tr th:nth-child(2) {
+  width: 25%;
+  // white-space: nowrap;
+}
+
+.level_table_container tr td:nth-child(3),
+.level_table_container tr th:nth-child(3) {
+  width: 40%;
+}

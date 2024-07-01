@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+.activeScroll {
+  color: #265cc0;
+}
+
+input[type="date"]:before {
+  content: unset;
+  color: #aaa;
+  margin-right: 0.5em;
+  /* display: none; */
+}
+
+input[type="date"]:after {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+  display: none;
+}
+
+input[type="date"]:focus:after,
+input[type="date"]:valid:after {
+  content: "";
+  display: none;
+}

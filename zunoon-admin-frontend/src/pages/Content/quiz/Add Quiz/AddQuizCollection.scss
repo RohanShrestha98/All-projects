@@ -1,0 +1,25 @@
+@use "../../../../assets/styles/abstract/variables" as *;
+.add_button_container {
+  display: flex;
+}
+
+.add_button_container .add_question_button_wrapper {
+  width: 100%;
+}
+.add_button_container .submit_button_wrapper {
+  margin-left: 0.4rem;
+}
+
+.add_new_question_button {
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid $secondary-color;
+  &:hover {
+    background-color: $secondary-color;
+    color: white;
+  }
+}

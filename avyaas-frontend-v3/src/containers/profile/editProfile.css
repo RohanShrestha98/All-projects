@@ -1,0 +1,32 @@
+.editProfile .ant-input-affix-wrapper{
+    background-color: #ffffff;
+    border-width:0px;
+    padding: 0px 11px;
+    }
+    .editProfile .ant-input{
+    background-color:#ffffff;
+    border-width: 0px;
+    border-radius: 15px !important;
+    height: 58px;
+    }
+  
+    .editProfile .ant-picker{
+      display: flex;
+      border: 0px;
+      border-radius: 15px !important;
+      height: 58px;
+    }
+  
+    .editProfile .ant-picker .ant-picker-suffix{
+      color: black;
+    }
+
+    /* .editProfileSmall .ant-input{
+      background-color: #FAFAFA;
+      } */
+
+    @media (min-width:0px) and (max-width:480px) {
+      .editProfile .ant-input, .editProfile .ant-picker, .editProfile .ant-input-affix-wrapper, .editProfile .ant-select-selector, .editProfile .PhoneInput, .editProfile .PhoneInputInput{
+        background-color: #FAFAFA !important;
+      }
+    }

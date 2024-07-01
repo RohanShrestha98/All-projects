@@ -1,0 +1,221 @@
+@use "../../assets/styles/abstract/mixins" as *;
+@use "../../assets/styles/abstract/variables" as *;
+
+.sidebar {
+  position: fixed;
+  top: 2vh;
+  left: 1vw;
+  height: 96vh;
+  width: 15vw;
+  // background-color: #fafbfc;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+  &_logo {
+    .zunun {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    padding: 0 1.5vw;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+    &_image {
+      width: 45px;
+      height: 45px;
+      margin: 10px;
+    }
+  }
+
+  &_menu {
+    height: 70vh;
+    overflow: hidden;
+
+    &:hover {
+      overflow: auto;
+    }
+
+    position: relative;
+    margin-right: 5px;
+
+    :hover {
+      color: $secondary-color;
+    }
+
+    &_item {
+      @include flex-box-generic(flex-start, center, row);
+      padding: 0.65rem 2.4rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #555555;
+      transition: color 0.3s ease-in-out;
+      background-color: rgb(255, 255, 255);
+
+      &.active {
+        color: #fff;
+      }
+
+      &_icon {
+        @include flex-box-generic(center, center, row);
+        margin-right: 1rem;
+        width: 29px;
+        min-width: 29px;
+        background-color: #efefef;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+
+        height: 29px;
+        border-radius: 10px;
+
+        &.active {
+          color: #fff;
+          background-color: $secondary-color;
+
+          :hover {
+            color: white;
+          }
+        }
+
+        i {
+          font-size: 1rem;
+        }
+
+        @media screen and (max-width: 900px) {
+          margin-right: 0.3rem;
+        }
+      }
+
+      &_text {
+        &.active {
+          color: black;
+          font-weight: 900;
+        }
+      }
+    }
+
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+
+      background: rgba($secondary-color, 0.2);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: rgba($secondary-color, 0.4);
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgba($secondary-color, 0.6);
+    }
+
+    &::-webkit-scrollbar-thumb:active {
+      background: rgba($secondary-color, 0.6);
+    }
+  }
+
+  &_footer {
+    width: 100%;
+    position: absolute;
+    bottom: 2em;
+    font-size: 10px;
+    @include flex-center-column();
+
+    p {
+      line-height: 1.75 !important;
+      color: rgba(0, 0, 0, 0.6);
+
+      a {
+        color: $primary-color;
+      }
+    }
+  }
+
+  @media screen and (max-width: 794px) {
+    max-width: 72px;
+  }
+}
+
+.sidebar_logo {
+  img {
+    width: 70%;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 1058px) and (min-width: 794px) {
+  .sidebar_menu_item {
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .sidebar_menu_item_text {
+    font-size: 0.8rem;
+  }
+}
+
+.sidebar {
+  overflow-x: hidden;
+  padding: 1.4rem 0;
+}
+
+@media screen and (max-width: 794px) {
+  .sidebar_logo_text {
+    color: $secondary-color;
+    display: none;
+  }
+
+  .sidebar {
+    width: 12vh;
+
+    text-align: center;
+  }
+
+  .sidebar_menu_item {
+    padding: 10px 0px;
+  }
+}
+
+.sidebar_menu {
+  @media screen and (max-width: 794px) {
+    .sidebar_menu_item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sidebar_menu_item_icon {
+      height: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar_menu_item_text {
+      display: none;
+    }
+  }
+}
+
+.sidebar_footer {
+  width: 100%;
+  font-size: 10px;
+  margin-top: 2rem;
+  @include flex-center-column();
+
+  p {
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+    a {
+      color: $secondary-color;
+    }
+  }
+}

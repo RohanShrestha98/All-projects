@@ -1,0 +1,23 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.query_container,
+.fileType_container,
+.keywords_container,
+.contentType_container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.196em;
+
+  span {
+    color: $danger-color;
+  }
+}
+.content_filter_button {
+  display: flex;
+  gap: 1em;
+  margin-top: 10px;
+  height: 36px;
+  margin-top: 30px;
+}

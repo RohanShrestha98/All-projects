@@ -1,0 +1,24 @@
+.each-material .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #00B9D6;
+    fill: #00B9D6;
+ }
+ 
+ .each-material .ant-tabs .ant-tabs-tab-btn {
+     color: #6f6f6f; 
+ }
+
+ /* rich text editor */
+
+ .ql-container{
+    height: 196px;
+    overflow-y: scroll;
+ }
+
+ .ql-container::-webkit-scrollbar {
+    display: none;
+}
+
+.ql-container {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}

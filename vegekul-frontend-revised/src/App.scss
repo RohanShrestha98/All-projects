@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary: #0a438f;
+}
+
+.rightSidePart {
+  width: 80%;
+
+  .dashboard_content_area {
+    max-width: 100%;
+    padding: 28px;
+  }
+}
+
+.sidebar {
+  box-shadow: 0px 0px 6px 0px rgb(183, 182, 182);
+}
+
+.navbar {
+  box-shadow: 0 6px 4px -2px rgb(215, 213, 213);
+}
+
+.active {
+  border-left: 4px solid var(--primary);
+  background: #dfecf8;
+}
+
+.dashboard_content_area .button {
+  background: var(--primary);
+  color: white;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 3px 30px;
+  outline: none;
+  height: 32px;
+  min-width: 180px;
+  text-align: center;
+}
+
+.dashboard_content_area .button:hover {
+  transition: 0.3s;
+  background: white;
+  color: var(--primary);
+}
+
+.MuiSelect-select {
+  display: flex !important;
+  gap: 2px !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgb(222, 227, 239);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(10 67 143 / 27%);
+  border-radius: 10px;
+}

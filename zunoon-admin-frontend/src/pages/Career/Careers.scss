@@ -1,0 +1,25 @@
+//common scss
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+
+/* @import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables"; */
+
+.career_table_container tr td:nth-child(1),
+.career_table_container tr th:nth-child(1) {
+  width: 5%;
+}
+
+.career_table_container tr td:nth-child(2),
+.career_table_container tr th:nth-child(2) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 35%;
+}
+
+.career_table_container tr td:nth-child(3),
+.career_table_container tr th:nth-child(3) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 50%;
+}

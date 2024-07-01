@@ -1,0 +1,63 @@
+@import "../../../../assets/styles/abstract/variables";
+
+.content-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.15)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.15));
+  z-index: 100;
+  padding: 4px 0;
+
+  .drag-handle {
+    width: 2.6rem;
+    height: 100%;
+    padding: 8px 1px;
+    margin: 4px;
+    cursor: grab;
+    border-radius: 4px;
+    outline: none;
+
+    &:hover {
+      background-color: #e5e5e5;
+    }
+  }
+
+  .content-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+
+    h4,
+    p {
+      margin: 0;
+    }
+  }
+
+  .content-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+
+    i {
+      cursor: pointer;
+      padding: 4px 8px;
+
+      &:hover {
+        background-color: #e5e5e5;
+        border-radius: 4px;
+      }
+
+      .edit {
+        color: $success-color;
+      }
+
+      .trash {
+        color: $danger-color;
+      }
+    }
+  }
+}

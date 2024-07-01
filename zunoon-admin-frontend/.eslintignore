@@ -1,0 +1,8 @@
+/src/setupTests.jsx
+
+node_modules/
+dist/
+build/
+.prettierrc.js
+.eslintrc.js
+env.d.ts

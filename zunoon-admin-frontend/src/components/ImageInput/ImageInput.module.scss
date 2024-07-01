@@ -1,0 +1,40 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.inputContainer {
+  @include flex-box-generic(flex-start, center, column);
+  gap: 0.5rem;
+  position: relative;
+  height: 100%;
+  min-width: 115px;
+  max-width: 125px;
+  background-color: $content-background-color;
+
+  .inputBtnWrapper {
+    @include flex-center-column;
+    width: 100%;
+  }
+
+  .imageContainer {
+    @include flex-box-generic(center, center, column);
+    width: 120px;
+    height: 120px;
+    min-height: 100px;
+    min-width: 100px;
+    overflow: hidden;
+    border: 1px solid $secondary-color;
+
+    @include set-border-radius;
+    & > img {
+      width: 100%;
+      height: 100%;
+      // object-fit: cover;
+      object-fit: contain;
+      // object-position: top;
+    }
+    & > i {
+      font-size: 4rem;
+      color: rgba($secondary-color, 0.75);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../../assets/styles/abstract/mixins";
+@import "../../../assets/styles/abstract/variables";
+
+.assign_wrapper {
+  padding: 0 20px;
+  @include flex-box-generic(flex-start, flex-start, column);
+  gap: 20px 0;
+
+  label {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  .lesson_wrapper {
+    width: 100%;
+    white-space: 10px;
+  }
+  .select_field_container {
+    width: 100%;
+
+    .error_text {
+      color: $danger-color;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 4px;
+    }
+  }
+
+  .button_wrapper {
+    margin: 20px 0;
+    width: 100%;
+    @include flex-box-generic(flex-end, flex-end, row);
+    gap: 10px;
+    Button {
+      width: 20%;
+    }
+  }
+}

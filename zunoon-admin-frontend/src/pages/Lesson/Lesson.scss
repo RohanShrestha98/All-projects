@@ -1,0 +1,42 @@
+//common scss
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.courseTable {
+  margin-bottom: 5vh;
+  h3 {
+    margin-bottom: 0;
+  }
+  @include flex-box-generic(center, center, row);
+  .buttonWrapper {
+    @include flex-box-generic(flex-end, center, row);
+
+    .addCourseButton {
+      width: 10vw;
+    }
+  }
+}
+
+.lesson_table_container tr td:nth-child(1),
+.lesson_table_container tr th:nth-child(1) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 5%;
+}
+.lesson_table_container tr td:nth-child(2),
+.lesson_table_container tr th:nth-child(2) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 35%;
+  min-width: 260px;
+  max-width: 700px;
+}
+.lesson_table_container tr td:nth-child(3),
+.lesson_table_container tr th:nth-child(3) {
+  word-wrap: normal;
+  word-break: normal;
+  width: 45%;
+}

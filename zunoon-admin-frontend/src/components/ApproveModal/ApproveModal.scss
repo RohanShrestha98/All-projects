@@ -1,0 +1,14 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.modal-box .button_wrapper {
+  width: 42%;
+  @include flex-box-generic(flex-end, center, row);
+  gap: 5%;
+  .btn_yes {
+    width: 50%;
+  }
+  .btn_no {
+    width: 50%;
+  }
+}

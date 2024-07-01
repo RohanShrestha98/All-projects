@@ -1,0 +1,57 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.master-form-container {
+  // border: 1px solid $danger-color;
+
+  width: 40vw;
+  // max-width: 950px !important;
+  //   height: 68vh !important;
+  padding: 2vw 2vw !important;
+  background-color: white;
+  border-radius: 1vh;
+  @include flex-box-generic(flex-start, flex-start, column);
+  gap: 2vh;
+
+  .row-container {
+    width: 100%;
+    @include flex-box-generic(flex-start, center, row);
+    gap: 3vw;
+
+    .fieldAndValidate {
+      width: 100%;
+      position: relative;
+
+      p {
+        color: $danger-color;
+        margin-top: 1vh;
+        position: absolute;
+      }
+    }
+
+    .button-wrapper {
+      @include flex-box-generic(flex-end, flex-end, row);
+      gap: 1vw;
+      width: 100%;
+      margin-top: 3vh !important;
+
+      Button {
+        width: 20%;
+      }
+    }
+
+    .col-container {
+      width: 100%;
+
+      @include flex-box-generic(flex-start, center, column);
+      gap: 5vh !important;
+    }
+  }
+}
+
+.unit_image {
+  // border: 1px solid $danger-color;
+  width: 20%;
+  min-width: 125px;
+  max-height: 190px !important;
+}

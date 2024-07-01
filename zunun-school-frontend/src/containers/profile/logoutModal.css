@@ -1,0 +1,16 @@
+.logout-modal.ant-modal .ant-modal-content {
+  padding: 16px 24px 36px !important;
+  width: 428px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .logout-modal.ant-modal .ant-modal-content {
+    padding: 16px 24px 36px !important;
+    width: 100%;
+  }
+
+  .logout-modal.ant-modal {
+    margin: 0px;
+    max-width: 100vw;
+  }
+}

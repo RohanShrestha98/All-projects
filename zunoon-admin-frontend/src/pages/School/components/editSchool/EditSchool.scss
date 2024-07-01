@@ -1,0 +1,108 @@
+@use "../../../../assets/styles/abstract/variables" as *;
+@import "../../../../assets/styles/abstract/mixins";
+
+.form_wrapper {
+  @include flex-box-generic(flex-start, flex-start, column);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .form_container {
+    margin-top: 2.5rem;
+    width: 100%;
+    @include flex-box-generic(flex-start, flex-start, column);
+    gap: 1.25rem;
+
+    .row_container {
+      width: 100%;
+      @include flex-box-generic(space-between, flex-start, row);
+      gap: 4rem;
+
+      .input_container {
+        flex: 1;
+        p {
+          color: $danger-color;
+          margin-top: 0.5em;
+          font-size: 0.7rem;
+        }
+      }
+      .color_pick {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+      }
+    }
+
+    .button-container {
+      margin-top: 1.25rem;
+      width: 100%;
+      @include flex-box-generic(flex-end, flex-start, row);
+
+      .button-group {
+        @include flex-box-generic(flex-end, flex-start, row);
+        gap: 1rem;
+      }
+    }
+  }
+
+  .form_container_basic {
+    margin-top: 2.5rem;
+    width: 100%;
+    @include flex-box-generic(flex-start, flex-start, column);
+    gap: 1.25rem;
+
+    .outer_row_container {
+      width: 100%;
+      @include flex-box-generic(space-between, flex-start, row);
+      gap: 4rem;
+
+      .col_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.25rem;
+
+        .row_container {
+          width: 100%;
+          @include flex-box-generic(space-between, flex-start, row);
+          gap: 4rem;
+
+          .input_container {
+            flex: 1;
+            p {
+              color: $danger-color !important;
+              margin-top: 0.5em;
+              font-size: 0.7rem;
+            }
+          }
+          .color_pick {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1em;
+          }
+        }
+
+        .button-container {
+          margin-top: 1.25rem;
+          width: 100%;
+          @include flex-box-generic(flex-end, flex-start, row);
+
+          .button-group {
+            @include flex-box-generic(flex-end, flex-start, row);
+            gap: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.react-international-phone-country-selector-dropdown__list-item-country-name {
+  color: rgb(12, 12, 12);
+}
+
+.button-group {
+  color: rgb(12, 12, 12);
+}

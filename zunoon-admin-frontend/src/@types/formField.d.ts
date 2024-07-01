@@ -1,0 +1,40 @@
+import React from "react";
+import { IconType } from "react-icons";
+export type InputType = {
+  label?: string;
+  name?: string;
+  currentCharacterLength?: number;
+  type?: string;
+  required?: boolean;
+  icon?: any;
+  tooltipText?: string[];
+  setValue?: React.Dispatch<React.SetStateAction<string>>;
+  validateInput?: Function;
+  handleGeneratePassword?: Function;
+  placeholder?: string;
+  value?: string;
+  watchValue?: string;
+  defaultValue?: string;
+  disabled?: boolean;
+  autoFocus?: boolean;
+  generatePassword?: boolean;
+  max?: string | number;
+  min?: string | number;
+  registerName?: string;
+  onChange?: React.ChangeEventHandler<HTMLInputElement>;
+  onKeyUp?: React.ChangeEventHandler<any>;
+  rest?: any;
+};
+
+export type DropdownType = {
+  label: string;
+  name: string;
+  editform?: boolean;
+  required?: boolean;
+  setValue?: Function;
+  selectValue: string | number;
+  setSelectValue: Function;
+  options: Array<any>;
+  disabled?: boolean;
+  onChange?: Function;
+};

@@ -1,0 +1,293 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+
+  .dashboard_container {
+    width: 100%;
+    max-width: 1400px;
+
+    .dashboard_card {
+      padding: 2rem 1rem;
+      border: 1px solid rgba(black, 0.2);
+      border-radius: 10px;
+
+      h4 {
+        width: 100%;
+        font-size: 1.125rem;
+        text-align: center;
+      }
+    }
+
+    .dashboard_calendar {
+      border: 1px solid rgb(213, 211, 211);
+      border-radius: 10px;
+      padding: 20px;
+
+      .dashboard_calendar_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+
+        h1 {
+          font-size: 20px;
+        }
+
+        .view_all:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .dashboard_header {
+      padding: 1rem;
+      background-color: #fff;
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      padding-bottom: 1.8rem;
+      border-bottom: 1px solid rgba(black, 0.2);
+
+      .dashboard_title {
+        h3 {
+          color: rgba(black, 0.7);
+          margin-bottom: 0.2rem;
+        }
+
+        p {
+          color: rgba(black, 0.4);
+          margin-bottom: 0;
+          font-size: 0.8rem;
+        }
+      }
+
+      .dashboard_status_container {
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 4rem;
+
+        .dashboard_status {
+          display: flex;
+          align-items: flex-end;
+
+          .status_info {
+            text-align: end;
+
+            h6 {
+              font-size: 0.8rem;
+              font-weight: 100;
+              color: rgba(black, 0.7);
+              margin-bottom: 0.2rem;
+            }
+
+            p {
+              font-weight: 700;
+              font-size: 0.8rem;
+              margin-bottom: 0;
+            }
+          }
+
+          .status_image {
+            height: 40px;
+            margin-left: 0.6rem;
+
+            svg {
+              object-fit: cover;
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .label_card_container {
+      margin: 3rem 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      .label_card {
+        padding: 1rem;
+        max-width: 240px;
+        min-width: 124px;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        background-color: rgba(#ffff, 1);
+        border-radius: 3px;
+        border: 1px solid rgba(black, 0.1);
+        border-radius: 10px;
+
+        .card_status {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h6 {
+            font-size: 0.8rem;
+            font-weight: 100;
+            color: rgba(black, 0.4);
+            margin-bottom: 0;
+          }
+
+          p {
+            width: 100%;
+
+            font-size: 1.2rem;
+            margin-bottom: 0;
+          }
+        }
+
+        .card_increment_pic {
+          background-color: rgba($secondary-color, 0.2);
+          height: 30px;
+          width: 50px;
+          margin-left: auto;
+          font-size: 0.8rem;
+          border-radius: 6px;
+          @include flex-center-row;
+        }
+      }
+    }
+
+    .graph_section {
+      display: flex;
+      gap: 1rem;
+
+      .user_graph {
+        width: 100%;
+        max-width: 50%;
+        flex: 1;
+        background-color: #ffff;
+
+        .user_graph_wrapper {
+          border-radius: 5px;
+          height: 100%;
+          flex: 1;
+        }
+      }
+
+      .recent_activity_container {
+        background-color: white;
+        flex: 1;
+        width: 100%;
+        max-width: 50%;
+
+        .recent_activity_header {
+          display: flex;
+          justify-content: space-between;
+
+          .menu_button_container {
+            margin-right: 0.5rem;
+            color: #000000;
+
+            svg {
+              height: 20px;
+              width: 20px;
+              cursor: pointer;
+            }
+
+            &:hover {
+              opacity: 0.6;
+            }
+          }
+        }
+
+        .recent_activity_card_container {
+          padding: 0.3rem 0;
+          width: 100%;
+
+          .recent_activity_card {
+            width: 100%;
+            margin: 2rem 0;
+            display: flex;
+
+            .card_profile {
+              i {
+                @include flex-center-row;
+                width: 40px;
+                height: 30px;
+                font-size: 1.2em;
+                margin-right: 0.5rem;
+                color: rgba($secondary-color, 0.5);
+              }
+            }
+
+            .card_body {
+              flex: 1;
+              padding-right: 1rem;
+
+              .recent_activity_name {
+                display: flex;
+                font-size: 0.8rem;
+                color: rgba(black, 0.8);
+
+                font-weight: 700;
+
+                span {
+                  margin-left: auto;
+                  font-weight: 500;
+                  color: rgba(black, 0.7);
+                }
+              }
+
+              .recent_activity_description {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .top_game_container {
+      display: flex;
+      margin: 1rem 0;
+      gap: 1rem;
+
+      .top_game_chart {
+        width: 100%;
+        max-width: 50%;
+        flex: 1;
+        background-color: #ffff;
+      }
+
+      .top_country {
+        width: 100%;
+        max-width: 50%;
+        background-color: #ffff;
+        flex: 1;
+
+        .top_country_card_container {
+          margin: 3.5rem 0;
+
+          .top_country_card {
+            padding: 0.6rem;
+            margin: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+
+            .country_name {
+              font-weight: 600;
+              font-size: 0.8rem;
+              color: rgba(black, 0.4);
+            }
+
+            .country_rank {
+              font-size: 0.9rem;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}

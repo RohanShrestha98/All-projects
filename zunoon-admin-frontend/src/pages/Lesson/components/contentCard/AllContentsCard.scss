@@ -1,0 +1,207 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.header {
+  h3 {
+    margin: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  margin: 0 0.45em;
+  @include flex-box-generic(space-between, center, row);
+
+  .actions {
+    @include flex-box-generic(flex-end, center, row);
+    gap: 1em;
+    width: 50%;
+
+    .arrange_button {
+      @include flex-box-generic(center, center, row);
+      border: 1px solid #00bad6;
+      border-radius: 4px;
+      padding: 0.304em 1.1em;
+      min-width: fit-content;
+      color: $secondary-color;
+    }
+
+    .arrange_button:hover {
+      background-color: $secondary-color;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    i {
+      font-size: 1.5em;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &.tick {
+        font-size: 1.5em;
+        font-weight: bolder;
+      }
+    }
+
+    Button {
+      width: 45%;
+    }
+  }
+
+  margin-bottom: 1em;
+}
+
+.content {
+  width: 100%;
+  height: 85px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding-left: 4%;
+  // padding-right: 4%;
+  @include flex-box-generic(flex-start, center, row);
+
+  .content_thumbnail {
+    @include flex-box-generic(center, center, row);
+
+    i {
+      font-size: 1.8em;
+    }
+
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: 46%;
+    max-width: 200px;
+    background-color: $secondary-color;
+    color: white;
+    border-radius: 8px;
+    @include flex-center-column;
+
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      color: white;
+      text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+      opacity: 0.95;
+      margin-top: 5px;
+    }
+  }
+
+  .content_about {
+    width: 60%;
+    cursor: pointer;
+    margin-left: 2.5rem;
+    @include flex-box-generic(center, flex-start, column);
+    gap: 0.75em;
+
+    .content_title {
+      .content_type {
+        margin: 0;
+        font-size: small;
+        font-weight: 500;
+        color: rgb(91, 86, 86);
+        text-transform: capitalize;
+      }
+
+      h6 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    .content_description {
+      p {
+        margin: 0;
+        line-height: 150%;
+        font-size: small;
+        @include line-clamp(2);
+      }
+    }
+  }
+
+  .content_actions {
+    height: 50%;
+    margin-right: 3%;
+    @include flex-box-generic(space-between, center, row);
+
+    gap: 0.5em;
+
+    i {
+      margin-left: 2%;
+      font-size: 1.2em;
+      color: rgb(91, 86, 86);
+      @include flex-box-generic(center, center, row);
+      width: 27px;
+      height: 27px;
+      border-radius: 5px;
+      background-color: white;
+
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+
+      .edit {
+        color: $success-color;
+      }
+
+      .trash {
+        color: $danger-color;
+      }
+
+      .edit,
+      .trash {
+        height: 14px;
+        width: 14px;
+      }
+    }
+  }
+}
+
+.draggableList {
+  width: 100%;
+  height: 90%;
+  overflow-y: auto;
+  @include flex-box-generic(flex-start, flex-start, column);
+  gap: 1.5em;
+
+  &.ordering {
+    background: rgb(214, 232, 243);
+  }
+}
+
+// .draggableList::-webkit-scrollbar {
+//   display: none;
+// }
+
+.no-data {
+  width: 100%;
+  height: 80%;
+  @include flex-box-generic(center, center, column);
+  gap: 1em;
+  color: rgb(91, 86, 86);
+  font-size: 1.2em;
+  font-weight: 500;
+
+  img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  p {
+    font-size: small;
+  }
+}
+
+.sub_content {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10%;
+}

@@ -1,0 +1,29 @@
+.ck-rounded-corners .ck.ck-editor__editable:not(.ck-editor__nested-editable),
+.ck.ck-editor__editable.ck-rounded-corners:not(.ck-editor__nested-editable) {
+  border-radius: var(--ck-border-radius);
+  padding: 0 20px;
+}
+
+.ck-content .table table td {
+  padding: 0 20px;
+}
+
+.ck-rounded-corners .ck.ck-editor__editable:not(.ck-editor__nested-editable),
+.ck.ck-editor__editable.ck-rounded-corners:not(.ck-editor__nested-editable) {
+  border: none;
+}
+
+.ck-rounded-corners :is(.ck.ck-editor__top .ck-sticky-panel .ck-toolbar) {
+  display: none;
+}
+
+.ck.ck-editor__editable.ck-blurred .ck-widget.ck-widget_selected,
+.ck.ck-editor__editable.ck-blurred .ck-widget.ck-widget_selected:hover {
+  outline: none !important;
+}
+
+.ck.ck-editor__editable.ck-read-only
+  .ck-widget.ck-widget_with-selection-handle
+  .ck-widget__selection-handle {
+  display: none;
+}

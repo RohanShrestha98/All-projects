@@ -1,0 +1,34 @@
+@use "../../../../assets/styles/abstract/variables" as *;
+
+.edit_answer_container {
+  .btn_container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.input_field > p {
+  color: $danger-color;
+}
+
+.edit_answer_container {
+  h6 {
+    margin-bottom: 36px;
+  }
+  .input_field {
+    margin: 7px 0px;
+  }
+  .button_container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    .close_button_wrapper {
+      max-width: 100px;
+    }
+    .update_button_wrapper {
+      max-width: 200px;
+    }
+  }
+}

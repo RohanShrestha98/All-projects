@@ -1,0 +1,33 @@
+.grade_category_select,
+.grade_select,
+.career_select,
+.course_select,
+.unit_select,
+.skill_select,
+.level_select,
+.unit_select,
+.indicator_select,
+.lesson_select {
+  margin-bottom: 10px;
+}
+
+.grade_select:last-child {
+  margin-bottom: 0px;
+}
+
+.unitEditForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date_picker_container {
+  border: 1px solid #ecebeb;
+  padding: 20px;
+  box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

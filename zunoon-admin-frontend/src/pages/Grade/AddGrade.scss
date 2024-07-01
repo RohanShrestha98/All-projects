@@ -1,0 +1,6 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.add_grade_form {
+  @include flex-box-generic(center, center, row);
+}

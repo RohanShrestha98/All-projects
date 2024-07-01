@@ -1,0 +1,93 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.school_form_container {
+  padding: 2em 3rem;
+  // max-width: 890px;
+
+  .row_container {
+    display: flex;
+    gap: 3rem;
+    margin: 0.5em 0 2.5em 0;
+    @include flex-box-generic(center, flex-start, row);
+
+    .field_and_validate {
+      flex: 1;
+
+      p {
+        margin-top: 0.5em;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .basic_info {
+    gap: 2rem;
+
+    .staff_image {
+      margin-right: 1.5em;
+    }
+
+    .col_container {
+      flex: 1;
+    }
+  }
+
+  .address_detail,
+  .contact,
+  .feature {
+    border-top: 1px solid rgba(black, 0.2);
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .button_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    margin: 5rem 0 3em 0;
+
+    .submit_button_wrapper {
+      width: 100%;
+      max-width: 200px;
+    }
+
+    .cancel_button_wrapper {
+      width: 100%;
+      max-width: 150px;
+    }
+  }
+
+  h3 {
+    margin-top: 3em !important;
+  }
+}
+
+.department_field {
+  width: 48%;
+}
+
+.react-international-phone-input-container {
+  border-radius: 4px;
+  border: 1px solid #00bad6;
+}
+
+.react-international-phone-input {
+  width: 100%;
+}
+
+.react-international-phone-country-selector-dropdown__list-item-dial-code {
+  color: rgb(12, 12, 12) !important;
+}
+
+.react-international-phone-country-selector-dropdown__list-item-country-name {
+  color: rgb(12, 12, 12) !important;
+}
+
+.field_and_validate span {
+  color: rgb(12, 12, 12);
+}
+
+.field_required {
+  color: $danger-color !important;
+}

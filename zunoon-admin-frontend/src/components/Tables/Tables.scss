@@ -1,0 +1,67 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+th {
+  color: rgba(black, 0.8);
+  font-size: 13px !important;
+}
+
+th > span {
+  margin-left: 0.5rem;
+}
+
+.table_container {
+  margin-top: 3em !important;
+  overflow-x: scroll;
+
+  tbody {
+    margin-top: 12rem;
+    font-size: 12px !important;
+
+    td {
+      line-height: 2.1 !important;
+      height: 20px;
+    }
+
+    .actions {
+      line-height: 2.1 !important;
+      display: flex !important;
+      gap: 0.5rem !important;
+    }
+  }
+
+  tbody:before {
+    height: 0px !important;
+  }
+}
+
+// .table_container::-webkit-scrollbar {
+//   display: none;
+// }
+
+.table_container tr {
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.table_no_data,
+.table_error_data {
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}

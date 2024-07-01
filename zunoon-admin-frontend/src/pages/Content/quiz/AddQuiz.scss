@@ -1,0 +1,37 @@
+@use "../../../assets/styles/abstract/_variables" as *;
+
+form {
+  width: 100%;
+}
+.quiz_collection {
+  width: 100%;
+}
+
+.quiz_detail {
+  margin: 24px auto;
+  width: 40%;
+
+  .quiz_title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+  }
+
+  .quiz_description {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.add_question_btn {
+  border: 1px solid $secondary-color !important;
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+.submit_question_btn {
+  border: 1px solid $secondary-color !important;
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

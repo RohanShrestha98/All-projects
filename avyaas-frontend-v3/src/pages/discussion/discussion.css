@@ -1,0 +1,20 @@
+.ql-toolbar.ql-snow{
+    background-color: #F7F7F7;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.ql-container {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 80px;
+}
+
+.ql-snow .ql-picker-label::before{
+    font-size: 14px;
+}
+
+.ql-snow.ql-toolbar button svg, .ql-snow .ql-toolbar button svg{
+    height: 14px;
+}
+

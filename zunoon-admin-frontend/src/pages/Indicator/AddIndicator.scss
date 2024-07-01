@@ -1,0 +1,8 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.add_unit_form {
+  height: 100%;
+  width: 100%;
+  @include flex-box-generic(flex-start, flex-start, row);
+}

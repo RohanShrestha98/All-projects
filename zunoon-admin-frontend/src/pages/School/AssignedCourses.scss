@@ -1,0 +1,51 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.assigned_courses {
+  margin-top: 2em;
+
+  .course_card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    border: none;
+    position: relative;
+
+    .title {
+      font-weight: bold;
+    }
+
+    .course_check {
+      position: absolute;
+      right: 0.1em;
+      margin-top: 0.2em;
+    }
+
+    input[type="checkbox"] {
+      margin: 4px 0 0;
+      line-height: normal;
+      width: 18px;
+      height: 18px;
+    }
+
+    input[type="checkbox"]:checked {
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+      //   background-color: $danger-color;
+      //   border-color: $danger-color;
+    }
+  }
+}
+
+.unassign_banner {
+  background-color: rgb(182, 245, 255);
+  //   border: 1px solid $secondary-color;
+  height: 50px;
+  border-radius: 4px;
+  padding: 0 1em;
+
+  @include flex-box-generic(space-between, center, row);
+
+  .unassign_button {
+    width: 150px;
+    z-index: 60 !important;
+  }
+}

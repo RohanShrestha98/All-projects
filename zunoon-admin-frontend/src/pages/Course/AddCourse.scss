@@ -1,0 +1,33 @@
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+//common scss
+
+.add_course_form {
+  @include flex-box-generic(flex-start, flex-start, row);
+}
+
+
+
+/* @import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables"; */
+
+.assign_unit_table_container tr td:nth-child(1),
+.assign_unit_table_container tr th:nth-child(1) {
+  width: 5%;
+}
+
+.assign_unit_table_container tr td:nth-child(2),
+.assign_unit_table_container tr th:nth-child(2) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 35%;
+}
+
+.assign_unit_table_container tr td:nth-child(3),
+.assign_unit_table_container tr th:nth-child(3) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 25%;
+}

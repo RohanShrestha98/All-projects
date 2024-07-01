@@ -1,0 +1,58 @@
+@use "../../../../assets/styles/abstract/_variables.scss" as *;
+
+.question_container {
+  width: 100%;
+  margin: 0.2rem 0;
+}
+.question_container .card-header {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.question_container .card-header .edit_btn {
+  margin-left: auto;
+  margin-right: 0.5rem;
+  padding: 0 2.5rem;
+  background-color: transparent;
+  border: none;
+}
+
+.question_container .card-header .edit_btn .edit_icon {
+  color: $secondary-color;
+}
+
+.question_container .card-header .show_answer_btn {
+}
+.question_container ul .answer {
+  list-style-type: none;
+  width: 100% !important;
+  text-align: start;
+}
+
+.show_answers_container .answer_container {
+  display: flex;
+  padding: 0.8rem 0;
+
+  label {
+    padding-left: 20px;
+  }
+}
+
+.show_answers_container .answer_edit_btn {
+  border: none;
+  display: block;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: 1rem;
+  color: $secondary-color;
+}
+.show_answers_container .answer_field {
+  display: flex;
+  align-items: center;
+}
+
+.answer_field .link_input {
+  transition: all ease-out 0.2s;
+  color: $secondary-color;
+}

@@ -1,0 +1,21 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.add_ability_category_form {
+  @include flex-box-generic(center, center, row);
+}
+
+.ability_category_container tr td:nth-child(1),
+.ability_category_container tr th:nth-child(1) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 90%;
+  max-width: 1000px;
+}
+.form_btn::after {
+  right: -10px;
+}
+
+.form_btn::before {
+  left: -10px;
+}

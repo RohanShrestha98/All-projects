@@ -1,0 +1,5 @@
+First Name,Surname,Email,Username,Password,Home Phone,Cellular,DOB,Birth Place,Gender,Active,MinEducID,Grade
+Aman,Humagain,aman@gmail.com,aman,AmanHumagain@123,9878457874,9878747475,1994-11-05T13:15:30Z,Kharibot,Male,TRUE,465464798,Primero básico
+Student,One,student1@gmail.com,student1,Student1@123,9878987895,9878987895,1998-02-25T10:10:00Z,Guatemala,Female,TRUE,796547895,Primero básico
+Student,Two,student2@gmail.com,student2,Student2@123,9845632108,9845632108,1993-05-19T10:10:00Z,Guatemala,Male,TRUE,589658745,Primero básico
+Student,Three,student3@gmail.com,student3,Student3@123,9632587410,9632587410,1996-10-05T10:10:00Z,Guatemala,Male,TRUE,456987852,Primero básico

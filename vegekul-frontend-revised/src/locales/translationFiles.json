@@ -1,0 +1,2038 @@
+{
+  "dashboard": {
+    "en": "Dashboard",
+    "jp": "ホーム"
+  },
+  "order": {
+    "en": "Order",
+    "jp": "注文"
+  },
+  "header1_login": {
+    "en": "Welcome to VegeKul BPaaS",
+    "jp": "VegeKul BPaaSへようこそ"
+  },
+  "header2_login": {
+    "en": "Please login to your account",
+    "jp": "アカウントにログインしてください"
+  },
+  "englishName": {
+    "en": "English",
+    "jp": "英語"
+  },
+  "orderImportListDesc": {
+    "en": "List of objects to be imported",
+    "jp": "インポート対象データのプレビュー"
+  },
+  "item": {
+    "en": "Item",
+    "jp": "商品"
+  },
+  "orderDataSidebarHeaderMain": {
+    "en": "Order Data",
+    "jp": "注文データ"
+  },
+  "orderDataSidebarHeader1": {
+    "en": "Import Order Data",
+    "jp": "注文データのインポート"
+  },
+  "orderDataImportHeading": {
+    "en": "Order Data Import",
+    "jp": "注文データのインポート"
+  },
+  "bulkRegistration": {
+    "en": "Bulk Registration",
+    "jp": "一括登録"
+  },
+  "bulkDelete": {
+    "en": "Bulk Delete",
+    "jp": "一括削除"
+  },
+  "noDataToDisplay": {
+    "en": "No data to display",
+    "jp": "表示するデータがありません"
+  },
+  "importOrderData": {
+    "en": "Import Order Data",
+    "jp": "注文データのインポート"
+  },
+  "listInquiry": {
+    "en": "List Inquiry",
+    "jp": "注文一覧"
+  },
+  "orderEntry": {
+    "en": "Order Entry",
+    "jp": "受注入力"
+  },
+  "orderEntryList": {
+    "en": "Order Entry List",
+    "jp": "注文リスト入力"
+  },
+  "report": {
+    "en": "Report",
+    "jp": "レポート"
+  },
+  "orderSpreadsheet": {
+    "en": "Order Spreadsheet",
+    "jp": "注文集計表"
+  },
+  "pickingList": {
+    "en": "Picking List",
+    "jp": "ピッキングリスト"
+  },
+  "faxOrder": {
+    "en": "Fax Order",
+    "jp": "FAX分注文確認画面"
+  },
+  "masterData": {
+    "en": "Master Data",
+    "jp": "マスターデータ"
+  },
+  "productMaster": {
+    "en": "Product Master",
+    "jp": "商品マスター"
+  },
+  "userMaster": {
+    "en": "User Master",
+    "jp": "ユーザーマスター"
+  },
+  "customerMaster": {
+    "en": "Customer Master",
+    "jp": "顧客マスター"
+  },
+  "createProduct": {
+    "en": "Create Product",
+    "jp": "商品登録"
+  },
+  "updateProduct": {
+    "en": "Update Product",
+    "jp": "商品更新"
+  },
+  "create": {
+    "en": "Create",
+    "jp": "作成"
+  },
+  "update": {
+    "en": "Update",
+    "jp": "アップデート"
+  },
+  "partnerMaster": {
+    "en": "Partner Master",
+    "jp": "パートナーマスター"
+  },
+  "courseMaster": {
+    "en": "Course Master",
+    "jp": "コースマスター"
+  },
+  "productMasterByCustomer": {
+    "en": "Product Master By Customer",
+    "jp": "顧客別商品マスター"
+  },
+  "captureLayoutMaster": {
+    "en": "Capture Layout Master",
+    "jp": "ファイルレイアウトマスター"
+  },
+  "searchFilter": {
+    "en": "Search Filter",
+    "jp": "検索フィルター"
+  },
+  "search": {
+    "en": "Search",
+    "jp": "検索"
+  },
+  "orderList": {
+    "en": "Order List",
+    "jp": "注文一覧"
+  },
+  "items": {
+    "en": "items",
+    "jp": "商品"
+  },
+  "customerName": {
+    "en": "Customer Name",
+    "jp": "顧客名"
+  },
+  "productName": {
+    "en": "Product Name",
+    "jp": "商品名"
+  },
+  "deliveryDestination": {
+    "en": "Delivery Destination",
+    "jp": "配送先"
+  },
+  "register": {
+    "en": "Register",
+    "jp": "登録"
+  },
+  "orderSummaryResultList": {
+    "en": "Order summary result list",
+    "jp": "注文集計結果一覧"
+  },
+  "customerCode": {
+    "en": "Customer Code",
+    "jp": "顧客コード"
+  },
+  "paperOrderTarget": {
+    "en": "Paper order target",
+    "jp": "紙の注文対象"
+  },
+  "addItem": {
+    "en": "Add item",
+    "jp": "商品を追加"
+  },
+  "addUser": {
+    "en": "Add User",
+    "jp": "ユーザーを追加"
+  },
+  "familyName": {
+    "en": "Family Name",
+    "jp": "姓"
+  },
+  "emailAddress": {
+    "en": "Email Address",
+    "jp": "メールアドレス"
+  },
+  "masterDataSearch": {
+    "en": "Master Data Search",
+    "jp": "マスターデータの検索"
+  },
+  "code": {
+    "en": "Code",
+    "jp": "コード"
+  },
+  "supplierCode": {
+    "en": "Supplier Code",
+    "jp": "仕入先コード"
+  },
+  "productionArea": {
+    "en": "Production Area",
+    "jp": "生産地"
+  },
+  "importFileLayoutTemplateList": {
+    "en": "Import file layout template list",
+    "jp": "取込ファイルレイアウトテンプレート一覧"
+  },
+  "dropCSVFileHereOrClickToUpload": {
+    "en": "Drop CSV file here or click to upload",
+    "jp": "CSVファイルをここにドロップするかクリックしてアップロードしてください"
+  },
+  "dataAcquisitionDate": {
+    "en": "Data Acquisition Date",
+    "jp": "データ取得日"
+  },
+  "batchSummaryCodeCannotCreate": {
+    "en": "The batch cannot be created because the partner master has not been created",
+    "jp": "パートナー選択がされていないため作成できません"
+  },
+  "batchSummaryCodeMustBeUnique": {
+    "en": "The combination of code and partner code, batch summary code name and partner name must be unique.",
+    "jp": "コードとパートナー コード、バッチ サマリー コード名とパートナー名の<組み合わせは一意である必要があります。"
+  },
+  "dataAcquisitionTime": {
+    "en": "Data Acquisition Time",
+    "jp": "データ取得時間"
+  },
+  "deliveryDate": {
+    "en": "Delivery Date",
+    "jp": "納品日"
+  },
+  "upload": {
+    "en": "Upload",
+    "jp": "アップロード"
+  },
+  "result": {
+    "en": "result",
+    "jp": "結果"
+  },
+  "registration": {
+    "en": "Registration",
+    "jp": "登録"
+  },
+  "download": {
+    "en": "Download",
+    "jp": "ダウンロード"
+  },
+  "close": {
+    "en": "Close",
+    "jp": "閉じる"
+  },
+  "saveChanges": {
+    "en": "Save Changes",
+    "jp": "変更を保存"
+  },
+  "logout": {
+    "en": "Logout",
+    "jp": "ログアウト"
+  },
+  "emptyPickingList": {
+    "en": "Please select orders to generate picking list.",
+    "jp": "ピッキングリストを生成するために注文を選択してください。"
+  },
+  "orderCSVFile": {
+    "en": "Order Export",
+    "jp": "英語"
+  },
+  "updateItem": {
+    "en": "Update Item",
+    "jp": "商品の更新"
+  },
+  "createItem": {
+    "en": "Create Item",
+    "jp": "商品の登録"
+  },
+  "enterCode": {
+    "en": "Enter the code",
+    "jp": "コードを入力してください"
+  },
+  "rowNumber": {
+    "en": "Row Number",
+    "jp": "行番号"
+  },
+  "productCode": {
+    "en": "Product Code",
+    "jp": "商品コード"
+  },
+  "quantity": {
+    "en": "Quantity",
+    "jp": "数量"
+  },
+  "unitOfMeasure": {
+    "en": "Unit of Measure",
+    "jp": "測定単位"
+  },
+  "unitPrice": {
+    "en": "Unit Price",
+    "jp": "単価"
+  },
+  "amountOfMoney": {
+    "en": "Amount of Money",
+    "jp": "金額"
+  },
+  "city": {
+    "en": "City",
+    "jp": "市区町村"
+  },
+  "slipNumber": {
+    "en": "Slip Number",
+    "jp": "伝票番号"
+  },
+  "town": {
+    "en": "Town",
+    "jp": "町"
+  },
+  "zone": {
+    "en": "Zone",
+    "jp": "ゾーン"
+  },
+  "transactions": {
+    "en": "Transactions",
+    "jp": "取引"
+  },
+  "taxRate": {
+    "en": "Tax Rate",
+    "jp": "税率"
+  },
+  "aggregationCode": {
+    "en": "Aggregation Code",
+    "jp": "集計コード"
+  },
+  "storeHouse": {
+    "en": "Store House",
+    "jp": "倉庫"
+  },
+  "text": {
+    "en": "Text",
+    "jp": "テキスト"
+  },
+  "sortKey": {
+    "en": "Sort Key",
+    "jp": "ソートキー"
+  },
+  "enterSortKey": {
+    "en": "Enter the sort key",
+    "jp": "ソートキーを入力してください"
+  },
+  "unit": {
+    "en": "Unit",
+    "jp": "単位"
+  },
+  "enterUnit": {
+    "en": "Enter the unit",
+    "jp": "単位を入力してください"
+  },
+  "enterProductionArea": {
+    "en": "Enter the production area",
+    "jp": "生産地を入力してください"
+  },
+  "partnerProductCode": {
+    "en": "Partner Product Code",
+    "jp": "パートナー商品コード"
+  },
+  "enterPartnerProductCode": {
+    "en": "Enter the partner product code",
+    "jp": "パートナー商品コードを入力してください"
+  },
+  "enterText": {
+    "en": "Enter the text",
+    "jp": "テキストを入力してください"
+  },
+  "enterSupplierCode": {
+    "en": "Enter the supplier code",
+    "jp": "サプライヤーコードを入力してください"
+  },
+  "variety": {
+    "en": "Variety",
+    "jp": "品種"
+  },
+  "enterVariety": {
+    "en": "Enter the variety",
+    "jp": "品種を入力してください"
+  },
+  "partner": {
+    "en": "Partner",
+    "jp": "パートナー"
+  },
+  "enterPartner": {
+    "en": "Enter the partner",
+    "jp": "パートナーを入力してください"
+  },
+  "size": {
+    "en": "Size",
+    "jp": "サイズ"
+  },
+  "enterSize": {
+    "en": "Enter the size",
+    "jp": "サイズを入力してください"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "jp": "キャンセル"
+  },
+  "itemQuantity": {
+    "en": "Item Quantity",
+    "jp": "アイテム数量"
+  },
+  "orderNumber": {
+    "en": "Order Number",
+    "jp": "発注No."
+  },
+  "action": {
+    "en": "Action",
+    "jp": "アクション"
+  },
+  "partnerCode": {
+    "en": "Partner Code",
+    "jp": "パートナーコード"
+  },
+  "firstName": {
+    "en": "First Name",
+    "jp": "名"
+  },
+  "enterFirstName": {
+    "en": "Enter the first name",
+    "jp": "名を入力してください"
+  },
+  "enterLastName": {
+    "en": "Enter the first name",
+    "jp": "名を入力してください"
+  },
+  "enterOldPassword": {
+    "en": "Enter Old Password",
+    "jp": "今のパスワード"
+  },
+  "enterNewPassword": {
+    "en": "Enter new password",
+    "jp": "新しいパスワード"
+  },
+  "reEnterNewPassword": {
+    "en": "Re-enter new password",
+    "jp": "新しいパスワードの確認"
+  },
+  "email": {
+    "en": "Email",
+    "jp": "Eメール"
+  },
+  "changeImage": {
+    "en": "Change Image",
+    "jp": "イメージを変更する"
+  },
+  "updateUser": {
+    "en": "Update User",
+    "jp": "ユーザーの更新"
+  },
+  "Super Dashboard Admin": {
+    "en": "Super Dashboard Admin",
+    "jp": "ベジクル管理者"
+  },
+  "Super Dashboard Staff": {
+    "en": "Super Dashboard Staff",
+    "jp": "ベジクルスタッフ"
+  },
+  "enterFamilyName": {
+    "en": "Enter the family name",
+    "jp": "姓を入力してください"
+  },
+  "password": {
+    "en": "Password",
+    "jp": "パスワード"
+  },
+  "enterPassword": {
+    "en": "Enter the password",
+    "jp": "パスワードを入力してください"
+  },
+  "role": {
+    "en": "Role",
+    "jp": "役割"
+  },
+  "enterEmail": {
+    "en": "Enter the email",
+    "jp": "メールアドレスを入力してください"
+  },
+  "createUser": {
+    "en": "Create User",
+    "jp": "ユーザーの作成"
+  },
+  "address": {
+    "en": "Address",
+    "jp": "住所"
+  },
+  "courseCode": {
+    "en": "Course Code",
+    "jp": "配送コースコード"
+  },
+  "telephoneNumber": {
+    "en": "Telephone Number",
+    "jp": "電話番号"
+  },
+  "faxNumber": {
+    "en": "Fax Number",
+    "jp": "FAX番号"
+  },
+  "manager": {
+    "en": "Manager",
+    "jp": "担当者"
+  },
+  "billingCode": {
+    "en": "Billing Code",
+    "jp": "請求コード"
+  },
+  "termOfSale": {
+    "en": "Term of Sale",
+    "jp": "販売条件"
+  },
+  "partnerName": {
+    "en": "Partner Name",
+    "jp": "パートナー名"
+  },
+  "courseName": {
+    "en": "Course Name",
+    "jp": "配送コース名"
+  },
+  "productOrder": {
+    "en": "Product Order",
+    "jp": "商品注文"
+  },
+  "captureLayoutMasterHeader": {
+    "en": "To edit the template, press the edit layout button from the import file layout template list. For new registration please set from the template new registration button",
+    "jp": "テンプレートを編集するには、インポートファイルレイアウトテンプレートリストからレイアウト編集ボタンを押します。新規登録の場合は、テンプレート新規登録ボタンから設定してください"
+  },
+  "templateName": {
+    "en": "Template Name",
+    "jp": "テンプレート名"
+  },
+  "registeredPerson": {
+    "en": "Registered Person",
+    "jp": "登録者"
+  },
+  "registrationDate": {
+    "en": "Registration Date",
+    "jp": "登録日"
+  },
+  "updater": {
+    "en": "Updater",
+    "jp": "更新者"
+  },
+  "updatedDate": {
+    "en": "Updated Date",
+    "jp": "更新日"
+  },
+  "loading": {
+    "en": "Loading...",
+    "jp": "読み込み中..."
+  },
+  "merchandise": {
+    "en": "Merchandise",
+    "jp": "商品"
+  },
+  "profileUpdatedSuccessfully": {
+    "en": "Profile updated successfully",
+    "jp": "プロフィールの更新に成功しました"
+  },
+  "salesVolume": {
+    "en": "Sales Volume",
+    "jp": "販売数量"
+  },
+  "costAmount": {
+    "en": "Cost Amount",
+    "jp": "原価"
+  },
+  "salesAmount": {
+    "en": "Sales Amount",
+    "jp": "販売金額"
+  },
+  "packing": {
+    "en": "Packing",
+    "jp": "梱包"
+  },
+  "kgQuantity": {
+    "en": "Kg Quantity",
+    "jp": "Kg"
+  },
+  "feed": {
+    "en": "Feed",
+    "jp": "フィード"
+  },
+  "message": {
+    "en": "Message",
+    "jp": "メッセージ"
+  },
+  "row": {
+    "en": "Row",
+    "jp": "行"
+  },
+  "Invalid Transaction Status Code": {
+    "en": "Invalid Transaction Status Code",
+    "jp": "無効な取引状態コード"
+  },
+  "column": {
+    "en": "Column",
+    "jp": "列"
+  },
+  "Please fix the errors before uploading": {
+    "en": "Please fix the errors before uploading",
+    "jp": "アップロードする前にエラーを修正してください"
+  },
+  "Must be a number": {
+    "en": "Must be a number",
+    "jp": "数字でなければなりません"
+  },
+  "Please import valid file": {
+    "en": "Please import valid file",
+    "jp": "有効なファイルをインポートしてください"
+  },
+  "Value should not be a number": {
+    "en": "Value should not be a number",
+    "jp": "値は数字であってはなりません"
+  },
+  "A valid number is required.": {
+    "en": "A valid number is required.",
+    "jp": "有効な番号が必要です。"
+  },
+  "errors": {
+    "en": "errors",
+    "jp": "エラー"
+  },
+  "faxSentSuccessfully": {
+    "en": "Fax sent successfully",
+    "jp": "ファックスが正常に送信されました"
+  },
+  "downloadPDF": {
+    "en": "Download PDF",
+    "jp": "PDFをダウンロード"
+  },
+  "sendFax": {
+    "en": "Send Fax",
+    "jp": "ファックスを送信"
+  },
+  "downloadPDFAndSendFax": {
+    "en": "Download PDF and Send Fax",
+    "jp": "PDFをダウンロードしてファックスを送信"
+  },
+  "notAvailable": {
+    "en": "Not Available",
+    "jp": "利用できません"
+  },
+  "noDataAvailableForThisTable": {
+    "en": "No data available for this table",
+    "jp": "このテーブルにはデータがありません"
+  },
+  "actions": {
+    "en": "Actions",
+    "jp": "アクション"
+  },
+  "itemsPerPage": {
+    "en": "Items per page",
+    "jp": "ページごとの項目数"
+  },
+  "showing": {
+    "en": "Showing",
+    "jp": "ページに"
+  },
+  "to": {
+    "en": "to",
+    "jp": "から"
+  },
+  "of": {
+    "en": "of",
+    "jp": "を"
+  },
+  "entries": {
+    "en": "entries",
+    "jp": "表示"
+  },
+  "invoiceDate": {
+    "en": "Invoice Date",
+    "jp": "伝票日付"
+  },
+  "createdTime": {
+    "en": "Created Time",
+    "jp": "作成時間"
+  },
+  "createdDate": {
+    "en": "Created Date",
+    "jp": "作成日"
+  },
+  "transactionManagement": {
+    "en": "Transaction Management",
+    "jp": "取引マネジメント"
+  },
+  "masterAdmin": {
+    "en": "Master Admin",
+    "jp": "マスター管理者"
+  },
+  "systemManagement": {
+    "en": "System Management",
+    "jp": "システムマネジメント"
+  },
+  "orderData": {
+    "en": "Order Data",
+    "jp": "注文データ"
+  },
+  "listOfOrder": {
+    "en": "List of Order",
+    "jp": "注文のリスト"
+  },
+  "orderSummaryData": {
+    "en": "Order Summary Data",
+    "jp": "注文概要データ"
+  },
+  "transactionId": {
+    "en": "Transaction ID",
+    "jp": "取引ID"
+  },
+  "transactionStatusId": {
+    "en": "Transaction Status Code",
+    "jp": "取引状態コード"
+  },
+  "transactionStatus": {
+    "en": "Transaction Status",
+    "jp": "取引状態"
+  },
+  "invoiceNumber": {
+    "en": "Invoice Number",
+    "jp": "伝票No"
+  },
+  "invoiceViewNumber": {
+    "en": "Invoice View Number",
+    "jp": "伝票明細表示順番号"
+  },
+  "internalCode": {
+    "en": "Internal Code",
+    "jp": "自社コード"
+  },
+  "companyName": {
+    "en": "Company Name",
+    "jp": "自社会員名"
+  },
+  "companyEmployeeName": {
+    "en": "Company Employee Name",
+    "jp": "自社担当者"
+  },
+  "employeeNameAtCustomer": {
+    "en": "Employee Name at Customer",
+    "jp": "取引先担当者名"
+  },
+  "internalItemId": {
+    "en": "Vegekul Item Code",
+    "jp": "ベジクル商品コード"
+  },
+  "foodCategoryCode": {
+    "en": "Food Category Code",
+    "jp": "食品小分類コード"
+  },
+  "foodCategory1": {
+    "en": "Food Category 1",
+    "jp": "食品大分類名"
+  },
+  "foodCategory2": {
+    "en": "Food Category 2",
+    "jp": "食品中分類名"
+  },
+  "foodCategory3": {
+    "en": "Food Category 3",
+    "jp": "食品小分類名"
+  },
+  "itemName": {
+    "en": "Item Name",
+    "jp": "商品名"
+  },
+  "itemStandard": {
+    "en": "Item Standard",
+    "jp": "規格"
+  },
+  "packageQty": {
+    "en": "Package Quantity",
+    "jp": "入数"
+  },
+  "packageQtyCode": {
+    "en": "Package Quantity Code",
+    "jp": "入数単位コード"
+  },
+  "packageQtyUnit": {
+    "en": "Package Quantity Unit",
+    "jp": "入数単位"
+  },
+  "desiredUnitPrice": {
+    "en": "Desired Unit Price",
+    "jp": "希望単価"
+  },
+  "desiredQuantity": {
+    "en": "Desired Quantity",
+    "jp": "希望数量"
+  },
+  "desiredUnitCode": {
+    "en": "Desired Unit Code",
+    "jp": "希望単位コード"
+  },
+  "unitCode": {
+    "en": "Unit Code",
+    "jp": "希望単位"
+  },
+  "desiredAmount": {
+    "en": "Desired Amount",
+    "jp": "希望金額"
+  },
+  "unitCodeChar": {
+    "en": "Unit Code Char",
+    "jp": "単位コード"
+  },
+  "unitCodeAmount": {
+    "en": "Unit Code Amount",
+    "jp": "単位"
+  },
+  "amount": {
+    "en": "Amount",
+    "jp": "金額"
+  },
+  "taxClassification": {
+    "en": "Tax Classification",
+    "jp": "税区分"
+  },
+  "consumptionTax": {
+    "en": "Consumption Tax",
+    "jp": "消費税"
+  },
+  "subtotal": {
+    "en": "Subtotal",
+    "jp": "小計"
+  },
+  "myCatalogId": {
+    "en": "My Catalog ID",
+    "jp": "マイカタログID"
+  },
+  "voucherId": {
+    "en": "Voucher ID",
+    "jp": "伝票明細ID"
+  },
+  "itemTaxClassification": {
+    "en": "Item Tax Classification",
+    "jp": "課税区分"
+  },
+  "itemRegistration": {
+    "en": "Item Registration",
+    "jp": "商品登録"
+  },
+  "changeClassification": {
+    "en": "Change Classification",
+    "jp": "変更区分"
+  },
+  "totalProductBody": {
+    "en": "Total Product Body",
+    "jp": "合計 商品本体"
+  },
+  "totalItemConsumptionTax": {
+    "en": "Total Item Consumption Tax",
+    "jp": "合計 商品消費税"
+  },
+  "totalShippingFees": {
+    "en": "Total Shipping Fees",
+    "jp": "合計 送料本体"
+  },
+  "totalShippingConsumptionTax": {
+    "en": "Total Shipping Consumption Tax",
+    "jp": "合計 送料消費税"
+  },
+  "totalOtherTotal": {
+    "en": "Total Other",
+    "jp": "合計 その他"
+  },
+  "total": {
+    "en": "Total",
+    "jp": "総合計"
+  },
+  "orderDate": {
+    "en": "Order Date",
+    "jp": "発注日"
+  },
+  "expectedShippingDate": {
+    "en": "Expected Shipping Date",
+    "jp": "発送予定日"
+  },
+  "shipmentDate": {
+    "en": "Shipment Date",
+    "jp": "発送日"
+  },
+  "deliveryTime": {
+    "en": "Delivery Time",
+    "jp": "納品時間"
+  },
+  "temperatureRange": {
+    "en": "Temperature Range",
+    "jp": "温度帯"
+  },
+  "receiptDate": {
+    "en": "Receipt Date",
+    "jp": "受領日"
+  },
+  "subject": {
+    "en": "Subject",
+    "jp": "件名"
+  },
+  "voucherControlNumber": {
+    "en": "Voucher Control Number",
+    "jp": "伝票管理番号"
+  },
+  "placeNameDelivery": {
+    "en": "Delivery Place Name",
+    "jp": "納品場所名"
+  },
+  "deliveryLocation": {
+    "en": "Delivery Location",
+    "jp": "納品場所 住所"
+  },
+  "shippingCode": {
+    "en": "Shipping Code",
+    "jp": "発送コード"
+  },
+  "deliveryCarrierName": {
+    "en": "Delivery Carrier Name",
+    "jp": "物流企業名"
+  },
+  "paymentAgency": {
+    "en": "Payment Agency",
+    "jp": "決済代行利用"
+  },
+  "paymentCategory": {
+    "en": "Payment Category",
+    "jp": "支払区分"
+  },
+  "priceQuoteNumber": {
+    "en": "Price Quote Number",
+    "jp": "見積提案書No."
+  },
+  "quoteRequestNumber": {
+    "en": "Quote Request Number",
+    "jp": "見積依頼No."
+  },
+  "quotationNumber": {
+    "en": "Quotation Number",
+    "jp": "見積書No."
+  },
+  "orderNumberSecondary": {
+    "en": "Secondary Order Number",
+    "jp": "受注No."
+  },
+  "originalVoucherNumber": {
+    "en": "Original Voucher Number",
+    "jp": "元伝票No."
+  },
+  "site": {
+    "en": "Site",
+    "jp": "サイト"
+  },
+  "transmissionDate": {
+    "en": "Transmission Date",
+    "jp": "送信日時"
+  },
+  "orderSent": {
+    "en": "Order Sent",
+    "jp": "発注送信日時"
+  },
+  "deliveryLocationCode": {
+    "en": "Delivery Location Code",
+    "jp": "納品場所コード"
+  },
+  "companyUnitCode": {
+    "en": "Company Unit Code",
+    "jp": "自社単位コード"
+  },
+  "quantityUnitCode": {
+    "en": "Quantity Unit Code",
+    "jp": "入数自社単位コード"
+  },
+  "janCode2": {
+    "en": "JAN Code 2",
+    "jp": "JANコード2"
+  },
+  "orderingComments": {
+    "en": "Ordering Comments",
+    "jp": "発注時コメント"
+  },
+  "deleteWarning": {
+    "en": "This action cannot be undone. This will permanently delete your data and remove your data from our servers ",
+    "jp": "この操作は元に戻すことができません。これにより、お客様のデータは完全に削除され、当社のサーバーからも削除されます。"
+  },
+  "areYouSure": {
+    "en": "Are you absolutely sure?",
+    "jp": "絶対に間違いありませんか？"
+  },
+  "yesDeleteData": {
+    "en": "Yes, delete data",
+    "jp": "削除する"
+  },
+  "productMasterBUlkRegister": {
+    "en": "Product Master Bulk Register",
+    "jp": "商品マスターの一括登録"
+  },
+  "bulkRegister": {
+    "en": "Bulk Register",
+    "jp": "一括登録"
+  },
+  "pickingListDetail": {
+    "en": "Picking List Detail",
+    "jp": "ピッキングリスト詳細"
+  },
+  "productSystemCode": {
+    "en": "Product System Code",
+    "jp": "商品システムコード"
+  },
+  "inHouseManagedProductCode": {
+    "en": "In-house Managed Product Code",
+    "jp": "ベジクル商品コード"
+  },
+  "productNameFurigana": {
+    "en": "Product Name Furigana",
+    "jp": "商品名フリガナ"
+  },
+  "inHouseManagedProductName": {
+    "en": "In-house Managed Product Name",
+    "jp": "自社管理商品名"
+  },
+  "manufactureName": {
+    "en": "Manufacture Name",
+    "jp": "生産者名"
+  },
+  "foodMajorClassificationName": {
+    "en": "Food Major Classification Name",
+    "jp": "食品大分類名"
+  },
+  "foodMediumClassificationName": {
+    "en": "Food Medium Classification Name",
+    "jp": "食品中分類名"
+  },
+  "foodSubclassName": {
+    "en": "Food Subclass Name",
+    "jp": "食品小分類名"
+  },
+  "foodClassificationCode": {
+    "en": "Food Classification Code",
+    "jp": "食品小分類コード"
+  },
+  "catchCopy": {
+    "en": "Catch Copy",
+    "jp": "ピッキングリスト出力順"
+  },
+  "explanation": {
+    "en": "Explanation",
+    "jp": "説明"
+  },
+  "producingArea": {
+    "en": "Producing Area",
+    "jp": "生産地"
+  },
+  "retailUnitPriceSetting": {
+    "en": "Retail Unit Price Setting",
+    "jp": "小売単価設定"
+  },
+  "retailUnitPrice": {
+    "en": "Retail Unit Price",
+    "jp": "小売単価"
+  },
+  "retailUnitCode": {
+    "en": "Retail Unit Code",
+    "jp": "小売単価単位コード"
+  },
+  "referenceWholesalePriceSetting": {
+    "en": "Reference Wholesale Price Setting",
+    "jp": "参考卸値設定"
+  },
+  "referenceWholesalePrice": {
+    "en": "Reference Wholesale Price",
+    "jp": "参考卸値"
+  },
+  "referenceWholesaleUnitCode": {
+    "en": "Reference Wholesale Unit Code",
+    "jp": "参考卸値単位コード"
+  },
+  "referenceWholesalePriceUnit": {
+    "en": "Reference Wholesale Price Unit",
+    "jp": "参考卸値単位"
+  },
+  "referenceWholesalePriceIncludingTaxCode": {
+    "en": "Reference Wholesale Price Including Tax Code",
+    "jp": "参考卸値税込みコード"
+  },
+  "referenceWholesalePriceIncludingTax": {
+    "en": "Reference Wholesale Price Including Tax",
+    "jp": "参考卸値税込み"
+  },
+  "standard": {
+    "en": "Standard",
+    "jp": "規格"
+  },
+  "quantityUnit": {
+    "en": "Quantity Unit",
+    "jp": "入数単位"
+  },
+  "sampleProductPrice": {
+    "en": "Sample Product Price",
+    "jp": "サンプル商品価格"
+  },
+  "sampleProductUnitCode": {
+    "en": "Sample Product Unit Code",
+    "jp": "サンプル商品単位コード"
+  },
+  "sampleProductUnit": {
+    "en": "Sample Product Unit",
+    "jp": "サンプル商品単位"
+  },
+  "sampleProductsForFree": {
+    "en": "Sample Products For Free",
+    "jp": "サンプル商品有償無償"
+  },
+  "sampleProductTaxIncluded": {
+    "en": "Sample Product Tax Included",
+    "jp": "サンプル商品税込み"
+  },
+  "sampleProductShippingFeeIncluded": {
+    "en": "Sample Product Shipping Fee Included",
+    "jp": "サンプル商品運送費込み"
+  },
+  "taxExempt": {
+    "en": "Tax Exempt",
+    "jp": "非課税"
+  },
+  "sellingDiscontinued": {
+    "en": "Selling Discontinued",
+    "jp": "販売中止"
+  },
+  "updateDate": {
+    "en": "Update Date",
+    "jp": "更新日"
+  },
+  "pleaseSelectAtLeastOneCourse": {
+    "en": "Please select at least one course",
+    "jp": "少なくとも1つのコースを選択してください"
+  },
+  "addCourse": {
+    "en": "Add Course",
+    "jp": "コースを追加"
+  },
+  "createCourse": {
+    "en": "Create Course",
+    "jp": "コースを作成"
+  },
+  "classification": {
+    "en": "Classification",
+    "jp": "分類"
+  },
+  "course": {
+    "en": "Course",
+    "jp": "コース"
+  },
+  "company": {
+    "en": "Company",
+    "jp": "会社"
+  },
+  "addPartner": {
+    "en": "Add Partner",
+    "jp": "パートナーを追加"
+  },
+  "partnerEmail": {
+    "en": "Partner Email",
+    "jp": "パートナーのメールアドレス"
+  },
+  "partnerPassword": {
+    "en": "Partner Password",
+    "jp": "パートナーのパスワード"
+  },
+  "prefacture": {
+    "en": "Prefacture",
+    "jp": "都道府県"
+  },
+  "street": {
+    "en": "Street",
+    "jp": "番地"
+  },
+  "enterCompany": {
+    "en": "Enter the company",
+    "jp": "会社名を入力してください"
+  },
+  "enterCourse": {
+    "en": "Enter the course",
+    "jp": "コースを入力してください"
+  },
+  "postNumber": {
+    "en": "Post Number",
+    "jp": "郵便番号"
+  },
+  "createPartner": {
+    "en": "Create Partner",
+    "jp": "パートナーを追加"
+  },
+  "selectPartner": {
+    "en": "Select Partner",
+    "jp": "パートナーを選択"
+  },
+  "customerBulkRegistration": {
+    "en": "Customer Bulk Registration",
+    "jp": "顧客一括登録"
+  },
+  "enterOrderBatchSummaryCode": {
+    "en": "Enter Order Batch Summary Code",
+    "jp": "集計コードを入力してください"
+  },
+  "summaryCode": {
+    "en": "Summary Code",
+    "jp": "集計コード"
+  },
+  "batchSummaryCodeIsInvalid": {
+    "en": "Batch Summary Code is invalid.",
+    "jp": "集計コードが無効です。"
+  },
+  "reset": {
+    "en": "Reset",
+    "jp": "リセット"
+  },
+  "voucherDate": {
+    "en": "Voucher Date",
+    "jp": "伝票日付"
+  },
+  "shopCategory": {
+    "en": "Shop Category",
+    "jp": "業態名"
+  },
+  "salesPersonCode": {
+    "en": "Sales Person Code",
+    "jp": "営業担当コード"
+  },
+  "partnerItemCode": {
+    "en": "Partner Item Code",
+    "jp": "パートナー商品コード"
+  },
+  "startTradingDate": {
+    "en": "Start Trading Date",
+    "jp": "取引開始日"
+  },
+  "resetTable": {
+    "en": "Reset Table",
+    "jp": "テーブルをリセット "
+  },
+  "tableResetSuccessfully": {
+    "en": "Table reset successfully",
+    "jp": "テーブルが正常にリセットされました "
+  },
+  "errorOccuredWhileDeletingTheTable": {
+    "en": "Error Occured While Deleting The Table",
+    "jp": "テーブルの削除中にエラーが発生しました"
+  },
+  "billingAddressCode": {
+    "en": "Billing Address Code",
+    "jp": "請求先コード"
+  },
+  "usingInfomartCode": {
+    "en": "Using Infomart Code",
+    "jp": "インフォマート利用コード"
+  },
+  "customerName1": {
+    "en": "Customer Name 1",
+    "jp": "顧客名1"
+  },
+  "customerName2": {
+    "en": "Customer Name 2",
+    "jp": "顧客名2"
+  },
+  "itemCode": {
+    "en": "Item Code",
+    "jp": "商品コード"
+  },
+  "zipCode": {
+    "en": "Zip Code",
+    "jp": "郵便番号"
+  },
+  "salesQuantity": {
+    "en": "Sales Quantity",
+    "jp": "販売数量"
+  },
+  "aggregateCode": {
+    "en": "Aggregate Code",
+    "jp": "集計コード"
+  },
+  "orderNo": {
+    "en": "Order No",
+    "jp": "注文番号"
+  },
+  "smileListInquiry": {
+    "en": "Smile List Inquiry",
+    "jp": "注文リスト(SMILE)"
+  },
+  "smileOrderSpreadsheet": {
+    "en": "Smile Order Spreadsheet",
+    "jp": "注文集計表(SMILE)"
+  },
+  "smilePickingList": {
+    "en": "Smile Picking List",
+    "jp": "ピッキングリスト(SMILE)"
+  },
+  "batchSummaryCode": {
+    "en": "Batch Summary Code",
+    "jp": "集計コード"
+  },
+  "edit": {
+    "en": "Edit",
+    "jp": "編集"
+  },
+  "bulkUpdate": {
+    "en": "Bulk Update",
+    "jp": "一括更新"
+  },
+  "updatePartner": {
+    "en": "Update Partner",
+    "jp": "パートナー更新"
+  },
+  "partnerInformation": {
+    "en": "Partner Information",
+    "jp": "パートナー情報"
+  },
+  "confirmWarning": {
+    "en": "Do you wan to send this Fax?",
+    "jp": "このファックスを送信しますか?"
+  },
+  "yesSendFax": {
+    "en": "Yes Send Fax",
+    "jp": "はい、ファックスを送信します"
+  },
+  "lastFaxSent": {
+    "en": "Last Fax Sent",
+    "jp": "ファックス送信日時"
+  },
+  "lastPdfMade": {
+    "en": "Last PDF Made",
+    "jp": "PDF作成日時"
+  },
+  "pdfWarning": {
+    "en": "The PDF has already been generated. Do you still wish to create a PDF? ",
+    "jp": "PDFは既に作成されています。それでもPDFを作成しますか"
+  },
+  "faxWarning": {
+    "en": "Fax has been sent already. Do you still want to send a fax? ",
+    "jp": "ファックスは既に送信されています。それでもファックスを送信しますか？"
+  },
+  "proceed": {
+    "en": "Proceed",
+    "jp": "進む"
+  },
+  "signIn": {
+    "en": "Sign In",
+    "jp": "サインイン"
+  },
+  "rememberMe": {
+    "en": "Remember Me",
+    "jp": "ログイン情報を保存する"
+  },
+  "forgotPassword": {
+    "en": "Forgot Password",
+    "jp": "パスワードをお忘れですか"
+  },
+  "recoverAccount": {
+    "en": "Recover Account",
+    "jp": "アカウント復旧"
+  },
+  "rememberedYourPassword": {
+    "en": "Remembered Your Password",
+    "jp": "パスワードを思い出しましたか?"
+  },
+  "requestVerificationCode": {
+    "en": "Request Verification Code",
+    "jp": "認証コードの送信"
+  },
+  "signingIn": {
+    "en": "Signing In",
+    "jp": "サインイン"
+  },
+  "signUp": {
+    "en": "Sign Up",
+    "jp": "サインアップ"
+  },
+  "dontHaveAnAccountYet": {
+    "en": "Don't have an account yet",
+    "jp": "まだアカウントをお持ちではありません"
+  },
+  "requestingCode": {
+    "en": "Requesting Code",
+    "jp": "コードをリクエストしています"
+  },
+  "emailSentSuccessfully": {
+    "en": " Email sent successfully",
+    "jp": "メールを正常に送信しました"
+  },
+  "noPartnersFound": {
+    "en": "No Partners Found",
+    "jp": "パートナー情報が見つかりません"
+  },
+  "pleaseResetYourPasswordToAccessYourAccount": {
+    "en": "Please reset your password to access your account",
+    "jp": "アカウントにアクセスするにはパスワードをリセットしてください"
+  },
+  "pleaseSelectAPartner": {
+    "en": "Please select a partner",
+    "jp": "パートナーを選択してください"
+  },
+  "logoutSuccessful": {
+    "en": "Logout Successful",
+    "jp": "ログアウト成功"
+  },
+  "loggedInSuccessfully": {
+    "en": "Logged In Successfully",
+    "jp": "正常にログインしました"
+  },
+  "customerDeletedSuccessfully": {
+    "en": "Customer Deleted Successfully",
+    "jp": "顧客は正常に削除されました"
+  },
+  "errorDeletingUser": {
+    "en": "Error Deleting User",
+    "jp": "ユーザー削除エラー"
+  },
+  "productDeletedSuccessfully": {
+    "en": "Product Deleted Successfully",
+    "jp": "製品は正常に削除されました"
+  },
+  "errorDeletingProduct": {
+    "en": "Error Deleting Product",
+    "jp": "製品削除エラー"
+  },
+  "quantityUnitDeletedSuccessfully": {
+    "en": "Quantity Unit Deleted Successfully",
+    "jp": "数量単位が正常に削除されました"
+  },
+  "inquiryListDeletedSuccessfully": {
+    "en": "Inquiry List Deleted Successfully",
+    "jp": "注文リストが正常に削除されました"
+  },
+  "errorDeletingQuantityUnit": {
+    "en": "Error Deleting Quantity Unit",
+    "jp": "数量単位の削除エラー"
+  },
+  "userDeletedSuccessfully": {
+    "en": "User Deleted Successfully",
+    "jp": "ユーザーは正常に削除されました"
+  },
+  "inquiryListUpdatedSuccessfully": {
+    "en": "Inquiry List Updated Successfully",
+    "jp": "注文リストが正常に更新されました"
+  },
+  "errorOccuredWhileDeletingTheListInquires": {
+    "en": "Error Occured While Deleting The List Inquires",
+    "jp": "注文リストの削除中にエラーが発生しました"
+  },
+  "batchSummaryCodeAddedSuccessfully": {
+    "en": "Batch Summary Code Added Successfully",
+    "jp": "集計コードが正常に追加されました"
+  },
+  "batchSummaryCodeupdatedSuccessfully": {
+    "en": "Batch Summary Code Updated Successfully",
+    "jp": "集計コードが正常に更新されました"
+  },
+  "batchSummaryCodeDeletedSuccessfully": {
+    "en": "Batch Summary Code Deleted Successfully",
+    "jp": "集計コードが正常に削除されました"
+  },
+  "anErrorOccurredWhileDeletingTheUser": {
+    "en": "An Error Occurred While Deleting The User",
+    "jp": "ユーザーの削除中にエラーが発生しました"
+  },
+  "companyAddedSuccessfully": {
+    "en": "Company Added Successfully",
+    "jp": "会社名が正常に追加されました"
+  },
+  "companyDetailsUpdatedSuccessfully": {
+    "en": "Company Details Updated Successfully",
+    "jp": "会社詳細が正常に更新されました"
+  },
+  "companyDeletedSuccessfully": {
+    "en": "Company Deleted Successfully",
+    "jp": "会社名は正常に削除されました"
+  },
+  "conversionFactorAddedSuccessfully": {
+    "en": "Conversion Factor Added Successfully",
+    "jp": "換算係数が正常に追加されました"
+  },
+  "conversionRateUpdatedSuccessfully": {
+    "en": "Conversion rate updated successfully",
+    "jp": "換算率が正常に更新されました"
+  },
+  "conversionRateDeletedSuccessfully": {
+    "en": "Conversion Rate Deleted Successfully",
+    "jp": "換算率が正常に削除されました"
+  },
+  "anErrorOccurredWhileDeletingTheData": {
+    "en": "An Error Occurred While Deleting The Data",
+    "jp": "データの削除中にエラーが発生しました"
+  },
+  "courseDataUploadedSuccessfully": {
+    "en": "Course Data Uploaded Successfully",
+    "jp": "コースデータが正常にアップロードされました"
+  },
+  "courseAddedSuccessfully": {
+    "en": "Course Added Successfully",
+    "jp": "コースが正常に追加されました"
+  },
+  "courseDetailsUpdatedSuccessfully": {
+    "en": "Course Details Updated Successfully",
+    "jp": "コース詳細が正常に更新されました"
+  },
+  "coursesDeletedSuccessfully": {
+    "en": "Courses Deleted Successfully",
+    "jp": "コースが正常に削除されました"
+  },
+  "errorOccuredWhileDeletingTheCourses": {
+    "en": "Error Occured While Deleting The Courses",
+    "jp": "コースの削除中にエラーが発生しました"
+  },
+  "pleaseImportValidFile": {
+    "en": "Please Import Valid File",
+    "jp": "有効なファイルをインポートしてください"
+  },
+  "customerMasterDataUploadedSuccessfully": {
+    "en": "Customer Master Data Uploaded Successfully",
+    "jp": "顧客マスターデータが正常にアップロードされました"
+  },
+  "partnerDeletedSuccessfully": {
+    "en": "Partner Deleted Successfully",
+    "jp": "パートナーは正常に削除されました"
+  },
+  "partnerAddedSuccessfully": {
+    "en": "Partner Added Successfully",
+    "jp": "パートナーが正常に追加されました"
+  },
+  "partnerDetailsUpdatedSuccessfully": {
+    "en": "Partner Details Updated Successfully",
+    "jp": "パートナー詳細が正常に更新されました"
+  },
+  "partnerAssignedSuccessfully": {
+    "en": "Partner Assigned Successfully",
+    "jp": "パートナーが正常に割り当てられました"
+  },
+  "partnerAssignedUpdatedSuccessfully": {
+    "en": "Partner Assigned Updated Successfully",
+    "jp": "割り当てられたパートナーが正常に更新されました"
+  },
+  "resettingYourPassword...": {
+    "en": "Resetting Your Password...",
+    "jp": "パスワードをリセットしています..."
+  },
+  "passwordResetSuccessfully": {
+    "en": "Password Reset Successfully",
+    "jp": "パスワードが正常にリセットされました"
+  },
+  "errorResettingPassword": {
+    "en": "Error Resetting Password",
+    "jp": "パスワードのリセットエラー"
+  },
+  "productDataUploadedSuccessfully": {
+    "en": "Product Data Uploaded Successfully",
+    "jp": "商品データが正常にアップロードされました"
+  },
+  "productAddedSuccessfully": {
+    "en": "Product Added Successfully",
+    "jp": "商品が正常に追加されました"
+  },
+  "somethingWentWrong": {
+    "en": "Something Went Wrong",
+    "jp": "問題が発生しました"
+  },
+  "productDetailsUpdatedSuccessfully": {
+    "en": "Product Details Updated Successfully",
+    "jp": "商品詳細が正常に更新されました"
+  },
+  "errorUpdatingProfile": {
+    "en": "Error Updating Profile",
+    "jp": "プロフィール更新エラー"
+  },
+  "newPasswordsMustBeSame": {
+    "en": "New Passwords Must Be Same",
+    "jp": "新しいパスワードが一致している必要があります"
+  },
+  "passwordUpdatedSuccessfully": {
+    "en": "Password Updated Successfully",
+    "jp": "パスワードが正常に更新されました"
+  },
+  "quantityUnitAddedSuccessfully": {
+    "en": "Quantity Unit Added Successfully",
+    "jp": "数量単位が正常に追加されました"
+  },
+  "userAddedSuccessfully": {
+    "en": "User Added Successfully",
+    "jp": "ユーザーが正常に追加されました"
+  },
+  "userDetailsUpdatedSuccessfully": {
+    "en": "User Details Updated Successfully",
+    "jp": "ユーザー詳細が正常に更新されました"
+  },
+  "amountIsARequiredField": {
+    "en": "Amount Is A Required Field",
+    "jp": "金額は必須フィールドです"
+  },
+  "invoiceDateIsARequiredField": {
+    "en": "Invoice Date Is A Required Field",
+    "jp": "請求書の日付は必須フィールドです"
+  },
+  "quantityIsARequiredField": {
+    "en": "Quantity Is A Required Field",
+    "jp": "数量は必須フィールドです"
+  },
+  "unitPriceIsARequiredField": {
+    "en": "Unit Price Is A Required Field",
+    "jp": "単価は必須フィールドです"
+  },
+  "goToLogin": {
+    "en": "Go to Login",
+    "jp": "ログインに移動"
+  },
+  "pleaseCheckYourEmailToResetYourPassword": {
+    "en": " Please check your email to reset your password",
+    "jp": "メールを確認してパスワードをリセットしてください"
+  },
+  "lastProcessedDate": {
+    "en": "Last Processed Date",
+    "jp": "最終処理日"
+  },
+  "pleaseFillDeliveryDate": {
+    "en": "Please fill in the delivery date",
+    "jp": "納品日を入力してください"
+  },
+  "pleaseFillCustomerCode": {
+    "en": "Please fill in the customer code",
+    "jp": "顧客コードを入力してください"
+  },
+  "pleaseFillCustomerName": {
+    "en": "Please fill in the customer name",
+    "jp": "顧客名を入力してください"
+  },
+  "pleaseFillPartnerCode": {
+    "en": "Please fill in the partner code",
+    "jp": "パートナーコードを入力してください"
+  },
+  "pleaseFillBatchSummaryCode": {
+    "en": "Please fill in the batch summary code",
+    "jp": "集計コードを入力してください"
+  },
+  "errorUpdatingData": {
+    "en": "Error updating data",
+    "jp": "データの更新中にエラーが発生しました"
+  },
+  "deliveryDateRequired": {
+    "en": "Delivery date is required.",
+    "jp": "納品日が必要です。"
+  },
+  "customerCodeRequired": {
+    "en": "Customer code is required.",
+    "jp": "顧客コードが必要です。"
+  },
+  "customerNameRequired": {
+    "en": "Customer name is required.",
+    "jp": "顧客名が必要です。"
+  },
+  "partnerCodeRequired": {
+    "en": "Partner code is required.",
+    "jp": "パートナーコードが必要です。"
+  },
+  "batchSummaryCodeRequired": {
+    "en": "Batch summary code is required.",
+    "jp": "集計コードが必要です。"
+  },
+  "pleaseSelectAtLeastOneInquiryList": {
+    "en": "Please select at least one inquiry list",
+    "jp": "少なくとも1つの注文リストを選択してください"
+  },
+  "typeOfDelivery": {
+    "en": "Type of Delivery",
+    "jp": "配送区分"
+  },
+  "notProcessed": {
+    "en": "Not yet processed",
+    "jp": "未処理"
+  },
+  "pdfMade": {
+    "en": "PDF made",
+    "jp": "PDF出力済"
+  },
+  "faxSent": {
+    "en": "Fax sent",
+    "jp": "FAX送信済"
+  },
+  "status": {
+    "en": "Status",
+    "jp": "ステータス"
+  },
+  "partners": {
+    "en": "Partners",
+    "jp": "パートナー"
+  },
+  "partnerList": {
+    "en": "Partner List",
+    "jp": "パートナーリスト"
+  },
+  "assignToPartner": {
+    "en": "Assign to Partner",
+    "jp": "パートナーに割り当てる"
+  },
+  "pleaseSelectAtLeastOneProductMaster": {
+    "en": "Please select at least one product master",
+    "jp": "少なくとも1つの商品マスターを選択してください"
+  },
+  "itemCodeInfomart": {
+    "en": "Item Code Infomart",
+    "jp": "商品コード(パートナー用)"
+  },
+  "itemCodeSmile": {
+    "en": "Item Code Smile",
+    "jp": "商品コード(SMILE用)"
+  },
+  "itemCodeBpaas": {
+    "en": "Item Code Bpaas",
+    "jp": "商品コード(BPaaS用)"
+  },
+  "batchSummaryCodeMaster": {
+    "en": "Batch Summary Code Master",
+    "jp": "集計コードマスター"
+  },
+  "pleaseSelectAtLeastOneBatchSummaryCode": {
+    "en": "Please select at least one batch summary code",
+    "jp": "少なくとも1つの集計コードを選択してください"
+  },
+  "addBatchSummaryCode": {
+    "en": "Add Batch Summary Code",
+    "jp": "集計コードを追加"
+  },
+  "createBatchSummaryCode": {
+    "en": "Create Batch Summary Code",
+    "jp": "集計コードを作成"
+  },
+  "updateBatchSummaryCode": {
+    "en": "Update Batch Summary Code",
+    "jp": "集計コードを更新"
+  },
+  "batchSummaryCodeName": {
+    "en": "Batch Summary Code Name",
+    "jp": "集計コード名"
+  },
+  "roles": {
+    "en": "Roles",
+    "jp": "役割"
+  },
+  "updateCourse": {
+    "en": "Update Course",
+    "jp": "コースを更新"
+  },
+  "pleaseUploadValidFile": {
+    "en": "Please upload valid file",
+    "jp": "有効なファイルをアップロードしてください"
+  },
+  "orderDataUploadedSuccessfully": {
+    "en": "Order data uploaded successfully",
+    "jp": "注文データが正常にアップロードされました"
+  },
+  "You don't have access to this dashboard": {
+    "en": "You don't have access to this dashboard",
+    "jp": "このダッシュボードにアクセスできません"
+  },
+  "errorUploadingOrderData": {
+    "en": "Error uploading order data",
+    "jp": "注文データのアップロード中にエラーが発生しました"
+  },
+  "save": {
+    "en": "Save",
+    "jp": "保存"
+  },
+  "conversionRates": {
+    "en": "Conversion Rates",
+    "jp": "換算率"
+  },
+  "addConversionRate": {
+    "en": "Add Conversion Rate",
+    "jp": "換算率を追加"
+  },
+  "createConversionRate": {
+    "en": "Create Conversion Rate",
+    "jp": "換算率を作成"
+  },
+  "updateConversionRate": {
+    "en": "Update Conversion Rate",
+    "jp": "換算率を更新"
+  },
+  "selectConversionFactor": {
+    "en": "Select Conversion Factor",
+    "jp": "換算係数を選択"
+  },
+  "conversionRate": {
+    "en": "Conversion Rate",
+    "jp": "換算率"
+  },
+  "conversionQuantity": {
+    "en": "Conversion Quantity",
+    "jp": "換算係数"
+  },
+  "convertedQuantity": {
+    "en": "Converted Quantity",
+    "jp": "基本単位数量"
+  },
+  "selectQuantityUnit": {
+    "en": "Select Quantity Unit",
+    "jp": "数量単位を選択"
+  },
+  "goBack": {
+    "en": "Go Back",
+    "jp": "戻る"
+  },
+  "resetPassword": {
+    "en": "Reset Password",
+    "jp": "パスワードリセット"
+  },
+  "enterNewPasswordForYourAccount": {
+    "en": "Enter new password for your account",
+    "jp": "アカウントの新しいパスワードを入力してください"
+  },
+  "orderQuantityUnit": {
+    "en": "Order Quantity Unit",
+    "jp": "注文数量単位"
+  },
+  "alternateQuantityUnit": {
+    "en": "Alternate Quantity Unit",
+    "jp": "代替数量単位"
+  },
+  "productCodeByUnit": {
+    "en": "Product Code by Unit",
+    "jp": "単位別商品コード"
+  },
+  "unitQuantity": {
+    "en": "Unit Quantity",
+    "jp": "単位数量"
+  },
+  "cargoClassification": {
+    "en": "Cargo Classification",
+    "jp": "貨物分類"
+  },
+  "cargoCategoryName": {
+    "en": "Cargo Category Name",
+    "jp": "貨物カテゴリ名"
+  },
+  "orderClassification": {
+    "en": "Order Classification",
+    "jp": "注文分類"
+  },
+  "orderPackagingCategory": {
+    "en": "Order Packaging Category",
+    "jp": "注文包装カテゴリ"
+  },
+  "procurementClassification": {
+    "en": "Procurement Classification",
+    "jp": "調達分類"
+  },
+  "purchaseCargoClassification": {
+    "en": "Purchase Cargo Classification",
+    "jp": "購入貨物分類"
+  },
+  "updateQunaitytUnit": {
+    "en": "Update Quantity Unit",
+    "jp": "数量単位を更新"
+  },
+  "quantityUnitUpdated": {
+    "en": "Quantity unit updated successfully",
+    "jp": "数量単位が正常に更新されました"
+  },
+  "quantityUnitAdded": {
+    "en": "Quantity unit added successfully",
+    "jp": "数量単位が正常に追加されました"
+  },
+  "quantityUnitMaster": {
+    "en": "Quantity Unit Master",
+    "jp": "数量単位マスター"
+  },
+  "quantityBulkRegistration": {
+    "en": "Quantity Bulk Registration",
+    "jp": "数量単位マスター"
+  },
+  "destinationUnit": {
+    "en": "Destination Unit",
+    "jp": "基本数量単位"
+  },
+  "addNew": {
+    "en": "Add New",
+    "jp": "追加"
+  },
+  "invalidCredentials": {
+    "en": "Invalid Credentials",
+    "jp": "アカウント情報が無効です。もう一度お試しください"
+  },
+  "superDashboardAdmin": {
+    "en": "Super dashboard admin",
+    "jp": "ベジクル管理者"
+  },
+  "superDashboardStaff": {
+    "en": "Super dashboard staff",
+    "jp": "ベジクルスタッフ"
+  },
+  "partnerAdmin": {
+    "en": "Partner admin",
+    "jp": "パートナー管理者"
+  },
+  "selectAnItem": {
+    "en": "Select a Role",
+    "jp": "役割を一つ選んでください"
+  },
+  "partnerStaff": {
+    "en": "Partner staff",
+    "jp": "パートナースタッフ"
+  },
+  "loginFailed": {
+    "en": "Login Failed",
+    "jp": "ログインに失敗しました"
+  },
+  "withComments": {
+    "en": "With Comments",
+    "jp": "摘要あり"
+  },
+  "withoutComments": {
+    "en": "Without comments",
+    "jp": "摘要なし"
+  },
+  "all": {
+    "en": "All",
+    "jp": "全て"
+  },
+  "addOrder": {
+    "en": "Add Order",
+    "jp": "注文追加"
+  },
+  "orderComment": {
+    "en": "Order Comment",
+    "jp": "注文コメント"
+  },
+  "add": {
+    "en": "Add",
+    "jp": "追加"
+  },
+  "addRow": {
+    "en": "Add Row",
+    "jp": "注文追加"
+  },
+  "updateRow": {
+    "en": "Update Row",
+    "jp": " 注文情報の更新"
+  },
+  "deliveredToVegekul'sCustomers&DeliveredByVegekul": {
+    "en": "Delivered to Vegekul's Customers & Delivered By Vegekul",
+    "jp": " ベジクルのお客様にベジクルがお届け"
+  },
+  "deliveredToVegekul'sCustomers&DeliveredbyPartner": {
+    "en": "Delivered to Vegekul's customers & delivered by Partner",
+    "jp": " ベジクルのお客様にパートナーがお届け"
+  },
+  "deliveredToPartner'sCustomers&DeliveredByPartner": {
+    "en": "Delivered to Partner's customers & delivered by Partner",
+    "jp": " パートナーのお客様にパートナーがお届け"
+  },
+  "alternativeQuantityUnit": {
+    "en": "Alternative Quantity Unit",
+    "jp": "代替数量単位"
+  },
+  "conversionFactor": {
+    "en": "Conversion Factor",
+    "jp": "換算係数"
+  },
+  "comment": {
+    "en": "Comment",
+    "jp": "コメント"
+  },
+  "view": {
+    "en": "View",
+    "jp": "ビュー"
+  },
+  "changePassword": {
+    "en": "Change Password",
+    "jp": "パスワードを変更する"
+  },
+  "oldPassword": {
+    "en": "Old Password",
+    "jp": "今のパスワード"
+  },
+  "personalInformation": {
+    "en": "Personal Information",
+    "jp": "個人情報"
+  },
+  "newPassword": {
+    "en": "New Password",
+    "jp": "新しいパスワード"
+  },
+  "confirmNewPassword": {
+    "en": "Confirm New Password",
+    "jp": "新しいパスワードの確認"
+  },
+  "confirmPassword": {
+    "en": "Confirm Password",
+    "jp": "新しいパスワードの確認"
+  },
+  "enter": {
+    "en": "Enter",
+    "jp": "入力"
+  },
+  "lastName": {
+    "en": "Last Name",
+    "jp": "姓"
+  },
+  "userProfile": {
+    "en": "User Profile",
+    "jp": "ユーザープロフィール "
+  },
+  "baseUnit": {
+    "en": "Base Unit",
+    "jp": "基本単位"
+  },
+  "inhouseManagedProductCode": {
+    "en": "Inhouse managed product code",
+    "jp": "ベジクル商品コード"
+  },
+  "allocationPartnerCode": {
+    "en": "Allocation partner code",
+    "jp": "配送パートナーコード"
+  },
+  "requestedAmount": {
+    "en": "Requested Amount",
+    "jp": "希望金額"
+  },
+  "consumptionTaxSubtotal": {
+    "en": "Consumption Tax Subtotal",
+    "jp": "消費税"
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.filter_button {
+  display: flex;
+  gap: 1em;
+  margin-top: 10px;
+  height: 36px;
+}
+
+.grade_category_select,
+.grade_select,
+.career_select,
+.course_select,
+.unit_select,
+.skill_select,
+.level_select,
+.unit_select,
+.indicator_select,
+.lesson_select {
+  margin-bottom: 10px;
+
+  p {
+    color: $danger-color;
+  }
+}
+
+.grade_select:last-child {
+  margin-bottom: 0px;
+}
+.toggle_course_optional {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}

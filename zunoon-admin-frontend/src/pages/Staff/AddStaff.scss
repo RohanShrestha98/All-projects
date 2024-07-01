@@ -1,0 +1,24 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.add_staff_header {
+  @include flex-box-generic(space-between, center, row);
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  .button_wrapper {
+    @include flex-box-generic(flex-end, center, row);
+    width: 50%;
+
+    .back_button {
+      width: 10vw;
+    }
+  }
+}
+
+.add_staff_form {
+  width: 100%;
+  @include flex-box-generic(center, center, row);
+}

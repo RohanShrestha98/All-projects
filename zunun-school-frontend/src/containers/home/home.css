@@ -1,0 +1,17 @@
+/*select*/
+
+.home .ant-select, .home .ant-select-selector{
+    height: 28px !important;
+    background-color: #cccccc;
+}
+
+.ant-progress .ant-progress-text{
+    font-size: 12px;
+    font-weight: 500;
+    color: #747474;
+}
+
+.home .recharts-layer.recharts-cartesian-axis.recharts-yAxis.yAxis, .home .recharts-cartesian-axis.recharts-xAxis.xAxis{
+    font-size: 10px;
+    font-weight: 500;
+}

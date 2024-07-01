@@ -1,0 +1,25 @@
+.mathjsx {
+    width: 100%;
+}
+
+.mathjsx header {
+    display: grid;
+    grid-column: 2;
+}
+
+.tex-container {
+    max-width: 100%;
+    overflow: hidden;
+    background: rgb(225, 225, 225);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.mathJsxInput {
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+    height: 100px;
+}

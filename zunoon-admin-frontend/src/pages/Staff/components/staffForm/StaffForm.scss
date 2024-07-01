@@ -1,0 +1,56 @@
+@import "../../../../assets/styles/abstract/mixins";
+@import "../../../../assets/styles/abstract/variables";
+
+.staff_form_container {
+  padding: 1em 2em;
+
+  max-width: 1050px;
+  .staff_image {
+    margin-right: 1.4rem;
+  }
+  .row_container {
+    @include flex-box-generic(center, flex-start, row);
+    gap: 2.5rem;
+    margin: 0.5em 0 2.5em 0;
+
+    @media screen and (max-width: 548px) {
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+    }
+
+    span {
+      color: red;
+    }
+  }
+  .col_container {
+    width: 100%;
+    gap: 1rem;
+    .row_container {
+      @media screen and (max-width: 680px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .input_container {
+    width: 100%;
+    flex: 1;
+  }
+  .disabled-input-field {
+    opacity: 0.6;
+  }
+  .button_container {
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    .submit_button_wrapper {
+      min-width: 170px;
+    }
+    .cancel_button_wrapper {
+      min-width: 160px;
+    }
+  }
+}

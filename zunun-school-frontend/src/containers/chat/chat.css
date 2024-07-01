@@ -1,0 +1,19 @@
+.chat .ant-input-affix-wrapper {
+  background-color: #ffffff;
+  border-width: 0px;
+  padding: 0px 11px;
+}
+
+.chat .ant-input {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 15px !important;
+  height: 48px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .chat .ant-input-affix-wrapper,
+  .chat .ant-input {
+    background-color: #f6f5ee;
+  }
+}

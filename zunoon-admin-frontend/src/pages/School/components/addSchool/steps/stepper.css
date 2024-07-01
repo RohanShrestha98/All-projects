@@ -1,0 +1,82 @@
+.main-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+}
+
+.step-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: relative;
+}
+
+.before-style {
+  content: "";
+  position: absolute;
+  background: #f3e7f3;
+  height: 4px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.after-style {
+  content: "";
+  position: absolute;
+  background: #00bad6;
+  height: 4px;
+  width: 0;
+  top: 50%;
+  transition: 0.4s ease;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.step-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.step-style {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: 0.4s ease;
+  display: flex;
+  justify-content: center;
+  background: #00bad6;
+  align-items: center;
+}
+
+.step-count {
+  font-size: 0.9rem;
+  color: #f3e7f3;
+}
+
+.step-label-container {
+  position: absolute;
+  top: 66px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-label {
+  font-size: 0.9rem;
+  color: #4a154b;
+}
+
+.check-mark {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f3e7f3;
+  transform: scaleX(-1) rotate(-46deg);
+}
+
+.cross-mark {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e51414;
+}

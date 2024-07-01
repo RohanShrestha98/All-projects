@@ -1,0 +1,130 @@
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.filledButton {
+  background-color: $primary-color;
+  color: $button-background-color;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 0.1rem solid $primary-color;
+  padding: 0.5rem;
+  @include set-border-radius;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  &:hover {
+    background-color: desaturate($primary-color, 80%);
+  }
+  &:active {
+    transform: scale(0.997);
+  }
+}
+.button {
+  background-color: $button-background-color;
+  width: 100%;
+  min-width: fit-content;
+  color: $primary-color;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 0.94rem;
+  padding: 0.5rem;
+  border: 0.1rem solid $primary-color;
+  font-weight: bold;
+  @include set-border-radius;
+  font-size: 1rem;
+  &:hover {
+    background-color: $primary-color;
+    color: $button-background-color;
+  }
+  &:active {
+    transform: scale(0.99);
+  }
+}
+
+.button[data-color="danger"] {
+  border-color: $danger-color;
+  background-color: $button-background-color;
+  color: $danger-color;
+  &:hover {
+    background-color: $danger-color;
+    color: $button-background-color;
+  }
+}
+
+.button[data-color="warning"] {
+  border-color: $warning-color;
+  background-color: $button-background-color;
+  color: $warning-color;
+  &:hover {
+    background-color: $warning-color;
+    color: $button-background-color;
+  }
+}
+
+.button[data-color="success"] {
+  border-color: $secondary-color;
+  background-color: $button-background-color;
+  color: $secondary-color;
+  &:hover {
+    background-color: rgba($secondary-color, 0.8);
+    color: $button-background-color;
+  }
+}
+.button[data-color="disabled"] {
+  border-color: $disabled-color;
+  background-color: $button-background-color;
+  border: 1px solid rgba($disabled-color, 0.2);
+  color: $disabled-color;
+  opacity: 0.6;
+}
+
+.button[data-color="info"] {
+  border-color: $secondary-color;
+  background-color: $button-background-color;
+  color: $secondary-color;
+  &:hover {
+    background-color: rgba($secondary-color, 0.8);
+    color: $button-background-color;
+  }
+}
+
+.button[data-fontsize="xs"] {
+  font-size: 0.8rem;
+}
+.button[data-fontsize="small"] {
+  font-size: 13px;
+}
+.button[data-fontsize="large"] {
+  font-size: 1.2rem;
+}
+.filledButton[data-fontsize="large"] {
+  font-size: 1.2rem;
+}
+
+.filledButton[data-color="danger"] {
+  background-color: $danger-color;
+  color: $button-background-color;
+  border-color: $danger-color;
+}
+
+.filledButton[data-color="warning"] {
+  background-color: $warning-color;
+  color: $button-background-color;
+  border-color: $warning-color;
+}
+
+.filledButton[data-color="success"] {
+  background-color: $secondary-color;
+  color: $button-background-color;
+  border-color: $secondary-color;
+}
+.filledButton[data-color="disabled"] {
+  background-color: $disabled-color;
+  color: $button-background-color;
+  border-color: $disabled-color;
+}

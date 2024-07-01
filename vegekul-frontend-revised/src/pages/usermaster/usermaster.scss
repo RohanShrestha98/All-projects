@@ -1,0 +1,11 @@
+.overlay {
+  @apply fixed inset-0 z-40 bg-black/50 overflow-auto;
+}
+
+.modal-content {
+  @apply fixed top-1/2 left-1/2 z-50 max-h-[85vh] w-[90vw] outline-none overflow-auto max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded bg-white shadow-lg;
+}
+
+.modal-content2 {
+  @apply fixed top-1/2 left-1/2 outline-none p-10 z-50 overflow-auto max-h-[70vh] w-[90vw] max-w-7xl -translate-x-1/2 -translate-y-1/2 rounded bg-white shadow-lg;
+}

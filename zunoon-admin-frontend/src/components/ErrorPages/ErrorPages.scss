@@ -1,0 +1,17 @@
+@import "../../assets/styles/abstract/mixins.scss";
+
+.container {
+  padding: 2em;
+  //   border: 1px solid green;
+  height: 48vh;
+  .contents {
+    margin-top: 5em;
+    @include flex-box-generic(space-around, center, column);
+    gap: 3em;
+
+    h5 {
+      color: rgba(black, 0.7);
+      font-size: 1em;
+    }
+  }
+}

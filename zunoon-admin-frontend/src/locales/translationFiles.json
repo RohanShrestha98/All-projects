@@ -1,0 +1,2010 @@
+{
+  "welcome_to_zunun": {
+    "en": "Welcome to Zunun",
+    "es": "Bienvenido a Zunun"
+  },
+  "dashboard_title": {
+    "en": "Dashboard",
+    "es": "Panel"
+  },
+  "dashboard_subtitle": {
+    "en": "Great to see you again",
+    "es": "Bienvenido"
+  },
+  "dashboard_skill": {
+    "en": "Skill",
+    "es": "Competencia"
+  },
+  "dashboard_indicator": {
+    "en": "Indicator",
+    "es": "Indicador"
+  },
+  "dashboard_lesson": {
+    "en": "Lesson",
+    "es": "Leccion"
+  },
+  "dashboard_total": {
+    "en": "Total",
+    "es": "Total"
+  },
+  "dashboard_courses": {
+    "en": "Courses",
+    "es": "Cursos"
+  },
+  "dashboard_contents": {
+    "en": "Contents",
+    "es": "Contenido"
+  },
+  "dashboard_students": {
+    "en": "Students",
+    "es": "Estudiantes"
+  },
+  "dashboard_newUsers": {
+    "en": "New Users",
+    "es": "Nuevo Usuarios"
+  },
+  "dashboard_recentActivity": {
+    "en": "Recent Activity",
+    "es": "Actividad reciente"
+  },
+  "dashboard_users": {
+    "en": "Users",
+    "es": "Usuarios"
+  },
+  "dashboard_studentInvolvement": {
+    "en": "Student Involvement",
+    "es": "Participación de estudiantes"
+  },
+  "dashboard_schoolrank": {
+    "en": "School Rank",
+    "es": "Posición de la institución"
+  },
+  "sidebar_dashboard": {
+    "en": "Dashboard",
+    "es": "Panel"
+  },
+  "sidebar_staffs": {
+    "en": "Staffs",
+    "es": "Claustro"
+  },
+  "sidebar_schools": {
+    "en": "Schools",
+    "es": "Colegios"
+  },
+  "sidebar_grades": {
+    "en": "Grades",
+    "es": "Grados"
+  },
+  "sidebar_careers": {
+    "en": "Careers",
+    "es": "Carreras"
+  },
+  "sidebar_courses": {
+    "en": "Courses",
+    "es": "Cursos"
+  },
+  "sidebar_unit": {
+    "en": "Unit",
+    "es": "Unidad"
+  },
+  "sidebar_skills": {
+    "en": "Skills",
+    "es": "Competencias"
+  },
+  "sidebar_units": {
+    "en": "Units",
+    "es": "Unidades"
+  },
+  "sidebar_indicator": {
+    "en": "Indicators",
+    "es": "Indicador"
+  },
+  "sidebar_content": {
+    "en": "Contents",
+    "es": "Contenidos"
+  },
+  "sidebar_course_levels": {
+    "en": "Course Levels",
+    "es": "Nivel del curso"
+  },
+  "sidebar_ability_category": {
+    "en": "Ability Category",
+    "es": "Categoría de habilidad"
+  },
+  "ability_categories": {
+    "en": "Ability Categories",
+    "es": "Categorías de habilidad"
+  },
+  "sidebar_lesson": {
+    "en": "Lessons",
+    "es": "Lección"
+  },
+  "staff_not_found": {
+    "en": "Staff not found",
+    "es": "Personal no encontrado"
+  },
+  "staff": {
+    "en": "Staff",
+    "es": "Personal"
+  },
+  "school": {
+    "en": "School",
+    "es": "Institución"
+  },
+  "topic": {
+    "en": "Topic",
+    "es": "tema"
+  },
+  "search": {
+    "en": "Search",
+    "es": "Buscar"
+  },
+  "add": {
+    "en": "Add",
+    "es": "Añadir"
+  },
+  "edit": {
+    "en": "Edit",
+    "es": "Editar"
+  },
+  "delete": {
+    "en": "Delete",
+    "es": "Eliminar"
+  },
+  "remove": {
+    "en": "Remove",
+    "es": "Eliminar"
+  },
+  "filter": {
+    "en": "Filter",
+    "es": "Filtrar"
+  },
+  "clear": {
+    "en": "Clear",
+    "es": "Limpiar"
+  },
+  "basic_information": {
+    "en": "Basic Information",
+    "es": "Información básica"
+  },
+  "detail_information": {
+    "en": "Detail Informations",
+    "es": "Detalle de información"
+  },
+  "reset": {
+    "en": "Reset",
+    "es": "Reiniciar"
+  },
+  "submit": {
+    "en": "Submit",
+    "es": "Enviar"
+  },
+  "update": {
+    "en": "Update",
+    "es": "Actualizar"
+  },
+  "update_form": {
+    "en": "Update form",
+    "es": "Formulario de actualización"
+  },
+  "submitting": {
+    "en": "Submitting",
+    "es": "Aceptar"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "es": "Cancelar"
+  },
+  "back": {
+    "en": "Back",
+    "es": "Regresar"
+  },
+  "prev": {
+    "en": "< Prev",
+    "es": "< Anterior"
+  },
+  "next": {
+    "en": "Next >",
+    "es": "Siguiente >"
+  },
+  "arrange": {
+    "en": "Arrange",
+    "es": "Asignar"
+  },
+  "assign": {
+    "en": "Assign",
+    "es": "Asignar"
+  },
+  "view_assigned": {
+    "en": "View assigned",
+    "es": "Ver asignado"
+  },
+  "checked_units": {
+    "en": "Checked Units",
+    "es": "Unidades marcadas"
+  },
+  "unassign": {
+    "en": "Unassign",
+    "es": "Desasignar"
+  },
+  "sub_content_list": {
+    "en": "Sub Content List",
+    "es": "Lista de subcontenido"
+  },
+  "assign_to_lesson": {
+    "en": "Assign to lesson",
+    "es": "Asignar a la lección"
+  },
+  "assign_to_grade": {
+    "en": "Assign to grade",
+    "es": "Asignar a calificación"
+  },
+  "assign_to_indicator": {
+    "en": "Assign to indicator",
+    "es": "Asignar al indicador"
+  },
+  "assign_to_career": {
+    "en": "Assign to career",
+    "es": "Asignar a carrera"
+  },
+  "assign_to_course": {
+    "en": "Assign to course",
+    "es": "Asignar al curso"
+  },
+  "assign_to_school": {
+    "en": "Assign to school",
+    "es": "Asignar a la escuela"
+  },
+  "assign_to_skill": {
+    "en": "Assign to skill",
+    "es": "Asignar a la habilidad"
+  },
+  "assign_unit_to_course": {
+    "en": "Assign unit to Course",
+    "es": "Asignar unidad al curso"
+  },
+  "assign_career_to_grade": {
+    "en": "Assign Career to Grade",
+    "es": "Asignar carrera a grado"
+  },
+  "assign_content_to_lesson": {
+    "en": "Assign Content To Lesson",
+    "es": "Asignar contenido a la lección"
+  },
+  "assign_indicator_to_skill": {
+    "en": "Assign Indicator to Skill",
+    "es": "Asignar indicador a habilidad"
+  },
+  "course_status_change_successfully": {
+    "en": "Course status change successfully",
+    "es": "El estado del curso cambió exitosamente"
+  },
+  "course_must_have_exactly_four_units": {
+    "en": "Course must have exactly four units",
+    "es": "El curso debe tener exactamente cuatro unidades."
+  },
+  "assign_lesson_to": {
+    "en": "Assign Lesson to",
+    "es": "Asignar lección a"
+  },
+  "assign_course_to": {
+    "en": "Assign Course to",
+    "es": "Asignar curso a"
+  },
+  "name": {
+    "en": "Name",
+    "es": "Nombre"
+  },
+  "units_selected": {
+    "en": "Units Selected",
+    "es": "Unidades Seleccionadas"
+  },
+  "registered": {
+    "en": "Registered",
+    "es": "Registrado"
+  },
+  "number": {
+    "en": "Number",
+    "es": "Número"
+  },
+  "username": {
+    "en": "Username",
+    "es": "Nombre de usuario"
+  },
+  "password": {
+    "en": "Password",
+    "es": "Contraseña"
+  },
+  "rolles": {
+    "en": "Roles",
+    "es": "Rol"
+  },
+  "sector": {
+    "en": "Sector",
+    "es": "Sector"
+  },
+  "color": {
+    "en": "Color",
+    "es": "Color"
+  },
+  "themeColor": {
+    "en": "Theme Color",
+    "es": "Color del tema"
+  },
+  "subDomain": {
+    "en": "Sub-Domain",
+    "es": "Sub-dominio"
+  },
+  "taxPayerID": {
+    "en": "Tax Payer Id",
+    "es": "NIT"
+  },
+  "contactName": {
+    "en": "Contact Name",
+    "es": "Nombre del contacto"
+  },
+  "email": {
+    "en": "Email",
+    "es": "Correo electrónico"
+  },
+  "secondary_email": {
+    "en": "Secondary email",
+    "es": "email secundario"
+  },
+  "secondary_phone": {
+    "en": "Secondary Phone",
+    "es": "Teléfono secundario"
+  },
+  "phoneNumber": {
+    "en": "Phone",
+    "es": "Teléfono"
+  },
+  "cellPhone": {
+    "en": "Cell Phone",
+    "es": "Número celular"
+  },
+  "country": {
+    "en": "Country",
+    "es": "País"
+  },
+  "city": {
+    "en": "City",
+    "es": "Ciudad"
+  },
+  "landmark": {
+    "en": "Landmark",
+    "es": "Punto de referencia"
+  },
+  "address1": {
+    "en": "Address 1",
+    "es": "Dirección 1"
+  },
+  "address2": {
+    "en": "Address 2",
+    "es": "Dirección 2"
+  },
+  "municipality": {
+    "en": "Municipality",
+    "es": "Municipio"
+  },
+  "department": {
+    "en": "Department",
+    "es": "Departamento"
+  },
+  "announcement": {
+    "en": "Announcement",
+    "es": "Anuncio"
+  },
+  "reminder": {
+    "en": "Reminder",
+    "es": "Recordatorio"
+  },
+  "isPublic": {
+    "en": "isPublic",
+    "es": "Es público"
+  },
+  "isDraft": {
+    "en": "isDraft",
+    "es": "Es borrador"
+  },
+  "plan": {
+    "en": "Plan",
+    "es": "Plan"
+  },
+  "deliverymodality": {
+    "en": "Delivery Modality",
+    "es": "Modalidad"
+  },
+  "educationLevel": {
+    "en": "Education Level",
+    "es": "Nivel Educativo"
+  },
+  "first_name": {
+    "en": "First Name",
+    "es": "Primero nombre"
+  },
+  "middle_name": {
+    "en": "Middle Name",
+    "es": "Segundo nombre"
+  },
+  "last_name": {
+    "en": "Last Name",
+    "es": "Apellidos"
+  },
+  "document": {
+    "en": "Document",
+    "es": "Documento"
+  },
+  "book": {
+    "en": "Book",
+    "es": "Libro"
+  },
+  "grade_name": {
+    "en": "Grade Name",
+    "es": "Grado"
+  },
+  "career_name": {
+    "en": "Career Name",
+    "es": "Nombre de carrera"
+  },
+  "courses": {
+    "en": "Courses",
+    "es": "Curso"
+  },
+  "query": {
+    "en": "Query",
+    "es": "Consulta"
+  },
+  "taxonomy": {
+    "en": "Taxonomy",
+    "es": "Taxonomía"
+  },
+  "dropdown_item": {
+    "en": "Dropdown Item",
+    "es": "Elemento desplegable"
+  },
+  "select": {
+    "en": "Select",
+    "es": "Seleccionar"
+  },
+  "courses_selected": {
+    "en": "Courses Selected",
+    "es": "Cursos seleccionados"
+  },
+  "contents_selected": {
+    "en": "Contents Selected",
+    "es": "Contenidos seleccionados"
+  },
+  "selected": {
+    "en": "Selected",
+    "es": "Seleccionados"
+  },
+  "sentences": {
+    "en": "Sentences",
+    "es": "Oraciones"
+  },
+  "words": {
+    "en": "Words",
+    "es": "Palabras"
+  },
+  "books": {
+    "en": "Books",
+    "es": "Libros"
+  },
+  "answer": {
+    "en": "Answer",
+    "es": "Respuestas"
+  },
+  "add_answer": {
+    "en": "Add answer",
+    "es": "Agregar respuesta"
+  },
+  "is_true": {
+    "en": "Is True",
+    "es": "Es verdad"
+  },
+  "is_answer_correct": {
+    "en": "Is answer correct?",
+    "es": "¿Es correcta la respuesta?"
+  },
+  "url": {
+    "en": "URL",
+    "es": "URL"
+  },
+  "year": {
+    "en": "Year",
+    "es": "Año"
+  },
+  "author": {
+    "en": "Author",
+    "es": "Autor"
+  },
+  "main_theme": {
+    "en": "Main Theme",
+    "es": "Tema principal"
+  },
+  "link": {
+    "en": "Link",
+    "es": "Enlace"
+  },
+  "title": {
+    "en": "Title",
+    "es": "Título"
+  },
+  "quiz_title": {
+    "en": "Quiz Title",
+    "es": "Título del cuestionario"
+  },
+  "place": {
+    "en": "Place",
+    "es": "Pugar"
+  },
+  "instruction": {
+    "en": "Instruction",
+    "es": "Instrucciones"
+  },
+  "basket_name": {
+    "en": "Basket Name",
+    "es": "Cesta Nombre"
+  },
+  "school_name": {
+    "en": "School Name",
+    "es": "Nombre de escuela"
+  },
+  "basket": {
+    "en": "Basket ",
+    "es": "Cesta"
+  },
+  "th_basket": {
+    "en": "The Basket ",
+    "es": "La Cesta"
+  },
+  "basket_description": {
+    "en": "Basket Description",
+    "es": "Descripción"
+  },
+  "add_more_questions": {
+    "en": "Add more questions",
+    "es": "Agregar más preguntas"
+  },
+  "optional": {
+    "en": "Optional",
+    "es": "Opcional"
+  },
+  "yes": {
+    "en": "Yes",
+    "es": "Sí"
+  },
+  "no": {
+    "en": "No",
+    "es": "No"
+  },
+  "enter": {
+    "en": "Enter",
+    "es": "Ingrese"
+  },
+  "enter_point": {
+    "en": "Enter point",
+    "es": "Introduzca el punto"
+  },
+  "placeholder_username": {
+    "en": "Enter username",
+    "es": "Ingrese usuario"
+  },
+  "placeholder_password": {
+    "en": "Auto-generated Password",
+    "es": "Genera contraseña automática"
+  },
+  "placeholder_first_name": {
+    "en": "Enter first name",
+    "es": "Ingrese primer nombre"
+  },
+  "placeholder_middle_name": {
+    "en": "Enter middle name",
+    "es": "Ingrese segundo nombre"
+  },
+  "placeholder_last_name": {
+    "en": "Enter last name",
+    "es": "Ingrese apellidos"
+  },
+  "placeholder_schoolName": {
+    "en": "Enter school name",
+    "es": "Ingrese nombre de institución"
+  },
+  "placeholder_basketName": {
+    "en": "Enter a new basket name",
+    "es": "Introduce un nuevo nombre para la cesta"
+  },
+  "placeholder_subDomain": {
+    "en": "Enter sub-domain name",
+    "es": "Ingrese sub-dominio"
+  },
+  "placeholder_sector": {
+    "en": "Select sector name",
+    "es": "Seleccionar sector"
+  },
+  "placeholder_color": {
+    "en": "Choose color",
+    "es": "Seleccionar color"
+  },
+  "should_be_lower_case": {
+    "en": "should be lower case",
+    "es": "debe ser minúscula"
+  },
+  "placeholder_taxPayerId": {
+    "en": "Enter tax payer Id",
+    "es": "Ingrese NIT"
+  },
+  "placeholder_contactName": {
+    "en": "Enter contact name",
+    "es": "Ingrese nombre de contacto"
+  },
+  "placeholder_email": {
+    "en": "Enter email",
+    "es": "Ingrese correo electrónico"
+  },
+  "placeholder_secondary_email": {
+    "en": "Enter secondary email",
+    "es": "Ingrese el correo electrónico secundario"
+  },
+  "placeholder_secondary_phone": {
+    "en": "Enter secondary_phone",
+    "es": "Ingrese el teléfono secundario"
+  },
+  "placeholder_phoneNumber": {
+    "en": "Enter phone no.",
+    "es": "Ingrese número de teléfono"
+  },
+  "placeholder_cellPhone": {
+    "en": "Enter cell phone no.",
+    "es": "Ingrese número celular"
+  },
+  "country_name": {
+    "en": "Country name",
+    "es": "Nombre del país"
+  },
+  "city_name": {
+    "en": "City name",
+    "es": "nombre de la ciudad"
+  },
+  "street_name": {
+    "en": "Street name",
+    "es": "nombre de la calle"
+  },
+  "latitude": {
+    "en": "Latitude",
+    "es": "latitud"
+  },
+  "longitude": {
+    "en": "Longitude",
+    "es": "Longitud"
+  },
+  "placeholder_country": {
+    "en": "Select country name",
+    "es": "Seleccione país"
+  },
+  "placeholder_department": {
+    "en": "Enter department name",
+    "es": "Ingrese departamento"
+  },
+  "placeholder_address1": {
+    "en": "Enter address 1",
+    "es": "Ingrese dirección 1"
+  },
+  "placeholder_address2": {
+    "en": "Enter address 2",
+    "es": "Ingrese dirección 2"
+  },
+  "placeholder_municipality": {
+    "en": "Enter municipality",
+    "es": "Ingrese municipio"
+  },
+  "placeholder_plan": {
+    "en": "Enter plan type",
+    "es": "Ingrese plan"
+  },
+  "placeholder_deliveryModality": {
+    "en": "Enter Delivery Modality",
+    "es": "Ingrese modalidad"
+  },
+  "placeholder_grade_name": {
+    "en": "Enter grade name",
+    "es": "Ingrese grado"
+  },
+  "placeholder_career_name": {
+    "en": "Enter career name",
+    "es": "Ingrese nombre de carrera"
+  },
+  "placeholder_grade_description": {
+    "en": "Enter grade description",
+    "es": "Ingrese descripción del grado"
+  },
+  "placeholder_career_description": {
+    "en": "Enter career description",
+    "es": "Ingrese descripción de carrera"
+  },
+  "placeholder_course_description": {
+    "en": "Enter course description",
+    "es": "Ingrese descripción del curso"
+  },
+  "placeholder_unit_description": {
+    "en": "Enter unit description",
+    "es": "Ingrese descripción de unidad"
+  },
+  "placeholder_skill_name": {
+    "en": "Enter skill name",
+    "es": "Ingrese habilidad"
+  },
+  "placeholder_skill_description": {
+    "en": "Enter skill description",
+    "es": "Ingrese descripción de habilidad"
+  },
+  "placeholder_description": {
+    "en": "Enter description",
+    "es": "Introduce la descripción"
+  },
+  "placeholder_indicator_name": {
+    "en": "Enter indicator name",
+    "es": "Ingrese indicador"
+  },
+  "placeholder_gradetype_name": {
+    "en": "Enter grade category name",
+    "es": "Ingrese nombre de la categoría del grado"
+  },
+  "grade_category": {
+    "en": "grade category",
+    "es": "categoría de grado"
+  },
+  "sub_contents": {
+    "en": "Sub Contents",
+    "es": "Subcontenidos"
+  },
+  "reorder_contents": {
+    "en": "Reorder Contents",
+    "es": "Reordenar contenidos"
+  },
+  "please_sign_in_to_continue": {
+    "en": "Please sign in to continue to your account.",
+    "es": "Inicie sesión para continuar con su cuenta."
+  },
+  "login": {
+    "en": "Login",
+    "es": "Acceso"
+  },
+  "success_login": {
+    "en": "Logged in successfully",
+    "es": "Inicie sesión exitosamente"
+  },
+  "placeholder_leveltype_name": {
+    "en": "Enter level type name",
+    "es": "Ingrese nombre del nivel"
+  },
+  "placeholder_lesson_name": {
+    "en": "Enter lesson name",
+    "es": "Ingrese nombre de lección"
+  },
+  "placeholder_indicator_description": {
+    "en": "Enter indicator description",
+    "es": "Ingrese descripción del indicador"
+  },
+  "placeholder_gradetype_description": {
+    "en": "Enter grade category description",
+    "es": "Ingrese descripción de la categoría"
+  },
+  "placeholder_leveltype_description": {
+    "en": "Enter level type description",
+    "es": "Ingrese descripción del nivel"
+  },
+  "placeholder_lesson_description": {
+    "en": "Enter lesson description",
+    "es": "Ingrese descripción de lección"
+  },
+  "placeholder_title": {
+    "en": "Enter the title",
+    "es": "Introduce el título"
+  },
+  "placeholder_select_grade": {
+    "en": "Select a grade",
+    "es": "Seleccione un grado"
+  },
+  "placeholder_select_course": {
+    "en": "Select a course",
+    "es": "Seleccione un curso"
+  },
+  "placeholder_select_unit": {
+    "en": "Select an unit",
+    "es": "Seleccione una unidad"
+  },
+  "placeholder_select_skill": {
+    "en": "Select a skill",
+    "es": "Selecciona una habilidad"
+  },
+  "placeholder_select_indicator": {
+    "en": "Select an indicator",
+    "es": "Seleccione un indicador"
+  },
+  "placeholder_course_name": {
+    "en": "Enter course name",
+    "es": "Ingrese nombre del curso"
+  },
+  "placeholder_unit_name": {
+    "en": "Enter unit name",
+    "es": "Ingrese nombre de unidad"
+  },
+  "placeholder_content_description": {
+    "en": "Enter content description",
+    "es": "Ingrese descripción del contenido"
+  },
+  "placeholder_content_answer": {
+    "en": "Enter content answer",
+    "es": "Ingrese respuesta"
+  },
+  "placeholder_answer": {
+    "en": "Enter answer",
+    "es": "ingrese la respuesta"
+  },
+  "placeholder_basket_name": {
+    "en": "Enter the basket name",
+    "es": "Ingrese nombre"
+  },
+  "placeholder_basket_description": {
+    "en": "Enter the basket description",
+    "es": "Ingrese descripción"
+  },
+  "placeholder_url": {
+    "en": "Enter the url",
+    "es": "Ingrese URL"
+  },
+  "placeholder_author": {
+    "en": "Enter the author",
+    "es": "Ingrese autor"
+  },
+  "placeholder_year": {
+    "en": "Enter the year",
+    "es": "Ingrese año"
+  },
+  "placeholder_main_theme": {
+    "en": "Enter the main theme",
+    "es": "Ingrese tema principal"
+  },
+  "placeholder_content_title": {
+    "en": "Enter the content title",
+    "es": "Ingrese el título del contenido"
+  },
+  "placeholder_content_instruction": {
+    "en": "Enter the content instruction",
+    "es": "Ingrese instrucciones del contenido"
+  },
+  "placeholder_instruction": {
+    "en": "Enter the instruction",
+    "es": "Ingrese instrucción"
+  },
+  "placeholder_query": {
+    "en": "Type a query key",
+    "es": "Digite clave de consulta"
+  },
+  "select_image": {
+    "en": "Select Image",
+    "es": "Seleccione imagen"
+  },
+  "select_photo": {
+    "en": "Select Photo",
+    "es": "Seleccione fotografía"
+  },
+  "update_photo": {
+    "en": "Update Photo",
+    "es": "Actualizar fotografía"
+  },
+  "update_image": {
+    "en": "Update Image",
+    "es": "Actualizar imagen"
+  },
+  "update_basket": {
+    "en": "Update Basket",
+    "es": "Actualizar cesta"
+  },
+  "information": {
+    "en": "Information",
+    "es": "Información"
+  },
+  "access_and_permission": {
+    "en": "Access and Permission",
+    "es": "Acceso y permiso"
+  },
+  "address_info": {
+    "en": "Address Information",
+    "es": "Dirección"
+  },
+  "joined": {
+    "en": "Joined",
+    "es": "unida/unido"
+  },
+  "contact_info": {
+    "en": "Contact Information",
+    "es": "Contacto"
+  },
+  "selected_grade_has_no_career": {
+    "en": "Selected grade has no career",
+    "es": "El grado seleccionado no tiene carrera"
+  },
+  "feat_info": {
+    "en": "Feature Information",
+    "es": "Característica"
+  },
+  "acknowledged_by": {
+    "en": "Acknowledged by",
+    "es": "Reconocido por"
+  },
+  "not_acknowledged_by": {
+    "en": "Not acknowledged by",
+    "es": "No reconocido por"
+  },
+  "course": {
+    "en": "Course",
+    "es": "Curso"
+  },
+  "unit": {
+    "en": "Unit",
+    "es": "Unidad"
+  },
+  "skill": {
+    "en": "Skill",
+    "es": "Habilidad"
+  },
+  "indicator": {
+    "en": "Indicator",
+    "es": "Indicador"
+  },
+  "lesson": {
+    "en": "Lesson",
+    "es": "Lección"
+  },
+  "content": {
+    "en": "Content",
+    "es": "Contenido"
+  },
+  "master": {
+    "en": "Master",
+    "es": "Principal"
+  },
+  "fileType": {
+    "en": "File Type",
+    "es": "Tipo de archivo"
+  },
+  "keywords": {
+    "en": "Keywords",
+    "es": "Palabras claves"
+  },
+  "contentType": {
+    "en": "Content Type",
+    "es": "Tipo de contenido"
+  },
+  "th_name": {
+    "en": "Name",
+    "es": "Nombre"
+  },
+  "th_content": {
+    "en": "Content",
+    "es": "Contenido"
+  },
+  "th_email": {
+    "en": "Email",
+    "es": "Correo electrónico"
+  },
+  "th_role": {
+    "en": "Role",
+    "es": "Rol"
+  },
+  "th_address": {
+    "en": "Address",
+    "es": "Dirección"
+  },
+  "th_phone": {
+    "en": "Contact",
+    "es": "Contacto"
+  },
+  "th_index": {
+    "en": "Index",
+    "es": "Índice"
+  },
+  "th_action": {
+    "en": "Actions",
+    "es": "Acción"
+  },
+  "th_grade_category": {
+    "en": "Grade Category",
+    "es": "Categoría del grado"
+  },
+  "th_grade_categories": {
+    "en": "Grade Categories",
+    "es": "Categoría del grado"
+  },
+  "th_grade": {
+    "en": "Grade",
+    "es": "Grado"
+  },
+  "th_career": {
+    "en": "Career",
+    "es": "Carrera"
+  },
+  "th_course": {
+    "en": "Course",
+    "es": "Curso"
+  },
+  "position": {
+    "en": "Position",
+    "es": "posición"
+  },
+  "subject": {
+    "en": "subject",
+    "es": "sujeto"
+  },
+  "passwords_do_not_match": {
+    "en": "Passwords do not match",
+    "es": "Las contraseñas no coinciden"
+  },
+  "username_already_exists": {
+    "en": "Username already exists",
+    "es": "username_already_exists"
+  },
+  "email_already_exists": {
+    "en": "Email already exists",
+    "es": "email_already_exists"
+  },
+  "phone_number_already_exists": {
+    "en": "Phone number already exists",
+    "es": "phone_number_already_exists"
+  },
+  "insecure_password": {
+    "en": "Insecure password",
+    "es": "insecure_password"
+  },
+  "th_unit": {
+    "en": "Unit",
+    "es": "Unidad"
+  },
+  "th_skill": {
+    "en": "Skill",
+    "es": "Habilidad"
+  },
+  "th_indicator": {
+    "en": "Indicator",
+    "es": "Indicador"
+  },
+  "th_course_level": {
+    "en": "Course Level",
+    "es": "Nivel del curso"
+  },
+  "th_description": {
+    "en": "Description",
+    "es": "Descripción"
+  },
+  "th_course_name": {
+    "en": "Course Name",
+    "es": "Nombre del curso"
+  },
+  "th_course_unit": {
+    "en": "Unit Name",
+    "es": "Nombre de unidad"
+  },
+  "th_skill_name": {
+    "en": "Skill Name",
+    "es": "Habilidad"
+  },
+  "th_indicator_name": {
+    "en": "Indicator Name",
+    "es": "Indicador"
+  },
+  "th_lesson_name": {
+    "en": "Lesson Name",
+    "es": "Nombre de lección"
+  },
+  "th_content_type": {
+    "en": "Content Type",
+    "es": "Tipo de contenido"
+  },
+  "th_has_subContent": {
+    "en": "Has SubContent",
+    "es": "Tiene subcontenido"
+  },
+  "th_ability_category": {
+    "en": "Ability Category Type",
+    "es": "Categoría de habilidad"
+  },
+  "th_status": {
+    "en": "Status",
+    "es": "Estado"
+  },
+  "profile_security": {
+    "en": "Security",
+    "es": "Seguridad"
+  },
+  "profile_change_password": {
+    "en": "Change Password",
+    "es": "Cambio de contraseña"
+  },
+  "old_password": {
+    "en": "Old Password",
+    "es": "Contraseña antigua del perfil"
+  },
+  "enter_old_password": {
+    "en": "Enter old password",
+    "es": "Ingrese la contraseña anterior"
+  },
+  "enter_the_index": {
+    "en": "Enter the index",
+    "es": "Ingresa al índice"
+  },
+  "profile_edit": {
+    "en": "Edit Profile",
+    "es": "Editar perfil"
+  },
+  "profile_new_password": {
+    "en": "New Password",
+    "es": "Nueva contraseña"
+  },
+  "profile_confirm_password": {
+    "en": "Confirm Password",
+    "es": "Confirmar contraseña"
+  },
+  "profile_password_placeholder": {
+    "en": "Enter your new password",
+    "es": "Ingrese nueva contraseña"
+  },
+  "profile_confirm_password_placeholder": {
+    "en": "Enter your confirm password",
+    "es": "Ingrese confirmación de contraseña"
+  },
+  "profile_password_updated": {
+    "en": "Password changed successfully. You will be logged out in 5 seconds",
+    "es": "Cambio de contraseña exitosa. La sesión se cerrará en 5 segundos"
+  },
+  "requesting": {
+    "en": "Requesting",
+    "es": "Solicitando"
+  },
+  "something_went_wrong": {
+    "en": "Something went wrong",
+    "es": "Algo salió mal"
+  },
+  "something_went_wrong_our_developers_have_been_informed": {
+    "en": "Something went wrong. Our developers have been informed, sorry for the inconvinience",
+    "es": "Algo salió mal. Nuestros desarrolladores han sido informados, disculpen las molestias."
+  },
+  "oops_something_went_wrong": {
+    "en": "Oops! Something went wrong. Please refresh or try again later!",
+    "es": "¡Ups! Algo salió mal. ¡Actualice o vuelva a intentarlo más tarde!"
+  },
+  "your_upload_has_been_queued": {
+    "en": "Your upload has been queued. We will notify you when it is done.",
+    "es": "Tu carga ha sido puesta en cola. Te avisaremos cuando esté hecho."
+  },
+  "toggle_status": {
+    "en": "Toggle Status",
+    "es": "Cambio de estado"
+  },
+  "no_content_found": {
+    "en": "No content found",
+    "es": "Contenido no encontrado"
+  },
+  "no_data_to_show_currently": {
+    "en": "No data to show currently.",
+    "es": "No hay datos para mostrar actualmente."
+  },
+  "must_be_3_or_more_characters": {
+    "en": "must be 3 or more characters",
+    "es": "debe tener 3 o más caracteres"
+  },
+  "must_be_8_characters_long": {
+    "en": "Must be 8 characters long",
+    "es": "Debe tener 8 caracteres"
+  },
+  "must_contain_at_least_one_capital_letter": {
+    "en": "Must contain at least one capital letter",
+    "es": "Debe contener al menos una letra mayúscula"
+  },
+  "must_contain_at_least_one_number": {
+    "en": "Must contain at least one number",
+    "es": "Debe contener al menos un número"
+  },
+  "must_contain_at_least_one_special_number": {
+    "en": "Must contain at least one special character",
+    "es": "Debe contener al menos un carácter especial"
+  },
+  "discription_too_long_max_70": {
+    "en": "Description too long, max 70 characters",
+    "es": "Descripción demasiado larga, máximo 70 caracteres"
+  },
+  "at_least_one_question_required": {
+    "en": "At least one question required",
+    "es": "Se requiere al menos una pregunta"
+  },
+  "field_required": {
+    "en": "This field is required",
+    "es": "Campo obligatorio"
+  },
+  "title_required": {
+    "en": "Title is required",
+    "es": "Se requiere título"
+  },
+  "place_required": {
+    "en": "Place is required",
+    "es": "Se requiere lugar"
+  },
+  "description_is_required": {
+    "en": "Description is required",
+    "es": "Se requiere descripción"
+  },
+  "start_date_is_required": {
+    "en": "Start date is required",
+    "es": "Se requiere fecha de inicio"
+  },
+  "end_date_is_required": {
+    "en": "End date is required",
+    "es": "Se requiere fecha de finalización"
+  },
+  "type_is_required": {
+    "en": "Type is required",
+    "es": "Se requiere tipo"
+  },
+  "invalid_email_address": {
+    "en": "Invalid email address",
+    "es": "Dirección de correo electrónico no válida"
+  },
+  "no_description_available": {
+    "en": "No Description Available",
+    "es": "No hay descripción disponible"
+  },
+  "auto_generated_password": {
+    "en": "Auto generated password",
+    "es": "Contraseña generada automáticamente"
+  },
+  "invalid_phone": {
+    "en": "Invalid phone",
+    "es": "Teléfono no válido"
+  },
+  "invalid_primary_email": {
+    "en": "Invalid primary Email address",
+    "es": "Dirección de correo electrónico principal no válida"
+  },
+  "invalid_secondary_email": {
+    "en": "Invalid secondary email address",
+    "es": "Dirección de correo electrónico secundaria no válida"
+  },
+  "invalid_secondary_phone": {
+    "en": "Invalid secondary phone",
+    "es": "Teléfono secundario no válido"
+  },
+  "invalid_primary_number": {
+    "en": "Invalid primary number",
+    "es": "Número principal no válido"
+  },
+  "no_numeric_character": {
+    "en": "No numeric character",
+    "es": "Sin carácter numérico"
+  },
+  "username_cannot_exceed_20_characters": {
+    "en": "Username cannot exceed 20 characters",
+    "es": "El nombre de usuario no puede exceder los 20 caracteres"
+  },
+  "username_must_have_at_least_3_characters": {
+    "en": "Username must have at least 3 characters",
+    "es": "El nombre de usuario debe tener al menos 3 caracteres"
+  },
+  "middle_name_cannot_exceed_20_characters": {
+    "en": "Middle name cannot exceed 20 characters",
+    "es": "El segundo nombre no puede exceder los 20 caracteres"
+  },
+  "last_name_cannot_exceed_20_characters": {
+    "en": "Last name cannot exceed 20 characters",
+    "es": "El apellido no puede exceder los 20 caracteres"
+  },
+  "cannot_exceed_20_characters": {
+    "en": "cannot exceed 20 characters",
+    "es": "no puede exceder los 20 caracteres"
+  },
+  "cannot_exceed_30_characters": {
+    "en": "cannot exceed 30 characters",
+    "es": "no puede exceder los 30 caracteres"
+  },
+  "too_long_max_30_characters": {
+    "en": "too long, max 30 characters",
+    "es": "demasiado largo, máximo 30 caracteres."
+  },
+  "title_too_long_max_30_characters": {
+    "en": "Title too long, max 30 characters",
+    "es": "Título demasiado largo, máximo 30 caracteres."
+  },
+  "answer_too_long_max_30_characters": {
+    "en": "Answer too long, max 30 characters",
+    "es": "Respuesta demasiado larga, máximo 30 caracteres."
+  },
+  "too_short_min_2_characters": {
+    "en": "too short, min 2 characters",
+    "es": "demasiado corto, mínimo 2 caracteres."
+  },
+  "title_too_short_min_2_characters": {
+    "en": "Title too short, min 2 characters",
+    "es": "Título demasiado corto, mínimo 2 caracteres."
+  },
+  "answer_too_short_min_2_characters": {
+    "en": "Answer too short, min 2 characters",
+    "es": "Respuesta demasiado corta, mínimo 2 caracteres."
+  },
+  "alphabetical_characters_only": {
+    "en": "Alphabetical characters only",
+    "es": "Solo caracteres alfabéticos"
+  },
+  "invalid": {
+    "en": "Invalid",
+    "es": "Invalido"
+  },
+  "invalid_username": {
+    "en": "Invalid username",
+    "es": "Nombre de usuario no válido"
+  },
+  "already_exists": {
+    "en": "Already Exists",
+    "es": "Ya existente"
+  },
+  "min_length": {
+    "en": "Description too short, min 10 characters",
+    "es": "Descripción muy corta, mínimo 10 caracteres"
+  },
+  "max_length": {
+    "en": "Description too long, max 200 characters",
+    "es": "Descripción demasiado larga, máximo 200 caracteres"
+  },
+  "assigned": {
+    "en": "Assigned",
+    "es": "Asignado"
+  },
+  "assigned_successfully": {
+    "en": "Assigned successfully",
+    "es": "Asignado exitosamente"
+  },
+  "content_assigned": {
+    "en": "Content assigned successfully",
+    "es": "Contenido asignado correctamente"
+  },
+  "select_a_role_to_assign": {
+    "en": "Select a role to assign",
+    "es": "Seleccione un rol para asignar"
+  },
+  "select_a_course": {
+    "en": "Select a course",
+    "es": "Seleccione un curso"
+  },
+  "content_type_is_required": {
+    "en": "Content type is required",
+    "es": "El tipo de contenido es obligatorio."
+  },
+  "note_either_query_or_keywords_must_be_supplied": {
+    "en": "Note: Either query or keywords must be supplied.",
+    "es": "Nota: Se debe proporcionar una consulta o palabras clave."
+  },
+  "no_changes_made_to_the_basic_information": {
+    "en": "No changes made to the basic information",
+    "es": "No se realizaron cambios en la información básica."
+  },
+  "delete_confirmation": {
+    "en": "Are you sure you want to delete ",
+    "es": "¿Está seguro de querer eliminar?"
+  },
+  "approve_confirmation": {
+    "en": "Are you sure you want to approve the course ",
+    "es": "Estás seguro de que quieres aprobar el"
+  },
+  "unapprove_confirmation": {
+    "en": "Are you sure you want to unapprove the course ",
+    "es": "Estás seguro de que quieres aprobar el"
+  },
+  "toggle_confirmation": {
+    "en": "Are you sure you want to toggle status of",
+    "es": "¿Está seguro de cambiar el estado?"
+  },
+  "delete_success": {
+    "en": "Deleted successfully",
+    "es": "Eliminación exitosa"
+  },
+  "deleted_successfully": {
+    "en": "Deleted successfully",
+    "es": "eliminado exitosamente"
+  },
+  "basic": {
+    "en": "Basic",
+    "es": "Básico"
+  },
+  "basics": {
+    "en": "Basics",
+    "es": "lo esencial"
+  },
+  "address": {
+    "en": "Address",
+    "es": "Dirección"
+  },
+  "status": {
+    "en": "Status",
+    "es": "Estado"
+  },
+  "contact": {
+    "en": "Contact",
+    "es": "Contacto"
+  },
+  "feature": {
+    "en": "Feature",
+    "es": "Característica"
+  },
+  "categories": {
+    "en": "Categories",
+    "es": "Categoría"
+  },
+  "open_modal_confirm_submit": {
+    "en": "Are you sure you want to submit?",
+    "es": "Estas seguro que quieres enviar?"
+  },
+  "open_modal_confirm_create_school": {
+    "en": "Are you sure you want to create the school?",
+    "es": "¿Estás seguro de que quieres crear la escuela?"
+  },
+  "staff_status_toggled": {
+    "en": "Staff's status toggled successfully",
+    "es": "El estado del personal se cambió exitosamente"
+  },
+  "close": {
+    "en": "Close",
+    "es": "Cerrar"
+  },
+  "confirm": {
+    "en": "Confirm",
+    "es": "Confirmar"
+  },
+  "confirm_submit": {
+    "en": "Confirm Submit",
+    "es": "Confirmar envío"
+  },
+  "private": {
+    "en": "Private",
+    "es": "Privado"
+  },
+  "public": {
+    "en": "Public",
+    "es": "Público"
+  },
+  "elementary": {
+    "en": "Elementary",
+    "es": "Primaria"
+  },
+  "juniorhigh": {
+    "en": "Junior High",
+    "es": "Básico"
+  },
+  "highschool": {
+    "en": "High School",
+    "es": "Diversificado"
+  },
+  "adulteducation": {
+    "en": "Adult Education",
+    "es": "Madurez"
+  },
+  "other": {
+    "en": "Other",
+    "es": "Otro"
+  },
+  "level_type": {
+    "en": "Level Type",
+    "es": "Tipo de nivel"
+  },
+  "level_type_name": {
+    "en": "Level Type Name",
+    "es": "Nombre del tipo de nivel"
+  },
+  "level_name": {
+    "en": "Level Name",
+    "es": "Nombre del nivel"
+  },
+  "levels": {
+    "en": "Levels",
+    "es": "Niveles"
+  },
+  "level": {
+    "en": "Level",
+    "es": "Nivel"
+  },
+  "hello": {
+    "en": "Hello",
+    "es": "Bienvenido"
+  },
+  "has_sub_content": {
+    "en": "Has Subcontent",
+    "es": "¿Tiene subcontenidos?"
+  },
+  "has_career": {
+    "en": "Has Career",
+    "es": "Tiene carrera?"
+  },
+  "calendar": {
+    "en": "Calendar",
+    "es": "Calendario"
+  },
+  "today": {
+    "en": "Today",
+    "es": "Hoy"
+  },
+  "removed": {
+    "en": "Removed",
+    "es": "remoto"
+  },
+  "questions": {
+    "en": "Questions",
+    "es": "Preguntas"
+  },
+  "question": {
+    "en": "Question",
+    "es": "Pregunta"
+  },
+  "question_no": {
+    "en": "Question no.",
+    "es": "Pregunta no."
+  },
+  "quiz": {
+    "en": "Quiz",
+    "es": "prueba"
+  },
+  "quiz_description": {
+    "en": "Quiz Description",
+    "es": "Descripción del cuestionario"
+  },
+  "update_question": {
+    "en": "Update Question",
+    "es": "Pregunta de actualización"
+  },
+  "user": {
+    "en": "User",
+    "es": "Usuario"
+  },
+  "exam": {
+    "en": "Exam",
+    "es": "Examen"
+  },
+  "point": {
+    "en": "Point",
+    "es": "Punteo"
+  },
+  "assign_courses": {
+    "en": "Assigned Courses",
+    "es": "Cursos asignados"
+  },
+  "view_assigned_careers": {
+    "en": "View Assigned Careers",
+    "es": "Ver carreras asignadas"
+  },
+  "view_assigned_courses": {
+    "en": "View Assigned Courses",
+    "es": "Ver cursos asignados"
+  },
+  "view_assigned_indicators": {
+    "en": "View Assigned Indicators",
+    "es": "Ver indicadores asignados"
+  },
+  "view_assigned_lessons": {
+    "en": "View Assigned Lessons",
+    "es": "Ver lecciones asignadas"
+  },
+  "your_upload_has_been_completed": {
+    "en": "Your upload has been completed.",
+    "es": "Su carga se ha completado."
+  },
+  "update_questionaire": {
+    "en": "Update Questionaire",
+    "es": "Actualizar cuestionario"
+  },
+  "add_questionaire": {
+    "en": "Add Questionaire",
+    "es": "Añadir cuestionario"
+  },
+  "add_to_content_basket": {
+    "en": "Add to Content Basket",
+    "es": "Añadir a la cesta de contenido"
+  },
+  "question_type": {
+    "en": "Question type",
+    "es": "Tipo de cuestionario"
+  },
+  "question_title": {
+    "en": "Question Title",
+    "es": "Título del cuestionario"
+  },
+  "is_approved": {
+    "en": "IsApproved",
+    "es": "Se encuentra aprobado"
+  },
+  "approved": {
+    "en": "Approved",
+    "es": "Aprobado"
+  },
+  "not_approved": {
+    "en": "Not Approved",
+    "es": "No aprobado"
+  },
+  "list_of_lesson": {
+    "en": "List of Lesson",
+    "es": "Listado de lecciones"
+  },
+  "view": {
+    "en": "View",
+    "es": "Ver"
+  },
+  "of": {
+    "en": "of",
+    "es": "de"
+  },
+  "view_all": {
+    "en": "View All",
+    "es": "Ver todos"
+  },
+  "supply_content_type": {
+    "en": "Supply content type",
+    "es": "Tipo de contenido de suministro"
+  },
+  "presencial": {
+    "en": "Presencial",
+    "es": "Presencial"
+  },
+  "semipresencial": {
+    "en": "Semi-Presencial",
+    "es": "Semi-presencial"
+  },
+  "virtualdm": {
+    "en": "Virtual DM",
+    "es": "Virtual"
+  },
+  "daily": {
+    "en": "Daily",
+    "es": "Matutino"
+  },
+  "evening": {
+    "en": "Evening",
+    "es": "Vespertino"
+  },
+  "night": {
+    "en": "Night",
+    "es": "Noctorno"
+  },
+  "weekend": {
+    "en": "Weekend",
+    "es": "Fin de semana"
+  },
+  "distance": {
+    "en": "Distance",
+    "es": "Distancia"
+  },
+  "blended": {
+    "en": "Blended",
+    "es": "Híbrido"
+  },
+  "virtual": {
+    "en": "Virtual",
+    "es": "Virtual"
+  },
+  "profile": {
+    "en": "Profile",
+    "es": "Perfil"
+  },
+  "logout": {
+    "en": "Logout",
+    "es": "Cerrar sesión"
+  },
+  "approve": {
+    "en": "Approve",
+    "es": "Aprobar"
+  },
+  "unapprove": {
+    "en": "Unapprove",
+    "es": "Desaprobar"
+  },
+  "english": {
+    "en": "English",
+    "es": "Inglés"
+  },
+  "event": {
+    "en": "Event",
+    "es": "Evento"
+  },
+  "spanish": {
+    "en": "Spanish",
+    "es": "Español"
+  },
+  "preview": {
+    "en": "Preview",
+    "es": "Avance"
+  },
+  "total": {
+    "en": "Total",
+    "es": "Totales"
+  },
+  "create_a_new_basket": {
+    "en": "Create a new basket",
+    "es": "Crear una nueva cesta"
+  },
+  "view_assigned_unit": {
+    "en": "View Assigned Unit",
+    "es": "Ver unidad asignada"
+  },
+  "view_assigned_skills": {
+    "en": "View Assigned Skills",
+    "es": "Ver habilidades asignadas"
+  },
+  "update_grade": {
+    "en": "Update Grade",
+    "es": "Actualizar calificación"
+  },
+  "update_career": {
+    "en": "Update Career",
+    "es": "Actualizar carrera"
+  },
+  "update_course": {
+    "en": "Update Course",
+    "es": "Curso de actualización"
+  },
+  "start_date": {
+    "en": "Start Date",
+    "es": "Fecha de Inicio"
+  },
+  "end_date": {
+    "en": "End Date",
+    "es": "Fecha Final"
+  },
+  "update_unit": {
+    "en": "Update Unit",
+    "es": "Unidad de actualización"
+  },
+  "update_level_type": {
+    "en": "Update Level Type",
+    "es": "Tipo de nivel de actualización"
+  },
+  "update_level": {
+    "en": "Update Level",
+    "es": "Nivel de actualización"
+  },
+  "select_a_level_type": {
+    "en": "Select a Level Type",
+    "es": "Seleccione un tipo de nivel"
+  },
+  "select_a_grade": {
+    "en": "Select a grade",
+    "es": "Seleccione un grado"
+  },
+  "select_a_lesson": {
+    "en": "Select a Lesson",
+    "es": "Seleccione una lección"
+  },
+  "select_a_indicator": {
+    "en": "Select a Indicator",
+    "es": "Seleccione un indicador"
+  },
+  "select_a_skill": {
+    "en": "Select a Skill",
+    "es": "Selecciona una habilidad"
+  },
+  "select_a_unit": {
+    "en": "Select a Unit",
+    "es": "Seleccione una unidad"
+  },
+  "select_a_level": {
+    "en": "Select a Level",
+    "es": "Selecciona un nivel"
+  },
+  "select_a_grade_category": {
+    "en": "Select a grade category",
+    "es": "Selecciona una categoría de grado"
+  },
+  "selected_course_has_no_level": {
+    "en": "Selected course had no level",
+    "es": "El curso seleccionado no tenía nivel"
+  },
+  "must_not_start_with_lowercase": {
+    "en": "Must start with lowercase",
+    "es": "Debe comenzar con minúscula"
+  },
+  "can_not_contain_number": {
+    "en": "Can not contain number",
+    "es": "No puede contener el número"
+  },
+  "can_not_contain_special_characters": {
+    "en": "Can not contain special characters",
+    "es": "No puede contener caracteres especiales"
+  },
+  "my_event": {
+    "en": "My Events",
+    "es": "Mis Eventos"
+  },
+  "no_events_today": {
+    "en": "No events today",
+    "es": "No hay eventos hoy"
+  },
+  "choose_the_correct_answer_below": {
+    "en": "Choose the correct answer below",
+    "es": "Elija la respuesta correcta a continuación"
+  },
+  "correct_answer": {
+    "en": "Correct answer",
+    "es": "respuesta correcta"
+  },
+  "event_type": {
+    "en": "Events type",
+    "es": "Tipo de evento"
+  },
+  "type": {
+    "en": "Type",
+    "es": "Tipo"
+  },
+  "content_basket": {
+    "en": "Content basket",
+    "es": "Cesta de contenido"
+  },
+  "error_in": {
+    "en": "Error in",
+    "es": "error en"
+  },
+  "uploading": {
+    "en": "uploading",
+    "es": "uploading"
+  },
+  "updating": {
+    "en": "updating",
+    "es": "actualizando"
+  },
+  "select_a_career": {
+    "en": "Select a career",
+    "es": "Seleccione una carrera"
+  },
+  "select_grade": {
+    "en": "Select grade",
+    "es": "Seleccionar grado"
+  },
+  "select_grade_category": {
+    "en": "Select grade category",
+    "es": "Seleccionar categoría de grado"
+  },
+  "grade_category_name": {
+    "en": "Grade category name",
+    "es": "Nombre de la categoría de grado"
+  },
+  "error_in_updating": {
+    "en": "Error in updating ",
+    "es": "Error al actualizar"
+  },
+  "error_in_searching_unit": {
+    "en": "Error in searching",
+    "es": "error en la unidad de búsqueda"
+  },
+  "error_in_updating_unit": {
+    "en": "Error in updating unit",
+    "es": "Error al actualizar la unidad"
+  },
+  "error_in_updating_course": {
+    "en": "Error in updating course",
+    "es": "Error al actualizar el curso"
+  },
+  "error_in_updating_topic": {
+    "en": "Error in updating topic",
+    "es": "Error al actualizar el tema"
+  },
+  "error_in_creating_basket": {
+    "en": "Error in creating basket",
+    "es": "Error al crear cesta"
+  },
+  "updated_successfully": {
+    "en": "Updated Successfully",
+    "es": "actualizado exitosamente"
+  },
+  "content_added_successfully": {
+    "en": "Content Added Successfully",
+    "es": "Contenido agregado exitosamente"
+  },
+  "added_successfully": {
+    "en": "Added Successfully",
+    "es": "Agregado exitosamente"
+  },
+  "staff_added_successfully": {
+    "en": "Staff Added Successfully!",
+    "es": "Personal agregado exitosamente!"
+  },
+  "staff_deleted_successfully": {
+    "en": "Staff Deleted Successfully!",
+    "es": "Personal eliminado con éxito!"
+  },
+  "error_in_deleting_the_staff": {
+    "en": "Error in deleting the staff",
+    "es": "Error al eliminar el pentagrama"
+  },
+  "error_in_deleting_the_course": {
+    "en": "Error in deleting the course",
+    "es": "Error al eliminar el courso"
+  },
+  "error_in_deleting_the": {
+    "en": "Error in deleting the",
+    "es": "Error al eliminar el "
+  },
+  "response_from_admin_not_success": {
+    "en": "Response from admin not success",
+    "es": "La respuesta del administrador no fue exitosa "
+  },
+  "error_in_updating_the_staff": {
+    "en": "Error in updating the staff",
+    "es": "Error al actualizar personal"
+  },
+  "school_status_change_successfully": {
+    "en": "School status change successfully",
+    "es": "Cambio de estado escolar exitoso"
+  },
+  "error_occured": {
+    "en": "Error occured",
+    "es": "Ocurrió un error"
+  },
+  "change": {
+    "en": "Change",
+    "es": "cambiar"
+  },
+  "image": {
+    "en": "Image",
+    "es": "Imagen"
+  },
+  "school_form_submit": {
+    "en": "School Form Submit",
+    "es": "Envío del formulario escolar"
+  },
+  "note_grade_once_created": {
+    "en": "Note : Grade once created cannot be changed to have career or remove career later!",
+    "es": "Nota : La calificación una vez creada no se puede cambiar para tener carrera o eliminar carrera más adelante!"
+  },
+  "permission": {
+    "en": "Permission",
+    "es": "Permiso"
+  },
+  "permissions": {
+    "en": "Permissions",
+    "es": "Permisos"
+  },
+  "no_content_found_for": {
+    "en": "No content found for",
+    "es": "No se encontró contenido para"
+  },
+  "courses_assigned_to": {
+    "en": "Courses assigned to",
+    "es": "Cursos asignados a"
+  },
+  "careers_assigned_to": {
+    "en": "Careers assigned to",
+    "es": "Carreras asignadas a"
+  },
+  "lessons_assigned_to": {
+    "en": "Lessons assigned to",
+    "es": "Lecciones asignadas a"
+  },
+  "assigned_to": {
+    "en": "assigned to",
+    "es": "asignadas a"
+  },
+  "assign_contents_now": {
+    "en": "Assign contents now.",
+    "es": "Asigne contenidos ahora."
+  },
+  "assign_permissions_to": {
+    "en": "Assign permissions to",
+    "es": "Asignar permisos a"
+  },
+  "courses_unassigned_successfully": {
+    "en": "Courses Unassigned successfully",
+    "es": "Cursos desasignados exitosamente"
+  },
+  "unit_assignment_failed_try_again": {
+    "en": "Unit assignment failed. Please try again.",
+    "es": "La asignación de unidad falló. Inténtalo de nuevo."
+  },
+  "unassigned_successfully": {
+    "en": "Unassigned successfully",
+    "es": "Desasignados exitosamente"
+  }
+}

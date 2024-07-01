@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base { */
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* } */
+
+@layer utilities {
+  @layer responsive {
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  }
+}
+
+body {
+  letter-spacing: 0.03rem;
+}
+
+.ant-progress-circle-path {
+  stroke: #4365a7 !important;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 13px;
+  background-color: #f3f3f3;
+}
+.ant-input {
+  background-color: #f3f3f3;
+}
+
+.ant-layout-sider-children {
+  background-color: darkgray;
+}
+
+.notification-switch button {
+  background-color: #cacaca;
+}
+
+.ant-switch.ant-switch-checked {
+  background-color: #4365a7;
+}
+
+.ant-radio-wrapper .ant-radio-inner {
+  border-color: #4365a7;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  background-color: #4365a7;
+  border-color: #4365a7;
+}
+
+.ant-radio-wrapper .ant-radio-inner::after {
+  width: 0px;
+}
+
+.PhoneInput {
+  background-color: white;
+  padding: 5px 10px;
+  gap: 5px;
+  border-radius: 15px;
+  height: 58px;
+}
+
+.PhoneInput:focus {
+  outline: 0px !important;
+}
+
+.ant-collapse {
+  border: 0px;
+  background-color: #fff;
+  padding: 0 23px 0 24px;
+  border-radius: 20px;
+}
+
+.ant-collapse > .ant-collapse-item:last-child,
+.ant-collapse-item:last-child > .ant-collapse-header {
+  border-radius: 20px;
+}
+
+.ant-collapse-item {
+  background-color: white;
+  border-bottom: 0px !important;
+}
+
+.ant-collapse-header {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+  height: 72px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-collapse .ant-collapse-content {
+  border-top: 1px solid #eee;
+}
+
+.ant-collapse .ant-collapse-content > .ant-collapse-content-box {
+  padding: 23px 0 17px;
+}
+
+.shimmer {
+  background: linear-gradient(to right, #e8e8e8 8%, #e0e0e0 18%, #e8e8e8 33%);
+}
+
+.ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 12px;
+}
+
+.ant-select-selection-item {
+  display: flex;
+}
+
+.ant-select-focused .ant-select-selector {
+  outline: none !important;
+  border: 1px solid #4365a7 !important;
+}
+
+.ant-select-selector:hover {
+  outline: none !important;
+  border: 1px solid #4365a7 !important;
+}
+
+.home .ant-select-selector {
+  outline: none !important;
+  border: none !important;
+}
+
+.ql-editor:focus {
+  border: 1px solid #4365a7 !important;
+  border-radius: 0 0 6px 6px !important;
+}
+
+.ql-editor:hover {
+  border: 1px solid #4365a7 !important;
+  border-radius: 0 0 6px 6px !important;
+}
+
+input[type="checkbox"] {
+  accent-color: #4365a7 !important;
+}
+
+.ant-modal-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.ant-modal-body::-webkit-scrollbar {
+  display: none;
+}
+
+.input_field > p {
+  color: #dc2626;
+  font-size: 14px;
+}
+
+.ant-card .ant-card-body {
+  padding: 16px;
+}

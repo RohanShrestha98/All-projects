@@ -1,0 +1,17 @@
+name: Create diagram
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - master
+jobs:
+  get_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Update diagram
+        uses: githubocto/repo-visualizer@main
+        with:
+          # note ignore can be added as a foldr to ignore the folder from the diagram on README.md
+          excluded_paths: "ignore,.gitignore,.eslintignore,.eslintrc,.prettierignore,.prettierrc,setup.cfg,.pre-commit-config.yaml,diagram.svg,README.md,package.json,.github"

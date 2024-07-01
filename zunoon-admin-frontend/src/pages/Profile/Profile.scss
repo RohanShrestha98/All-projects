@@ -1,0 +1,37 @@
+@use "../../assets/styles/abstract/variables" as *;
+@import "../../assets/styles/abstract/mixins";
+
+.profile_form_wrapper {
+  @include flex-box-generic(flex-start, flex-start, column);
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  .profile_form_container {
+    margin-top: 2.5rem;
+    width: 100%;
+    @include flex-box-generic(flex-start, flex-start, column);
+    gap: 1.25rem;
+
+    .row_container {
+      width: 100%;
+      @include flex-box-generic(space-between, flex-start, row);
+      gap: 4rem;
+
+      .input_container {
+        flex: 1;
+      }
+    }
+
+    .button-container {
+      margin-top: 1.25rem;
+      width: 100%;
+      @include flex-box-generic(flex-end, flex-start, row);
+
+      .button-group {
+        @include flex-box-generic(flex-end, flex-start, row);
+        gap: 1rem;
+      }
+    }
+  }
+}

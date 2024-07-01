@@ -1,0 +1,100 @@
+//common scss
+@use "../../assets/styles/Common/pageheader.scss";
+@use "../../assets/styles/Common/table.scss";
+
+@import "../../assets/styles/abstract/mixins";
+@import "../../assets/styles/abstract/variables";
+
+.courseTable {
+  margin-bottom: 5vh;
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  @include flex-box-generic(center, center, row);
+
+  .buttonWrapper {
+    @include flex-box-generic(flex-end, center, row);
+
+    .addCourseButton {
+      width: 10vw;
+    }
+  }
+}
+
+.approved {
+  background: $secondary-color;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  min-width: 120px;
+  max-width: 120px;
+  margin-right: 40px;
+}
+
+.notApproved {
+  background: $danger-color;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  min-width: 120px;
+  max-width: 120px;
+  margin-right: 40px;
+}
+
+.course_table_container tr td:nth-child(1),
+.course_table_container tr th:nth-child(1) {
+  width: 5%;
+}
+
+.course_table_container tr td:nth-child(2),
+.course_table_container tr th:nth-child(2) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 30%;
+}
+
+.course_table_container tr td:nth-child(3),
+.course_table_container tr th:nth-child(3) {
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 25%;
+}
+
+
+.cancel_button {
+  margin-right: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.assign-form-container {
+  min-height: 50vh;
+  // height: 10vh;
+  padding: 3em 5em;
+
+  label {
+    margin-bottom: 0.5em;
+  }
+
+  position: relative;
+
+  .assign-button {
+    margin-top: 8em;
+
+    gap: 1vw;
+    width: 100%;
+    @include flex-box-generic(flex-end, flex-end, row);
+
+    Button {
+      width: 100%;
+    }
+  }
+}
+
+.assign_modal_container {
+  max-width: 50vw;
+}
